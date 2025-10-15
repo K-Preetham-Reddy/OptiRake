@@ -1,0 +1,12 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+pandas
+numpy
+scikit-learn
+lightgbm
+pulp
+joblib
+python-multipart
+pydantic
+aiofiles
+python-dotenv

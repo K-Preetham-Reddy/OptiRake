@@ -1,0 +1,1001 @@
+plan_id,plan_date,customer_name,origin_plant,origin_state,destination,destination_state,distance_km,planned_qty_t,min_rake_tonnage,terminal_cost,expected_demurrage,priority_score,rake_available,siding_slots,inventory_t,production_forecast_t,yard_id,product_type,wagon_type,route_via,lead_time_days
+PLAN_2024_0001,05/11/2025,Customer_8,Bokaro Steel Plant,Maharashtra,Tata Steel Jamshedpur,Jharkhand,1369,108,195,6914,4543,0.13,0,0,7113,2808,YARD_6,Coal,BOXN,Via Bilaspur,6
+PLAN_2024_0002,03/11/2025,Customer_30,Bokaro Steel Plant,Chhattisgarh,RINL Visakhapatnam,Odisha,949,443,226,12787,4318,0.53,1,4,6054,3858,YARD_9,Iron Ore,BOXN,Via Nagpur,4
+PLAN_2024_0003,17/10/2025,Customer_14,Bhilai Steel Plant,Maharashtra,SAIL Burnpur,Andhra Pradesh,764,371,181,6165,4148,0.83,0,0,2383,2364,YARD_3,Finished Steel,BOXN,Direct,4
+PLAN_2024_0004,16/10/2025,Customer_38,Rourkela Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Maharashtra,482,277,151,6417,2573,0.71,1,5,2857,4143,YARD_9,Coal,BCN,Direct,10
+PLAN_2024_0005,09/11/2025,Customer_7,Bokaro Steel Plant,Odisha,Essar Steel Hazira,Chhattisgarh,407,472,227,5510,4689,0.35,0,0,5586,2540,YARD_6,Limestone,BCN,Via Nagpur,6
+PLAN_2024_0006,05/11/2025,Customer_48,Durgapur Steel Plant,Odisha,Jindal Steel Raigarh,Andhra Pradesh,219,500,196,6820,4297,0.27,1,4,3181,666,YARD_9,Finished Steel,BTPN,Direct,5
+PLAN_2024_0007,06/11/2025,Customer_41,Bokaro Steel Plant,Gujarat,Bhushan Steel Meramandali,Odisha,1197,169,197,8796,7163,0.75,1,2,9672,3329,YARD_4,Finished Steel,BCN,Via Bilaspur,4
+PLAN_2024_0008,19/10/2025,Customer_15,Rourkela Steel Plant,Andhra Pradesh,RINL Visakhapatnam,West Bengal,546,127,194,6362,1001,0.18,1,1,8117,3804,YARD_5,Limestone,BCN,Via Tatanagar,3
+PLAN_2024_0009,29/10/2025,Customer_42,Bhilai Steel Plant,Gujarat,Essar Steel Hazira,Odisha,326,311,208,9773,7051,0.87,1,3,6974,3631,YARD_2,Finished Steel,BCN,Direct,7
+PLAN_2024_0010,04/11/2025,Customer_24,Durgapur Steel Plant,Jharkhand,RINL Visakhapatnam,Maharashtra,713,303,223,19530,4920,0.84,0,0,5072,4844,YARD_4,Finished Steel,BRN,Direct,6
+PLAN_2024_0011,19/10/2025,Customer_48,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Gujarat,1348,390,211,13306,6410,0.95,0,0,3379,2037,YARD_4,Coal,BTPN,Via Nagpur,4
+PLAN_2024_0012,05/11/2025,Customer_7,Bokaro Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Odisha,1142,388,189,5417,2333,0.37,0,0,9673,4488,YARD_5,Iron Ore,BTPN,Direct,10
+PLAN_2024_0013,04/11/2025,Customer_45,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,Andhra Pradesh,266,117,123,19593,3987,0.99,0,0,5305,1605,YARD_9,Limestone,BRN,Via Tatanagar,10
+PLAN_2024_0014,24/10/2025,Customer_47,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Gujarat,268,210,107,12096,4971,0.71,0,0,7972,3509,YARD_2,Iron Ore,BOXN,Via Tatanagar,10
+PLAN_2024_0015,16/10/2025,Customer_23,Bokaro Steel Plant,West Bengal,Jindal Steel Raigarh,Jharkhand,1498,194,208,18023,6855,0.24,1,3,1251,2985,YARD_4,Coal,BRN,Via Bilaspur,8
+PLAN_2024_0016,06/11/2025,Customer_32,Bokaro Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,West Bengal,956,159,110,17348,1276,0.95,0,0,5584,3166,YARD_3,Coal,BOXN,Via Tatanagar,10
+PLAN_2024_0017,27/10/2025,Customer_1,Rourkela Steel Plant,Odisha,JSW Steel Dolvi,Jharkhand,825,115,272,12749,3821,0.31,0,0,4306,2301,YARD_4,Coal,BRN,Direct,10
+PLAN_2024_0018,14/11/2025,Customer_33,Bokaro Steel Plant,Maharashtra,JSW Steel Dolvi,Odisha,400,470,186,9455,6339,0.71,0,0,3667,1022,YARD_6,Limestone,BTPN,Via Bilaspur,2
+PLAN_2024_0019,10/11/2025,Customer_48,Bokaro Steel Plant,Maharashtra,Essar Steel Hazira,Chhattisgarh,249,184,290,14459,6513,0.25,0,0,7495,4208,YARD_10,Coal,BTPN,Via Tatanagar,3
+PLAN_2024_0020,18/10/2025,Customer_45,Rourkela Steel Plant,Maharashtra,JSW Steel Dolvi,Andhra Pradesh,1098,317,216,17441,5707,0.24,1,4,3359,1391,YARD_7,Limestone,BTPN,Direct,10
+PLAN_2024_0021,28/10/2025,Customer_7,Durgapur Steel Plant,Gujarat,SAIL Burnpur,West Bengal,653,309,203,10879,5135,0.94,0,0,3334,3541,YARD_1,Coal,BCN,Via Tatanagar,7
+PLAN_2024_0022,27/10/2025,Customer_49,Durgapur Steel Plant,Odisha,Essar Steel Hazira,Andhra Pradesh,884,295,129,10781,2211,0.13,0,0,2160,1820,YARD_3,Limestone,BRN,Via Bilaspur,10
+PLAN_2024_0023,06/11/2025,Customer_34,Rourkela Steel Plant,Odisha,SAIL Burnpur,Andhra Pradesh,1389,432,261,19564,4078,0.81,0,0,6147,4035,YARD_8,Limestone,BRN,Via Tatanagar,9
+PLAN_2024_0024,10/11/2025,Customer_27,Bhilai Steel Plant,Gujarat,JSW Steel Dolvi,Odisha,1073,221,141,10320,4020,0.92,0,0,8405,3054,YARD_3,Finished Steel,BTPN,Via Nagpur,6
+PLAN_2024_0025,31/10/2025,Customer_1,Bhilai Steel Plant,Odisha,SAIL Burnpur,Gujarat,275,460,260,6672,5228,0.75,1,2,5434,3580,YARD_2,Limestone,BRN,Via Tatanagar,5
+PLAN_2024_0026,04/11/2025,Customer_45,Bhilai Steel Plant,Jharkhand,Essar Steel Hazira,Chhattisgarh,526,271,205,8404,7927,0.3,1,4,3427,2313,YARD_1,Limestone,BRN,Via Bilaspur,5
+PLAN_2024_0027,08/11/2025,Customer_37,Bokaro Steel Plant,Jharkhand,Jindal Steel Raigarh,Andhra Pradesh,513,316,146,11407,3545,0.88,1,5,4346,4588,YARD_1,Limestone,BRN,Via Tatanagar,6
+PLAN_2024_0028,31/10/2025,Customer_16,Bhilai Steel Plant,Gujarat,Jindal Steel Raigarh,Maharashtra,322,372,276,15684,6068,0.24,1,3,1453,3068,YARD_3,Coal,BTPN,Via Tatanagar,3
+PLAN_2024_0029,20/10/2025,Customer_11,Durgapur Steel Plant,Chhattisgarh,RINL Visakhapatnam,Gujarat,1261,411,190,5000,6510,0.17,1,3,9979,2732,YARD_7,Finished Steel,BOXN,Via Tatanagar,8
+PLAN_2024_0030,21/10/2025,Customer_26,Bokaro Steel Plant,Jharkhand,Jindal Steel Raigarh,Andhra Pradesh,236,414,136,11877,3372,0.59,0,0,3397,4711,YARD_2,Iron Ore,BRN,Via Nagpur,9
+PLAN_2024_0031,23/10/2025,Customer_25,Bhilai Steel Plant,Gujarat,Essar Steel Hazira,Andhra Pradesh,1468,360,292,7196,3907,0.12,0,0,5008,4501,YARD_4,Finished Steel,BTPN,Via Tatanagar,10
+PLAN_2024_0032,04/11/2025,Customer_23,Rourkela Steel Plant,Odisha,Jindal Steel Raigarh,Gujarat,1497,381,117,5590,1816,0.77,0,0,3586,3102,YARD_1,Limestone,BOXN,Via Bilaspur,8
+PLAN_2024_0033,08/11/2025,Customer_22,Bokaro Steel Plant,West Bengal,Essar Steel Hazira,Gujarat,265,347,244,7452,2272,0.8,0,0,9936,740,YARD_2,Coal,BRN,Direct,5
+PLAN_2024_0034,21/10/2025,Customer_26,Bhilai Steel Plant,Maharashtra,Essar Steel Hazira,Jharkhand,752,149,202,17264,6389,0.51,0,0,5631,1231,YARD_6,Coal,BTPN,Via Tatanagar,8
+PLAN_2024_0035,21/10/2025,Customer_11,Bokaro Steel Plant,Chhattisgarh,JSW Steel Dolvi,Odisha,439,67,166,8905,6088,0.87,1,3,8766,3356,YARD_6,Limestone,BRN,Via Nagpur,3
+PLAN_2024_0036,07/11/2025,Customer_49,Durgapur Steel Plant,Jharkhand,Bhushan Steel Meramandali,Chhattisgarh,717,127,276,15828,3610,0.84,0,0,1807,3494,YARD_5,Finished Steel,BTPN,Via Bilaspur,7
+PLAN_2024_0037,12/11/2025,Customer_49,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Jharkhand,915,279,120,17658,1031,1.0,1,4,5374,3935,YARD_3,Limestone,BOXN,Direct,6
+PLAN_2024_0038,20/10/2025,Customer_16,Bokaro Steel Plant,Maharashtra,Jindal Steel Raigarh,Chhattisgarh,1138,262,164,11749,1769,0.48,0,0,6606,2714,YARD_1,Limestone,BTPN,Direct,6
+PLAN_2024_0039,24/10/2025,Customer_50,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,West Bengal,1308,408,175,8204,1832,0.34,1,3,1775,2086,YARD_6,Limestone,BRN,Direct,10
+PLAN_2024_0040,02/11/2025,Customer_32,Bhilai Steel Plant,West Bengal,Jindal Steel Raigarh,Odisha,671,177,297,7412,5962,0.85,0,0,1836,2178,YARD_5,Limestone,BTPN,Via Tatanagar,2
+PLAN_2024_0041,14/11/2025,Customer_3,Bokaro Steel Plant,Jharkhand,RINL Visakhapatnam,Gujarat,1155,322,153,17401,4017,0.34,0,0,3113,2437,YARD_3,Iron Ore,BOXN,Direct,2
+PLAN_2024_0042,07/11/2025,Customer_24,Bhilai Steel Plant,West Bengal,SAIL Burnpur,Maharashtra,470,443,256,9940,5315,0.86,1,1,3304,4925,YARD_6,Coal,BTPN,Via Nagpur,3
+PLAN_2024_0043,05/11/2025,Customer_5,Bokaro Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Odisha,1293,237,150,18527,4938,0.16,0,0,5950,4628,YARD_5,Iron Ore,BCN,Via Bilaspur,6
+PLAN_2024_0044,13/11/2025,Customer_1,Bokaro Steel Plant,Maharashtra,Essar Steel Hazira,Jharkhand,1286,379,193,9770,6012,0.48,0,0,4642,1625,YARD_2,Limestone,BRN,Via Bilaspur,10
+PLAN_2024_0045,08/11/2025,Customer_22,Durgapur Steel Plant,Odisha,Bhushan Steel Meramandali,Andhra Pradesh,1469,405,153,15407,2079,0.32,0,0,6266,4544,YARD_8,Iron Ore,BRN,Via Nagpur,9
+PLAN_2024_0046,13/11/2025,Customer_20,Rourkela Steel Plant,Andhra Pradesh,SAIL Burnpur,Maharashtra,813,160,140,13197,6052,0.72,1,5,5351,1206,YARD_5,Coal,BCN,Via Tatanagar,10
+PLAN_2024_0047,18/10/2025,Customer_20,Bokaro Steel Plant,Odisha,JSW Steel Dolvi,West Bengal,523,405,115,12336,1130,0.41,0,0,3523,2823,YARD_1,Coal,BCN,Via Tatanagar,5
+PLAN_2024_0048,06/11/2025,Customer_24,Bokaro Steel Plant,Maharashtra,SAIL Burnpur,Odisha,895,341,284,5824,3999,0.39,0,0,7098,1737,YARD_1,Limestone,BOXN,Via Nagpur,2
+PLAN_2024_0049,21/10/2025,Customer_35,Rourkela Steel Plant,Maharashtra,Bhushan Steel Meramandali,Jharkhand,1223,362,107,19197,2153,0.23,1,3,1508,2055,YARD_5,Coal,BRN,Via Nagpur,5
+PLAN_2024_0050,17/10/2025,Customer_21,Bhilai Steel Plant,Jharkhand,RINL Visakhapatnam,Chhattisgarh,590,425,179,6158,1031,0.11,1,2,2824,4213,YARD_8,Iron Ore,BTPN,Via Nagpur,3
+PLAN_2024_0051,06/11/2025,Customer_16,Bokaro Steel Plant,West Bengal,Bhushan Steel Meramandali,Gujarat,714,269,201,12480,1743,0.6,0,0,7807,1547,YARD_1,Limestone,BTPN,Via Nagpur,6
+PLAN_2024_0052,06/11/2025,Customer_5,Bokaro Steel Plant,Odisha,RINL Visakhapatnam,Maharashtra,1059,365,216,6138,5908,0.97,1,3,7630,4024,YARD_4,Limestone,BCN,Direct,8
+PLAN_2024_0053,08/11/2025,Customer_30,Durgapur Steel Plant,West Bengal,Tata Steel Jamshedpur,Chhattisgarh,837,175,239,7061,1893,0.94,1,1,7616,869,YARD_3,Limestone,BOXN,Via Nagpur,10
+PLAN_2024_0054,20/10/2025,Customer_27,Durgapur Steel Plant,Odisha,SAIL Burnpur,West Bengal,916,439,152,10517,6733,0.52,1,4,6336,3588,YARD_6,Iron Ore,BRN,Via Tatanagar,10
+PLAN_2024_0055,16/10/2025,Customer_46,Bhilai Steel Plant,Maharashtra,SAIL Burnpur,Odisha,776,293,225,6818,3818,0.22,1,4,7433,3806,YARD_10,Limestone,BTPN,Via Nagpur,4
+PLAN_2024_0056,22/10/2025,Customer_1,Bokaro Steel Plant,Odisha,RINL Visakhapatnam,Andhra Pradesh,1159,238,294,8277,5379,0.32,1,2,6479,3474,YARD_10,Iron Ore,BOXN,Direct,5
+PLAN_2024_0057,05/11/2025,Customer_21,Bhilai Steel Plant,Gujarat,RINL Visakhapatnam,Andhra Pradesh,471,245,203,10333,4128,0.76,0,0,1058,677,YARD_7,Finished Steel,BTPN,Via Nagpur,8
+PLAN_2024_0058,01/11/2025,Customer_12,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Odisha,1129,80,118,16863,3609,0.46,0,0,6534,650,YARD_2,Iron Ore,BCN,Via Tatanagar,9
+PLAN_2024_0059,06/11/2025,Customer_47,Bhilai Steel Plant,Odisha,Essar Steel Hazira,Andhra Pradesh,405,334,114,15184,4791,0.23,1,4,5685,4374,YARD_3,Iron Ore,BOXN,Direct,10
+PLAN_2024_0060,20/10/2025,Customer_49,Durgapur Steel Plant,Odisha,Essar Steel Hazira,West Bengal,1225,121,266,12905,4077,0.46,0,0,7994,3406,YARD_1,Limestone,BOXN,Direct,2
+PLAN_2024_0061,01/11/2025,Customer_10,Rourkela Steel Plant,Maharashtra,JSW Steel Dolvi,Odisha,1304,94,243,10692,2714,0.55,1,4,1552,4374,YARD_8,Limestone,BRN,Via Tatanagar,3
+PLAN_2024_0062,21/10/2025,Customer_39,Bhilai Steel Plant,Chhattisgarh,Essar Steel Hazira,Andhra Pradesh,972,474,256,9031,7480,0.92,1,3,7275,4743,YARD_4,Finished Steel,BTPN,Via Bilaspur,3
+PLAN_2024_0063,13/11/2025,Customer_18,Rourkela Steel Plant,Jharkhand,JSW Steel Dolvi,Chhattisgarh,723,158,103,10592,7517,0.19,0,0,9190,731,YARD_9,Coal,BTPN,Via Bilaspur,7
+PLAN_2024_0064,23/10/2025,Customer_2,Durgapur Steel Plant,Maharashtra,Tata Steel Jamshedpur,Gujarat,1069,432,139,7284,4812,0.45,0,0,9344,4805,YARD_2,Iron Ore,BTPN,Via Bilaspur,10
+PLAN_2024_0065,18/10/2025,Customer_38,Rourkela Steel Plant,West Bengal,JSW Steel Dolvi,Odisha,878,61,148,6288,1997,0.29,1,3,4004,2337,YARD_2,Finished Steel,BRN,Via Tatanagar,8
+PLAN_2024_0066,27/10/2025,Customer_21,Rourkela Steel Plant,Jharkhand,Bhushan Steel Meramandali,Maharashtra,369,368,220,10520,1600,0.44,1,1,4789,2318,YARD_7,Iron Ore,BTPN,Via Tatanagar,7
+PLAN_2024_0067,04/11/2025,Customer_12,Durgapur Steel Plant,Gujarat,RINL Visakhapatnam,West Bengal,928,262,123,15916,6093,0.95,1,2,3947,3215,YARD_6,Finished Steel,BCN,Via Bilaspur,4
+PLAN_2024_0068,13/11/2025,Customer_6,Bokaro Steel Plant,Gujarat,Jindal Steel Raigarh,West Bengal,861,465,177,6606,1852,0.63,0,0,7734,796,YARD_10,Coal,BOXN,Via Tatanagar,8
+PLAN_2024_0069,02/11/2025,Customer_7,Bokaro Steel Plant,Maharashtra,JSW Steel Dolvi,Odisha,234,277,238,9790,3445,0.11,1,1,5775,3298,YARD_6,Coal,BTPN,Via Tatanagar,4
+PLAN_2024_0070,14/11/2025,Customer_13,Bokaro Steel Plant,Odisha,Bhushan Steel Meramandali,Chhattisgarh,729,257,122,18477,5970,1.0,0,0,4584,1526,YARD_4,Coal,BTPN,Via Tatanagar,3
+PLAN_2024_0071,23/10/2025,Customer_6,Durgapur Steel Plant,Chhattisgarh,JSW Steel Dolvi,West Bengal,339,233,130,12604,3421,0.5,1,1,9481,3399,YARD_7,Coal,BCN,Via Bilaspur,8
+PLAN_2024_0072,03/11/2025,Customer_2,Durgapur Steel Plant,Jharkhand,Bhushan Steel Meramandali,Andhra Pradesh,1087,282,138,13518,2600,0.98,1,3,2133,2339,YARD_10,Coal,BCN,Direct,7
+PLAN_2024_0073,22/10/2025,Customer_18,Durgapur Steel Plant,Maharashtra,SAIL Burnpur,West Bengal,841,77,246,13046,4412,0.55,1,5,1873,1492,YARD_9,Limestone,BRN,Via Nagpur,9
+PLAN_2024_0074,10/11/2025,Customer_14,Bhilai Steel Plant,Gujarat,Essar Steel Hazira,West Bengal,637,430,121,5948,5088,0.31,0,0,4511,2973,YARD_7,Coal,BOXN,Via Bilaspur,9
+PLAN_2024_0075,29/10/2025,Customer_39,Bokaro Steel Plant,Gujarat,Jindal Steel Raigarh,West Bengal,662,236,232,18913,7090,0.21,0,0,6857,2797,YARD_7,Coal,BCN,Via Nagpur,5
+PLAN_2024_0076,17/10/2025,Customer_8,Bokaro Steel Plant,West Bengal,Bhushan Steel Meramandali,Chhattisgarh,1105,461,211,7412,4482,0.9,1,3,7816,4340,YARD_1,Finished Steel,BOXN,Via Bilaspur,7
+PLAN_2024_0077,26/10/2025,Customer_24,Durgapur Steel Plant,Chhattisgarh,Essar Steel Hazira,Maharashtra,907,390,280,8466,4659,0.44,0,0,2444,781,YARD_4,Finished Steel,BOXN,Direct,10
+PLAN_2024_0078,04/11/2025,Customer_22,Durgapur Steel Plant,Maharashtra,Bhushan Steel Meramandali,Gujarat,1141,473,287,7166,7745,0.88,0,0,3066,4540,YARD_7,Coal,BOXN,Direct,5
+PLAN_2024_0079,30/10/2025,Customer_28,Bokaro Steel Plant,Maharashtra,Bhushan Steel Meramandali,West Bengal,241,284,258,14214,2355,0.86,1,1,8107,4960,YARD_10,Iron Ore,BCN,Via Nagpur,7
+PLAN_2024_0080,21/10/2025,Customer_14,Durgapur Steel Plant,Gujarat,RINL Visakhapatnam,Chhattisgarh,1274,359,289,13798,4788,0.56,0,0,8891,860,YARD_10,Iron Ore,BRN,Direct,10
+PLAN_2024_0081,08/11/2025,Customer_14,Durgapur Steel Plant,Maharashtra,Essar Steel Hazira,West Bengal,984,363,137,18618,5451,0.91,1,2,1662,4195,YARD_9,Limestone,BOXN,Direct,3
+PLAN_2024_0082,30/10/2025,Customer_25,Rourkela Steel Plant,Maharashtra,RINL Visakhapatnam,Andhra Pradesh,422,330,299,17563,3479,0.48,0,0,1703,4126,YARD_9,Iron Ore,BTPN,Via Nagpur,6
+PLAN_2024_0083,07/11/2025,Customer_30,Bokaro Steel Plant,Jharkhand,Jindal Steel Raigarh,West Bengal,414,463,271,6043,3652,0.51,1,1,9084,2629,YARD_1,Iron Ore,BRN,Via Tatanagar,10
+PLAN_2024_0084,01/11/2025,Customer_49,Bokaro Steel Plant,Jharkhand,RINL Visakhapatnam,Gujarat,336,475,103,13963,4865,0.15,0,0,9879,2859,YARD_9,Coal,BCN,Via Tatanagar,6
+PLAN_2024_0085,27/10/2025,Customer_49,Bhilai Steel Plant,West Bengal,RINL Visakhapatnam,Gujarat,307,167,167,18711,3921,0.32,1,1,1199,608,YARD_1,Coal,BTPN,Via Tatanagar,9
+PLAN_2024_0086,22/10/2025,Customer_40,Bhilai Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Jharkhand,990,289,192,9310,2325,0.19,1,2,2780,4785,YARD_8,Limestone,BOXN,Via Tatanagar,5
+PLAN_2024_0087,16/10/2025,Customer_27,Bokaro Steel Plant,Jharkhand,JSW Steel Dolvi,Odisha,236,161,210,19179,4779,0.49,0,0,6518,2849,YARD_8,Coal,BOXN,Via Bilaspur,9
+PLAN_2024_0088,05/11/2025,Customer_39,Durgapur Steel Plant,Jharkhand,Bhushan Steel Meramandali,Maharashtra,700,340,295,13525,5808,0.2,1,2,4720,1228,YARD_3,Limestone,BOXN,Direct,5
+PLAN_2024_0089,20/10/2025,Customer_18,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Odisha,1128,336,191,17579,5587,0.31,1,1,5403,2674,YARD_6,Iron Ore,BTPN,Via Bilaspur,5
+PLAN_2024_0090,09/11/2025,Customer_2,Rourkela Steel Plant,Maharashtra,SAIL Burnpur,West Bengal,1167,445,245,10784,3925,0.67,0,0,4513,4643,YARD_5,Iron Ore,BRN,Via Nagpur,10
+PLAN_2024_0091,10/11/2025,Customer_22,Bokaro Steel Plant,Jharkhand,SAIL Burnpur,Gujarat,1154,54,194,7440,4401,0.56,0,0,9226,1016,YARD_6,Iron Ore,BCN,Direct,3
+PLAN_2024_0092,31/10/2025,Customer_35,Rourkela Steel Plant,Jharkhand,Tata Steel Jamshedpur,Gujarat,792,400,283,14369,5506,0.61,1,4,2340,1953,YARD_5,Finished Steel,BCN,Via Nagpur,8
+PLAN_2024_0093,17/10/2025,Customer_38,Durgapur Steel Plant,Odisha,Bhushan Steel Meramandali,West Bengal,1485,110,264,9587,1188,0.14,0,0,7595,4240,YARD_4,Coal,BRN,Via Tatanagar,3
+PLAN_2024_0094,25/10/2025,Customer_12,Bhilai Steel Plant,Odisha,Jindal Steel Raigarh,Andhra Pradesh,1335,409,235,13078,3813,0.12,1,3,1549,3216,YARD_2,Coal,BTPN,Via Nagpur,5
+PLAN_2024_0095,07/11/2025,Customer_35,Durgapur Steel Plant,Odisha,Tata Steel Jamshedpur,West Bengal,835,177,171,6821,5945,0.39,1,1,6835,4681,YARD_7,Limestone,BCN,Direct,3
+PLAN_2024_0096,07/11/2025,Customer_23,Rourkela Steel Plant,West Bengal,JSW Steel Dolvi,Andhra Pradesh,1426,241,188,9841,6781,0.16,1,2,1212,2107,YARD_1,Iron Ore,BRN,Via Tatanagar,8
+PLAN_2024_0097,14/11/2025,Customer_23,Rourkela Steel Plant,Maharashtra,RINL Visakhapatnam,Andhra Pradesh,905,293,134,14175,3586,0.71,0,0,7617,1648,YARD_2,Finished Steel,BRN,Direct,2
+PLAN_2024_0098,27/10/2025,Customer_37,Rourkela Steel Plant,Gujarat,RINL Visakhapatnam,Chhattisgarh,1050,401,166,5400,5376,0.66,1,3,1025,2229,YARD_8,Finished Steel,BOXN,Via Nagpur,6
+PLAN_2024_0099,31/10/2025,Customer_8,Rourkela Steel Plant,Andhra Pradesh,Essar Steel Hazira,Gujarat,1336,386,280,7408,7161,0.12,0,0,1463,2379,YARD_5,Limestone,BTPN,Via Bilaspur,8
+PLAN_2024_0100,27/10/2025,Customer_36,Bokaro Steel Plant,West Bengal,JSW Steel Dolvi,Jharkhand,925,323,147,12363,7544,0.81,0,0,2330,2582,YARD_4,Coal,BRN,Direct,7
+PLAN_2024_0101,06/11/2025,Customer_50,Durgapur Steel Plant,Odisha,RINL Visakhapatnam,Chhattisgarh,330,374,157,5241,7982,0.77,1,5,8391,2995,YARD_10,Coal,BRN,Via Tatanagar,2
+PLAN_2024_0102,21/10/2025,Customer_7,Bokaro Steel Plant,Jharkhand,SAIL Burnpur,Odisha,1475,293,255,11347,1235,0.53,1,4,7519,638,YARD_7,Iron Ore,BOXN,Via Nagpur,3
+PLAN_2024_0103,03/11/2025,Customer_48,Rourkela Steel Plant,Andhra Pradesh,SAIL Burnpur,Gujarat,338,254,290,17470,1953,0.39,1,2,3874,919,YARD_7,Limestone,BTPN,Via Tatanagar,7
+PLAN_2024_0104,22/10/2025,Customer_25,Rourkela Steel Plant,Odisha,Tata Steel Jamshedpur,Jharkhand,796,261,211,8629,6913,0.57,0,0,1964,4023,YARD_10,Limestone,BRN,Direct,2
+PLAN_2024_0105,10/11/2025,Customer_11,Bokaro Steel Plant,Jharkhand,Jindal Steel Raigarh,Odisha,455,99,288,19045,4997,0.15,1,4,4925,3888,YARD_2,Finished Steel,BTPN,Via Nagpur,3
+PLAN_2024_0106,18/10/2025,Customer_34,Durgapur Steel Plant,Chhattisgarh,SAIL Burnpur,Gujarat,1301,271,249,18596,3678,0.23,1,5,7965,2580,YARD_3,Finished Steel,BTPN,Direct,5
+PLAN_2024_0107,25/10/2025,Customer_48,Rourkela Steel Plant,West Bengal,RINL Visakhapatnam,Chhattisgarh,972,257,233,14366,3883,0.91,0,0,8501,3554,YARD_4,Finished Steel,BCN,Via Bilaspur,6
+PLAN_2024_0108,19/10/2025,Customer_25,Bhilai Steel Plant,Maharashtra,JSW Steel Dolvi,Gujarat,506,432,267,10790,7760,0.18,0,0,8144,1209,YARD_5,Coal,BOXN,Direct,5
+PLAN_2024_0109,19/10/2025,Customer_28,Durgapur Steel Plant,Chhattisgarh,SAIL Burnpur,Odisha,1459,202,113,15097,7299,0.89,1,1,9571,2475,YARD_10,Coal,BOXN,Via Bilaspur,9
+PLAN_2024_0110,18/10/2025,Customer_28,Bokaro Steel Plant,Chhattisgarh,Essar Steel Hazira,Odisha,659,263,216,11480,6938,0.61,0,0,2402,1696,YARD_2,Iron Ore,BOXN,Via Bilaspur,4
+PLAN_2024_0111,02/11/2025,Customer_25,Durgapur Steel Plant,Chhattisgarh,SAIL Burnpur,Odisha,913,211,286,5437,4917,0.5,1,5,4711,4444,YARD_8,Finished Steel,BTPN,Via Tatanagar,3
+PLAN_2024_0112,20/10/2025,Customer_39,Bokaro Steel Plant,Gujarat,RINL Visakhapatnam,Andhra Pradesh,552,230,242,12369,5474,0.81,1,4,7954,3943,YARD_4,Coal,BCN,Via Bilaspur,10
+PLAN_2024_0113,20/10/2025,Customer_6,Bhilai Steel Plant,West Bengal,SAIL Burnpur,Jharkhand,672,299,287,17101,6511,0.12,0,0,7496,4737,YARD_9,Limestone,BOXN,Via Nagpur,8
+PLAN_2024_0114,21/10/2025,Customer_26,Bokaro Steel Plant,Maharashtra,Jindal Steel Raigarh,Gujarat,1119,192,234,15444,5439,0.84,0,0,1561,2042,YARD_8,Limestone,BTPN,Via Nagpur,7
+PLAN_2024_0115,31/10/2025,Customer_42,Durgapur Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Jharkhand,1387,483,268,14921,5591,0.47,0,0,4567,775,YARD_6,Limestone,BOXN,Via Tatanagar,7
+PLAN_2024_0116,31/10/2025,Customer_39,Rourkela Steel Plant,Jharkhand,Tata Steel Jamshedpur,West Bengal,507,453,127,12672,4193,0.35,1,3,3481,4341,YARD_1,Iron Ore,BRN,Via Tatanagar,6
+PLAN_2024_0117,28/10/2025,Customer_46,Bhilai Steel Plant,Gujarat,Essar Steel Hazira,Maharashtra,884,294,293,15889,6251,0.89,1,3,6133,4860,YARD_4,Coal,BOXN,Via Bilaspur,7
+PLAN_2024_0118,05/11/2025,Customer_9,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,Chhattisgarh,1320,486,192,10483,6928,0.5,1,3,5689,1209,YARD_2,Limestone,BOXN,Via Tatanagar,9
+PLAN_2024_0119,23/10/2025,Customer_47,Bokaro Steel Plant,Odisha,JSW Steel Dolvi,Gujarat,1174,116,167,8792,2959,0.13,0,0,5219,3974,YARD_10,Iron Ore,BCN,Direct,7
+PLAN_2024_0120,17/10/2025,Customer_6,Durgapur Steel Plant,Chhattisgarh,Essar Steel Hazira,Maharashtra,313,291,283,19378,7987,0.89,1,4,5737,2120,YARD_6,Iron Ore,BCN,Via Tatanagar,4
+PLAN_2024_0121,16/10/2025,Customer_25,Bokaro Steel Plant,Odisha,SAIL Burnpur,Maharashtra,932,467,190,16200,4570,0.4,1,4,9075,2630,YARD_3,Iron Ore,BCN,Via Bilaspur,4
+PLAN_2024_0122,10/11/2025,Customer_27,Rourkela Steel Plant,Odisha,RINL Visakhapatnam,Chhattisgarh,748,348,254,11965,6729,0.22,0,0,2278,2852,YARD_2,Limestone,BTPN,Via Bilaspur,5
+PLAN_2024_0123,30/10/2025,Customer_15,Bokaro Steel Plant,Jharkhand,JSW Steel Dolvi,Chhattisgarh,951,438,130,7954,2261,0.4,1,5,5338,2258,YARD_2,Limestone,BOXN,Via Tatanagar,7
+PLAN_2024_0124,08/11/2025,Customer_38,Bokaro Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Maharashtra,583,476,228,19328,7723,0.93,1,3,1825,2164,YARD_1,Iron Ore,BCN,Via Nagpur,3
+PLAN_2024_0125,18/10/2025,Customer_40,Bokaro Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Jharkhand,547,433,275,6355,7125,0.34,1,3,7065,2853,YARD_6,Coal,BCN,Via Tatanagar,4
+PLAN_2024_0126,07/11/2025,Customer_29,Bokaro Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Chhattisgarh,354,114,155,15812,3887,0.45,0,0,4633,4664,YARD_3,Iron Ore,BCN,Direct,2
+PLAN_2024_0127,01/11/2025,Customer_7,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Maharashtra,1128,363,123,6180,3879,0.12,1,3,8991,1982,YARD_9,Limestone,BOXN,Via Nagpur,10
+PLAN_2024_0128,23/10/2025,Customer_34,Rourkela Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Jharkhand,909,85,237,5488,4194,0.12,1,3,7161,4230,YARD_10,Finished Steel,BOXN,Via Bilaspur,2
+PLAN_2024_0129,08/11/2025,Customer_4,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Chhattisgarh,971,351,150,9440,1930,0.76,1,2,5029,1717,YARD_4,Coal,BCN,Via Bilaspur,2
+PLAN_2024_0130,12/11/2025,Customer_48,Rourkela Steel Plant,Maharashtra,Jindal Steel Raigarh,Andhra Pradesh,1285,78,244,13087,2028,0.2,1,1,3796,3257,YARD_8,Finished Steel,BTPN,Via Tatanagar,7
+PLAN_2024_0131,24/10/2025,Customer_40,Bhilai Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,West Bengal,1033,224,263,15580,4474,0.84,0,0,7110,1696,YARD_6,Iron Ore,BCN,Via Nagpur,10
+PLAN_2024_0132,08/11/2025,Customer_11,Bhilai Steel Plant,Maharashtra,Tata Steel Jamshedpur,Jharkhand,1431,280,232,14329,2759,0.68,1,5,4440,581,YARD_8,Coal,BOXN,Via Bilaspur,7
+PLAN_2024_0133,05/11/2025,Customer_40,Durgapur Steel Plant,Gujarat,Tata Steel Jamshedpur,West Bengal,1437,312,249,14771,7488,0.79,1,3,8802,2962,YARD_7,Iron Ore,BCN,Via Tatanagar,3
+PLAN_2024_0134,14/11/2025,Customer_45,Bhilai Steel Plant,Jharkhand,Bhushan Steel Meramandali,Andhra Pradesh,715,207,276,9140,7254,0.24,1,5,1209,4853,YARD_7,Iron Ore,BCN,Via Tatanagar,7
+PLAN_2024_0135,09/11/2025,Customer_30,Rourkela Steel Plant,Odisha,RINL Visakhapatnam,West Bengal,356,260,219,16539,1234,0.28,1,3,2709,1892,YARD_2,Coal,BCN,Direct,4
+PLAN_2024_0136,01/11/2025,Customer_37,Durgapur Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Andhra Pradesh,1042,166,157,14893,5810,0.98,1,3,9091,1071,YARD_2,Finished Steel,BRN,Via Bilaspur,10
+PLAN_2024_0137,10/11/2025,Customer_26,Durgapur Steel Plant,Odisha,Bhushan Steel Meramandali,Jharkhand,1366,336,192,9857,3919,0.23,0,0,7273,3472,YARD_6,Finished Steel,BTPN,Via Nagpur,10
+PLAN_2024_0138,28/10/2025,Customer_20,Durgapur Steel Plant,West Bengal,Tata Steel Jamshedpur,Gujarat,205,371,240,19428,3504,0.67,1,3,3528,2412,YARD_1,Limestone,BCN,Via Nagpur,8
+PLAN_2024_0139,24/10/2025,Customer_3,Bokaro Steel Plant,Maharashtra,Jindal Steel Raigarh,Gujarat,445,364,138,8771,7110,0.15,1,1,7742,2728,YARD_1,Iron Ore,BOXN,Direct,5
+PLAN_2024_0140,27/10/2025,Customer_26,Bokaro Steel Plant,West Bengal,Tata Steel Jamshedpur,Andhra Pradesh,558,342,250,8317,1972,0.71,1,5,4008,3166,YARD_10,Finished Steel,BOXN,Via Tatanagar,5
+PLAN_2024_0141,30/10/2025,Customer_23,Bhilai Steel Plant,Odisha,Essar Steel Hazira,West Bengal,662,138,255,19357,4625,0.5,1,3,8609,3318,YARD_7,Limestone,BCN,Via Tatanagar,9
+PLAN_2024_0142,05/11/2025,Customer_24,Rourkela Steel Plant,Jharkhand,RINL Visakhapatnam,Maharashtra,444,467,134,19132,6552,0.68,1,5,8934,1956,YARD_2,Coal,BOXN,Direct,6
+PLAN_2024_0143,06/11/2025,Customer_14,Durgapur Steel Plant,Chhattisgarh,RINL Visakhapatnam,Maharashtra,947,467,285,7188,6608,0.26,1,1,5089,3571,YARD_9,Limestone,BTPN,Direct,4
+PLAN_2024_0144,10/11/2025,Customer_31,Rourkela Steel Plant,Jharkhand,JSW Steel Dolvi,Gujarat,578,431,274,6166,4824,0.82,0,0,1157,4419,YARD_8,Coal,BOXN,Via Tatanagar,9
+PLAN_2024_0145,08/11/2025,Customer_4,Durgapur Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Odisha,288,228,195,10980,7347,0.36,1,4,1260,1880,YARD_7,Limestone,BCN,Via Tatanagar,2
+PLAN_2024_0146,20/10/2025,Customer_6,Bhilai Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Andhra Pradesh,869,356,254,10779,5181,0.45,0,0,1147,1708,YARD_8,Finished Steel,BTPN,Via Tatanagar,4
+PLAN_2024_0147,05/11/2025,Customer_21,Bhilai Steel Plant,Maharashtra,Tata Steel Jamshedpur,Chhattisgarh,1341,340,260,14633,1322,0.34,0,0,5161,684,YARD_2,Limestone,BCN,Via Nagpur,7
+PLAN_2024_0148,23/10/2025,Customer_48,Bhilai Steel Plant,Maharashtra,Tata Steel Jamshedpur,West Bengal,1130,432,207,12580,5852,0.82,0,0,4339,560,YARD_8,Limestone,BRN,Via Tatanagar,4
+PLAN_2024_0149,04/11/2025,Customer_18,Bokaro Steel Plant,Odisha,Tata Steel Jamshedpur,Gujarat,499,364,262,9154,4425,0.88,1,1,7859,1095,YARD_4,Limestone,BCN,Via Tatanagar,2
+PLAN_2024_0150,30/10/2025,Customer_34,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Jharkhand,363,425,110,5067,1932,0.47,1,2,6470,1771,YARD_2,Coal,BOXN,Via Tatanagar,8
+PLAN_2024_0151,28/10/2025,Customer_21,Bhilai Steel Plant,West Bengal,JSW Steel Dolvi,Andhra Pradesh,749,66,158,19055,3219,0.97,1,3,5216,3952,YARD_4,Coal,BOXN,Via Nagpur,6
+PLAN_2024_0152,01/11/2025,Customer_37,Bhilai Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Odisha,851,239,251,6712,2276,0.88,1,2,7350,2771,YARD_10,Finished Steel,BCN,Via Bilaspur,7
+PLAN_2024_0153,25/10/2025,Customer_21,Rourkela Steel Plant,West Bengal,Jindal Steel Raigarh,Jharkhand,246,95,254,13544,5095,0.3,1,5,6828,1667,YARD_2,Limestone,BOXN,Via Bilaspur,7
+PLAN_2024_0154,31/10/2025,Customer_38,Bhilai Steel Plant,Jharkhand,RINL Visakhapatnam,Andhra Pradesh,523,142,299,5001,1419,0.58,0,0,2323,1204,YARD_3,Iron Ore,BCN,Direct,5
+PLAN_2024_0155,06/11/2025,Customer_17,Bokaro Steel Plant,Gujarat,JSW Steel Dolvi,Andhra Pradesh,605,331,186,17492,2163,0.95,0,0,3312,814,YARD_5,Finished Steel,BOXN,Via Tatanagar,9
+PLAN_2024_0156,03/11/2025,Customer_12,Bokaro Steel Plant,West Bengal,Tata Steel Jamshedpur,Andhra Pradesh,1293,491,119,17565,3741,0.96,0,0,9775,1487,YARD_3,Limestone,BOXN,Direct,2
+PLAN_2024_0157,26/10/2025,Customer_40,Bhilai Steel Plant,West Bengal,Jindal Steel Raigarh,Maharashtra,847,113,228,6982,2003,0.46,1,3,7158,2149,YARD_10,Coal,BCN,Direct,9
+PLAN_2024_0158,06/11/2025,Customer_10,Rourkela Steel Plant,Andhra Pradesh,SAIL Burnpur,Gujarat,750,276,132,9390,3394,0.84,0,0,7694,3821,YARD_9,Finished Steel,BCN,Via Tatanagar,6
+PLAN_2024_0159,04/11/2025,Customer_32,Bokaro Steel Plant,Andhra Pradesh,SAIL Burnpur,Chhattisgarh,746,98,262,6059,1646,0.22,0,0,1168,2348,YARD_5,Iron Ore,BCN,Direct,3
+PLAN_2024_0160,09/11/2025,Customer_20,Bokaro Steel Plant,Maharashtra,RINL Visakhapatnam,Jharkhand,1281,102,112,12648,1971,0.48,0,0,6517,3965,YARD_3,Limestone,BTPN,Via Tatanagar,8
+PLAN_2024_0161,13/11/2025,Customer_48,Rourkela Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Odisha,608,158,106,5347,6694,0.82,0,0,8743,3380,YARD_8,Limestone,BRN,Via Tatanagar,4
+PLAN_2024_0162,13/11/2025,Customer_17,Bokaro Steel Plant,Gujarat,RINL Visakhapatnam,Maharashtra,1442,156,214,18715,6026,0.47,1,2,4674,1812,YARD_4,Limestone,BOXN,Direct,2
+PLAN_2024_0163,22/10/2025,Customer_44,Bokaro Steel Plant,Maharashtra,Essar Steel Hazira,West Bengal,1067,303,133,17360,7382,0.4,1,1,5458,4388,YARD_4,Limestone,BOXN,Via Nagpur,4
+PLAN_2024_0164,05/11/2025,Customer_4,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Chhattisgarh,1129,375,175,6602,6172,0.84,0,0,5169,3304,YARD_3,Coal,BOXN,Direct,9
+PLAN_2024_0165,04/11/2025,Customer_46,Bokaro Steel Plant,West Bengal,RINL Visakhapatnam,Jharkhand,803,418,282,10560,2706,0.22,0,0,8509,1386,YARD_10,Finished Steel,BCN,Via Nagpur,2
+PLAN_2024_0166,26/10/2025,Customer_39,Rourkela Steel Plant,Chhattisgarh,Essar Steel Hazira,Gujarat,1148,279,156,16819,1176,0.67,0,0,2774,3229,YARD_4,Limestone,BRN,Direct,7
+PLAN_2024_0167,30/10/2025,Customer_46,Bokaro Steel Plant,West Bengal,Tata Steel Jamshedpur,Maharashtra,413,114,271,7690,5986,0.31,0,0,3864,2381,YARD_2,Iron Ore,BTPN,Direct,7
+PLAN_2024_0168,11/11/2025,Customer_15,Bokaro Steel Plant,Maharashtra,Tata Steel Jamshedpur,Andhra Pradesh,912,234,178,16845,2346,0.67,0,0,1065,1345,YARD_2,Limestone,BCN,Via Nagpur,5
+PLAN_2024_0169,24/10/2025,Customer_32,Bokaro Steel Plant,West Bengal,Jindal Steel Raigarh,Chhattisgarh,325,358,270,14106,2527,0.79,0,0,6218,2419,YARD_8,Limestone,BRN,Via Nagpur,7
+PLAN_2024_0170,12/11/2025,Customer_31,Bokaro Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Gujarat,633,491,201,12066,3936,0.23,1,1,8595,4908,YARD_7,Finished Steel,BTPN,Direct,9
+PLAN_2024_0171,30/10/2025,Customer_4,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Andhra Pradesh,779,144,272,5234,6985,0.18,0,0,3603,2879,YARD_5,Limestone,BCN,Via Nagpur,3
+PLAN_2024_0172,13/11/2025,Customer_47,Durgapur Steel Plant,Odisha,RINL Visakhapatnam,Gujarat,1248,298,148,19593,7017,0.32,1,4,4743,1745,YARD_9,Coal,BRN,Via Bilaspur,8
+PLAN_2024_0173,24/10/2025,Customer_12,Bokaro Steel Plant,Chhattisgarh,RINL Visakhapatnam,Odisha,1049,366,255,5585,4513,0.24,1,1,8937,1730,YARD_6,Coal,BOXN,Direct,5
+PLAN_2024_0174,30/10/2025,Customer_31,Bhilai Steel Plant,Gujarat,Bhushan Steel Meramandali,West Bengal,1405,373,226,13647,6102,0.79,1,4,1228,601,YARD_3,Finished Steel,BTPN,Via Tatanagar,5
+PLAN_2024_0175,29/10/2025,Customer_18,Bhilai Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Jharkhand,1451,243,127,16266,3802,0.14,1,2,5227,3754,YARD_10,Limestone,BTPN,Direct,7
+PLAN_2024_0176,06/11/2025,Customer_46,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Gujarat,215,216,283,15145,6378,0.95,0,0,6063,3557,YARD_4,Iron Ore,BOXN,Via Nagpur,7
+PLAN_2024_0177,12/11/2025,Customer_27,Bokaro Steel Plant,Odisha,Essar Steel Hazira,Gujarat,1167,169,130,16580,7814,0.62,0,0,3416,4674,YARD_9,Coal,BRN,Via Nagpur,3
+PLAN_2024_0178,07/11/2025,Customer_32,Bokaro Steel Plant,Maharashtra,Bhushan Steel Meramandali,Gujarat,535,492,128,9763,2482,0.19,1,1,4755,2371,YARD_9,Limestone,BOXN,Via Tatanagar,3
+PLAN_2024_0179,25/10/2025,Customer_40,Bokaro Steel Plant,Odisha,JSW Steel Dolvi,Gujarat,925,437,129,16195,3640,0.91,0,0,4945,4155,YARD_10,Coal,BTPN,Via Tatanagar,2
+PLAN_2024_0180,28/10/2025,Customer_18,Bhilai Steel Plant,Chhattisgarh,RINL Visakhapatnam,Gujarat,822,462,207,14917,5286,0.63,0,0,1037,1891,YARD_9,Iron Ore,BTPN,Via Bilaspur,6
+PLAN_2024_0181,09/11/2025,Customer_18,Rourkela Steel Plant,Chhattisgarh,RINL Visakhapatnam,Odisha,345,375,275,17313,4720,0.9,1,3,7277,1058,YARD_10,Limestone,BTPN,Direct,4
+PLAN_2024_0182,16/10/2025,Customer_22,Durgapur Steel Plant,Chhattisgarh,JSW Steel Dolvi,Maharashtra,392,471,289,5790,4567,0.68,1,2,8959,2248,YARD_4,Iron Ore,BOXN,Via Nagpur,10
+PLAN_2024_0183,22/10/2025,Customer_4,Bokaro Steel Plant,Jharkhand,JSW Steel Dolvi,Odisha,1263,151,156,19033,4003,0.37,1,3,8618,3517,YARD_4,Limestone,BRN,Via Nagpur,2
+PLAN_2024_0184,04/11/2025,Customer_26,Bhilai Steel Plant,Maharashtra,Essar Steel Hazira,Andhra Pradesh,1464,127,150,9152,6632,0.42,0,0,2044,2379,YARD_8,Iron Ore,BTPN,Direct,4
+PLAN_2024_0185,10/11/2025,Customer_3,Rourkela Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Gujarat,498,362,246,16808,5362,0.11,1,5,3787,2892,YARD_3,Coal,BRN,Direct,8
+PLAN_2024_0186,03/11/2025,Customer_12,Bhilai Steel Plant,West Bengal,SAIL Burnpur,Jharkhand,1244,408,160,13176,3019,0.95,1,2,8914,4275,YARD_7,Coal,BOXN,Via Tatanagar,9
+PLAN_2024_0187,18/10/2025,Customer_42,Durgapur Steel Plant,West Bengal,Tata Steel Jamshedpur,Gujarat,1490,308,107,9576,3520,0.1,1,4,2549,1002,YARD_2,Coal,BTPN,Via Nagpur,4
+PLAN_2024_0188,20/10/2025,Customer_15,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Odisha,492,391,148,17864,3025,0.49,1,2,2291,970,YARD_7,Limestone,BRN,Direct,7
+PLAN_2024_0189,28/10/2025,Customer_1,Bokaro Steel Plant,Maharashtra,JSW Steel Dolvi,Chhattisgarh,622,469,150,16342,3188,0.72,1,1,9030,3336,YARD_6,Coal,BTPN,Via Tatanagar,6
+PLAN_2024_0190,24/10/2025,Customer_46,Bokaro Steel Plant,Gujarat,SAIL Burnpur,West Bengal,621,491,295,8417,1102,0.23,0,0,2389,4517,YARD_9,Coal,BTPN,Via Bilaspur,2
+PLAN_2024_0191,21/10/2025,Customer_17,Bhilai Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,West Bengal,1128,495,288,13936,6940,0.88,1,5,7542,1595,YARD_5,Iron Ore,BCN,Via Nagpur,8
+PLAN_2024_0192,23/10/2025,Customer_42,Rourkela Steel Plant,West Bengal,Tata Steel Jamshedpur,Odisha,228,248,265,18706,7033,0.12,1,3,2741,2709,YARD_3,Iron Ore,BOXN,Via Nagpur,10
+PLAN_2024_0193,10/11/2025,Customer_36,Durgapur Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Odisha,764,72,170,15267,3512,0.52,0,0,2329,3693,YARD_9,Finished Steel,BCN,Via Bilaspur,6
+PLAN_2024_0194,08/11/2025,Customer_41,Durgapur Steel Plant,Jharkhand,JSW Steel Dolvi,Gujarat,953,94,299,18115,4468,0.72,0,0,7873,4423,YARD_6,Limestone,BCN,Via Tatanagar,8
+PLAN_2024_0195,04/11/2025,Customer_48,Rourkela Steel Plant,Chhattisgarh,Essar Steel Hazira,West Bengal,452,375,103,14449,4828,0.37,0,0,4463,3109,YARD_8,Iron Ore,BTPN,Via Bilaspur,9
+PLAN_2024_0196,05/11/2025,Customer_49,Rourkela Steel Plant,Gujarat,Jindal Steel Raigarh,Andhra Pradesh,880,157,154,13995,4576,0.21,0,0,5905,4885,YARD_9,Iron Ore,BCN,Via Tatanagar,3
+PLAN_2024_0197,04/11/2025,Customer_44,Rourkela Steel Plant,Gujarat,Essar Steel Hazira,Odisha,1414,343,259,17789,3558,0.51,1,3,7196,4560,YARD_4,Finished Steel,BOXN,Via Tatanagar,10
+PLAN_2024_0198,09/11/2025,Customer_44,Durgapur Steel Plant,Jharkhand,Essar Steel Hazira,West Bengal,1100,462,108,16286,6285,0.32,1,3,7355,1528,YARD_6,Coal,BOXN,Direct,2
+PLAN_2024_0199,27/10/2025,Customer_20,Rourkela Steel Plant,Gujarat,JSW Steel Dolvi,Chhattisgarh,418,242,242,19349,6342,0.55,1,1,3027,4569,YARD_4,Coal,BRN,Via Bilaspur,6
+PLAN_2024_0200,09/11/2025,Customer_8,Bokaro Steel Plant,West Bengal,Bhushan Steel Meramandali,Maharashtra,422,129,162,16861,3860,0.37,1,1,6875,4046,YARD_8,Finished Steel,BCN,Direct,2
+PLAN_2024_0201,26/10/2025,Customer_48,Rourkela Steel Plant,West Bengal,Tata Steel Jamshedpur,Gujarat,1279,59,260,8045,7116,0.62,1,3,1411,525,YARD_2,Finished Steel,BCN,Via Tatanagar,8
+PLAN_2024_0202,07/11/2025,Customer_26,Durgapur Steel Plant,Jharkhand,SAIL Burnpur,Gujarat,620,57,287,16241,4545,0.95,1,5,3094,1600,YARD_3,Coal,BOXN,Via Nagpur,3
+PLAN_2024_0203,06/11/2025,Customer_50,Durgapur Steel Plant,Gujarat,Essar Steel Hazira,Maharashtra,1201,84,145,13150,3140,0.16,1,4,1290,1348,YARD_6,Iron Ore,BRN,Via Tatanagar,8
+PLAN_2024_0204,12/11/2025,Customer_32,Durgapur Steel Plant,West Bengal,SAIL Burnpur,Andhra Pradesh,538,103,174,15408,6695,0.42,0,0,3508,677,YARD_3,Iron Ore,BCN,Via Bilaspur,10
+PLAN_2024_0205,20/10/2025,Customer_19,Rourkela Steel Plant,West Bengal,Tata Steel Jamshedpur,Odisha,548,266,294,10028,6562,0.24,1,5,6254,3367,YARD_6,Limestone,BOXN,Via Tatanagar,3
+PLAN_2024_0206,16/10/2025,Customer_30,Bokaro Steel Plant,Chhattisgarh,SAIL Burnpur,Gujarat,1124,188,139,9723,4154,0.82,1,1,4591,1850,YARD_10,Iron Ore,BTPN,Via Nagpur,4
+PLAN_2024_0207,16/10/2025,Customer_22,Bhilai Steel Plant,Jharkhand,JSW Steel Dolvi,Maharashtra,1208,450,176,16316,5646,0.19,0,0,3673,3943,YARD_1,Limestone,BRN,Direct,7
+PLAN_2024_0208,14/11/2025,Customer_31,Bokaro Steel Plant,Jharkhand,SAIL Burnpur,Odisha,841,453,292,10309,1701,0.27,0,0,9203,2930,YARD_6,Iron Ore,BOXN,Via Bilaspur,5
+PLAN_2024_0209,03/11/2025,Customer_3,Rourkela Steel Plant,Gujarat,Essar Steel Hazira,Chhattisgarh,1315,222,235,11547,5560,0.95,1,3,2366,3493,YARD_9,Iron Ore,BCN,Direct,3
+PLAN_2024_0210,01/11/2025,Customer_31,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Chhattisgarh,809,378,273,5620,7389,0.4,1,1,8735,2590,YARD_10,Finished Steel,BCN,Via Tatanagar,3
+PLAN_2024_0211,19/10/2025,Customer_50,Bokaro Steel Plant,West Bengal,RINL Visakhapatnam,Odisha,967,409,121,12118,1763,0.94,1,2,7928,1878,YARD_2,Coal,BCN,Direct,9
+PLAN_2024_0212,28/10/2025,Customer_37,Rourkela Steel Plant,Odisha,SAIL Burnpur,Chhattisgarh,1346,289,204,13800,4541,0.67,0,0,2582,1131,YARD_9,Limestone,BCN,Via Tatanagar,8
+PLAN_2024_0213,04/11/2025,Customer_29,Bhilai Steel Plant,Gujarat,SAIL Burnpur,Chhattisgarh,874,57,251,7120,4068,0.36,0,0,3996,3145,YARD_9,Limestone,BRN,Direct,7
+PLAN_2024_0214,01/11/2025,Customer_46,Bokaro Steel Plant,Jharkhand,Jindal Steel Raigarh,Gujarat,635,435,127,17201,4909,0.23,1,1,1526,558,YARD_1,Finished Steel,BRN,Direct,2
+PLAN_2024_0215,16/10/2025,Customer_33,Rourkela Steel Plant,Gujarat,JSW Steel Dolvi,West Bengal,455,115,165,7996,4740,0.93,1,4,5363,1243,YARD_5,Limestone,BRN,Direct,10
+PLAN_2024_0216,14/11/2025,Customer_49,Bokaro Steel Plant,Andhra Pradesh,SAIL Burnpur,Maharashtra,1455,392,197,9752,1992,0.13,1,1,8299,1211,YARD_1,Coal,BRN,Via Bilaspur,8
+PLAN_2024_0217,29/10/2025,Customer_25,Bhilai Steel Plant,Andhra Pradesh,SAIL Burnpur,Odisha,1288,197,266,8689,7756,0.88,1,5,7894,703,YARD_2,Coal,BRN,Via Nagpur,7
+PLAN_2024_0218,27/10/2025,Customer_19,Bokaro Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Odisha,922,318,193,5549,1620,0.4,0,0,5104,3550,YARD_9,Finished Steel,BTPN,Via Bilaspur,2
+PLAN_2024_0219,08/11/2025,Customer_41,Rourkela Steel Plant,West Bengal,JSW Steel Dolvi,Odisha,1293,222,223,11347,2905,0.93,0,0,7482,4518,YARD_7,Iron Ore,BOXN,Direct,3
+PLAN_2024_0220,22/10/2025,Customer_31,Bhilai Steel Plant,Jharkhand,SAIL Burnpur,Chhattisgarh,783,238,169,7985,6907,0.89,1,3,9432,727,YARD_5,Finished Steel,BRN,Via Tatanagar,8
+PLAN_2024_0221,23/10/2025,Customer_50,Rourkela Steel Plant,Jharkhand,Essar Steel Hazira,West Bengal,985,119,291,11910,2234,0.63,1,5,2770,4493,YARD_3,Limestone,BTPN,Via Tatanagar,7
+PLAN_2024_0222,09/11/2025,Customer_37,Bhilai Steel Plant,West Bengal,Jindal Steel Raigarh,Chhattisgarh,1266,217,285,13189,2917,0.61,0,0,4486,3730,YARD_2,Iron Ore,BTPN,Via Tatanagar,6
+PLAN_2024_0223,28/10/2025,Customer_28,Durgapur Steel Plant,Jharkhand,Essar Steel Hazira,Andhra Pradesh,560,217,103,7793,3703,0.98,0,0,5650,3390,YARD_4,Finished Steel,BOXN,Direct,9
+PLAN_2024_0224,11/11/2025,Customer_27,Durgapur Steel Plant,Odisha,Jindal Steel Raigarh,Chhattisgarh,321,348,268,16061,6979,0.27,1,2,5125,855,YARD_9,Iron Ore,BCN,Direct,9
+PLAN_2024_0225,04/11/2025,Customer_40,Rourkela Steel Plant,Jharkhand,SAIL Burnpur,Chhattisgarh,1080,91,140,15869,3777,0.44,1,4,6554,623,YARD_8,Finished Steel,BTPN,Via Tatanagar,7
+PLAN_2024_0226,04/11/2025,Customer_46,Rourkela Steel Plant,Jharkhand,Essar Steel Hazira,Odisha,1430,71,169,13415,4698,0.65,0,0,8455,4314,YARD_2,Limestone,BOXN,Via Bilaspur,5
+PLAN_2024_0227,25/10/2025,Customer_49,Bokaro Steel Plant,Gujarat,JSW Steel Dolvi,West Bengal,1293,329,208,11895,3893,0.4,0,0,1786,1099,YARD_9,Iron Ore,BCN,Via Bilaspur,7
+PLAN_2024_0228,03/11/2025,Customer_22,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Jharkhand,612,279,276,11344,1845,0.88,1,4,2208,3223,YARD_4,Coal,BCN,Via Bilaspur,2
+PLAN_2024_0229,20/10/2025,Customer_24,Bokaro Steel Plant,West Bengal,Essar Steel Hazira,Chhattisgarh,687,417,194,7661,5993,0.94,0,0,8941,1200,YARD_8,Coal,BOXN,Via Bilaspur,7
+PLAN_2024_0230,13/11/2025,Customer_5,Bhilai Steel Plant,Chhattisgarh,Essar Steel Hazira,Jharkhand,1179,279,120,16945,3587,0.42,1,4,5979,1940,YARD_2,Coal,BRN,Via Bilaspur,4
+PLAN_2024_0231,08/11/2025,Customer_32,Bokaro Steel Plant,Jharkhand,Tata Steel Jamshedpur,Maharashtra,1179,374,252,18533,2182,0.96,1,1,9915,4864,YARD_7,Coal,BCN,Via Bilaspur,2
+PLAN_2024_0232,05/11/2025,Customer_14,Bhilai Steel Plant,Odisha,Tata Steel Jamshedpur,Maharashtra,1461,424,219,15390,1116,0.32,0,0,2087,3102,YARD_3,Finished Steel,BCN,Direct,4
+PLAN_2024_0233,12/11/2025,Customer_41,Durgapur Steel Plant,Gujarat,Jindal Steel Raigarh,Chhattisgarh,1263,299,180,13399,7083,0.34,1,2,6119,3990,YARD_8,Coal,BTPN,Via Nagpur,5
+PLAN_2024_0234,26/10/2025,Customer_38,Bhilai Steel Plant,Odisha,Jindal Steel Raigarh,Gujarat,957,443,221,5604,1767,0.14,0,0,8596,956,YARD_7,Iron Ore,BRN,Direct,2
+PLAN_2024_0235,02/11/2025,Customer_9,Bhilai Steel Plant,West Bengal,RINL Visakhapatnam,Odisha,1131,341,166,14379,5038,0.21,0,0,1799,1829,YARD_8,Coal,BTPN,Via Bilaspur,8
+PLAN_2024_0236,09/11/2025,Customer_1,Bhilai Steel Plant,Odisha,SAIL Burnpur,Jharkhand,1358,416,114,17823,1816,0.12,0,0,1684,521,YARD_5,Iron Ore,BOXN,Via Nagpur,2
+PLAN_2024_0237,17/10/2025,Customer_45,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Jharkhand,1358,434,147,7092,5945,0.47,0,0,5280,2986,YARD_9,Iron Ore,BTPN,Via Tatanagar,4
+PLAN_2024_0238,21/10/2025,Customer_36,Durgapur Steel Plant,Chhattisgarh,Essar Steel Hazira,Jharkhand,1397,326,130,11012,5306,0.94,0,0,9626,2727,YARD_9,Iron Ore,BTPN,Via Tatanagar,8
+PLAN_2024_0239,30/10/2025,Customer_6,Rourkela Steel Plant,Andhra Pradesh,SAIL Burnpur,Chhattisgarh,278,71,156,19583,1819,0.59,0,0,3895,3704,YARD_9,Finished Steel,BCN,Via Nagpur,8
+PLAN_2024_0240,13/11/2025,Customer_24,Bhilai Steel Plant,Jharkhand,Tata Steel Jamshedpur,West Bengal,1335,343,253,8268,3875,0.74,0,0,5111,4481,YARD_10,Iron Ore,BTPN,Direct,4
+PLAN_2024_0241,28/10/2025,Customer_18,Durgapur Steel Plant,Jharkhand,JSW Steel Dolvi,West Bengal,1375,337,195,16839,3751,0.6,0,0,8738,2688,YARD_2,Iron Ore,BCN,Via Bilaspur,4
+PLAN_2024_0242,27/10/2025,Customer_22,Bhilai Steel Plant,Gujarat,Bhushan Steel Meramandali,West Bengal,1357,130,244,7837,6425,0.25,0,0,5178,2367,YARD_4,Iron Ore,BTPN,Via Tatanagar,5
+PLAN_2024_0243,24/10/2025,Customer_5,Durgapur Steel Plant,West Bengal,Tata Steel Jamshedpur,Andhra Pradesh,1242,353,273,17492,6942,0.54,0,0,7472,970,YARD_5,Iron Ore,BRN,Via Bilaspur,5
+PLAN_2024_0244,06/11/2025,Customer_25,Bokaro Steel Plant,Jharkhand,SAIL Burnpur,Gujarat,645,345,102,5860,1524,0.81,1,1,6863,4386,YARD_4,Finished Steel,BOXN,Direct,9
+PLAN_2024_0245,14/11/2025,Customer_44,Bokaro Steel Plant,Chhattisgarh,SAIL Burnpur,Andhra Pradesh,1363,271,175,15989,1308,0.96,0,0,8193,2586,YARD_4,Coal,BCN,Via Bilaspur,3
+PLAN_2024_0246,29/10/2025,Customer_11,Durgapur Steel Plant,Gujarat,Bhushan Steel Meramandali,West Bengal,455,123,283,11100,2916,0.43,0,0,8850,1590,YARD_8,Finished Steel,BCN,Via Tatanagar,3
+PLAN_2024_0247,20/10/2025,Customer_44,Rourkela Steel Plant,Jharkhand,Essar Steel Hazira,Chhattisgarh,812,321,268,14836,3898,0.55,1,4,5556,3003,YARD_9,Finished Steel,BTPN,Via Nagpur,10
+PLAN_2024_0248,10/11/2025,Customer_6,Durgapur Steel Plant,Chhattisgarh,RINL Visakhapatnam,Jharkhand,1425,495,152,12694,4789,0.23,0,0,2898,4832,YARD_4,Finished Steel,BCN,Direct,4
+PLAN_2024_0249,08/11/2025,Customer_28,Bokaro Steel Plant,West Bengal,Essar Steel Hazira,Gujarat,1263,301,277,10469,7593,0.65,0,0,2744,3021,YARD_4,Limestone,BTPN,Via Tatanagar,8
+PLAN_2024_0250,08/11/2025,Customer_9,Bhilai Steel Plant,Odisha,Essar Steel Hazira,West Bengal,1170,289,209,18562,7373,0.75,1,2,6672,4267,YARD_5,Coal,BTPN,Via Bilaspur,10
+PLAN_2024_0251,09/11/2025,Customer_32,Bhilai Steel Plant,Gujarat,Bhushan Steel Meramandali,Odisha,492,326,300,11186,3895,0.87,0,0,7479,3173,YARD_9,Iron Ore,BCN,Via Tatanagar,5
+PLAN_2024_0252,22/10/2025,Customer_10,Bhilai Steel Plant,Chhattisgarh,Essar Steel Hazira,Maharashtra,768,341,208,15069,4158,0.5,0,0,1503,4254,YARD_7,Iron Ore,BCN,Direct,4
+PLAN_2024_0253,04/11/2025,Customer_43,Durgapur Steel Plant,Gujarat,RINL Visakhapatnam,Chhattisgarh,818,193,115,13557,4357,0.24,1,4,6977,1498,YARD_2,Finished Steel,BOXN,Via Tatanagar,9
+PLAN_2024_0254,02/11/2025,Customer_42,Bokaro Steel Plant,Maharashtra,JSW Steel Dolvi,Chhattisgarh,897,144,192,10084,1766,0.76,1,4,8624,4694,YARD_6,Finished Steel,BRN,Direct,4
+PLAN_2024_0255,20/10/2025,Customer_12,Durgapur Steel Plant,Gujarat,Jindal Steel Raigarh,Odisha,1401,99,277,13492,5512,0.17,1,1,1289,579,YARD_2,Coal,BCN,Via Tatanagar,7
+PLAN_2024_0256,01/11/2025,Customer_37,Bokaro Steel Plant,Maharashtra,RINL Visakhapatnam,Jharkhand,631,226,157,9316,7469,0.22,0,0,1209,4556,YARD_2,Finished Steel,BCN,Via Nagpur,9
+PLAN_2024_0257,13/11/2025,Customer_14,Rourkela Steel Plant,Gujarat,Tata Steel Jamshedpur,Odisha,674,194,184,10999,3634,0.71,1,5,5517,4417,YARD_2,Limestone,BTPN,Via Bilaspur,7
+PLAN_2024_0258,22/10/2025,Customer_31,Rourkela Steel Plant,Jharkhand,Tata Steel Jamshedpur,Gujarat,1136,158,214,12373,2426,0.6,0,0,4432,3968,YARD_8,Iron Ore,BRN,Via Nagpur,4
+PLAN_2024_0259,04/11/2025,Customer_14,Rourkela Steel Plant,Maharashtra,Tata Steel Jamshedpur,West Bengal,1302,199,287,5943,7451,0.6,0,0,3042,1066,YARD_3,Limestone,BRN,Via Bilaspur,2
+PLAN_2024_0260,16/10/2025,Customer_15,Rourkela Steel Plant,Jharkhand,SAIL Burnpur,West Bengal,365,234,236,18557,4044,0.76,1,2,7836,2099,YARD_1,Finished Steel,BRN,Direct,2
+PLAN_2024_0261,11/11/2025,Customer_43,Bhilai Steel Plant,Gujarat,JSW Steel Dolvi,West Bengal,579,263,144,7817,4453,0.12,1,3,7990,1010,YARD_4,Finished Steel,BRN,Via Tatanagar,9
+PLAN_2024_0262,24/10/2025,Customer_29,Bhilai Steel Plant,Chhattisgarh,RINL Visakhapatnam,Gujarat,899,177,183,15767,4906,0.27,0,0,5835,4980,YARD_10,Iron Ore,BTPN,Direct,3
+PLAN_2024_0263,01/11/2025,Customer_22,Durgapur Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,West Bengal,1414,131,192,19543,3124,0.9,1,2,3276,702,YARD_2,Coal,BOXN,Direct,8
+PLAN_2024_0264,25/10/2025,Customer_21,Rourkela Steel Plant,Gujarat,Jindal Steel Raigarh,Chhattisgarh,895,325,230,19999,4086,0.24,0,0,4086,2125,YARD_2,Coal,BTPN,Direct,8
+PLAN_2024_0265,05/11/2025,Customer_36,Bhilai Steel Plant,Jharkhand,JSW Steel Dolvi,Chhattisgarh,556,418,300,18135,3116,0.49,1,2,2580,3200,YARD_3,Iron Ore,BRN,Direct,3
+PLAN_2024_0266,16/10/2025,Customer_45,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Chhattisgarh,973,62,120,11333,2510,0.38,0,0,1306,632,YARD_9,Iron Ore,BRN,Via Tatanagar,10
+PLAN_2024_0267,10/11/2025,Customer_46,Durgapur Steel Plant,Odisha,Bhushan Steel Meramandali,Gujarat,650,77,163,13200,5066,0.7,0,0,1543,4317,YARD_1,Finished Steel,BTPN,Via Tatanagar,3
+PLAN_2024_0268,25/10/2025,Customer_11,Bhilai Steel Plant,Maharashtra,SAIL Burnpur,Chhattisgarh,816,343,162,18608,7382,0.16,0,0,6123,3674,YARD_4,Coal,BOXN,Via Nagpur,3
+PLAN_2024_0269,20/10/2025,Customer_39,Durgapur Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Odisha,230,487,189,14176,5107,0.35,1,3,3354,3591,YARD_4,Iron Ore,BOXN,Direct,2
+PLAN_2024_0270,24/10/2025,Customer_12,Durgapur Steel Plant,Odisha,Tata Steel Jamshedpur,West Bengal,1080,445,191,11883,4419,0.63,1,5,6594,4932,YARD_4,Finished Steel,BRN,Via Nagpur,2
+PLAN_2024_0271,05/11/2025,Customer_23,Bokaro Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Gujarat,1344,250,222,7632,3172,0.3,0,0,2532,1526,YARD_8,Finished Steel,BOXN,Via Nagpur,3
+PLAN_2024_0272,31/10/2025,Customer_18,Bokaro Steel Plant,Chhattisgarh,Essar Steel Hazira,West Bengal,210,257,211,19394,5890,0.82,1,1,1578,1740,YARD_10,Iron Ore,BRN,Direct,5
+PLAN_2024_0273,12/11/2025,Customer_47,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,West Bengal,370,256,220,8890,7266,0.92,0,0,3559,2695,YARD_4,Coal,BOXN,Via Tatanagar,4
+PLAN_2024_0274,16/10/2025,Customer_29,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,West Bengal,1395,200,106,13601,4290,0.7,0,0,3067,1021,YARD_4,Finished Steel,BOXN,Via Bilaspur,7
+PLAN_2024_0275,22/10/2025,Customer_28,Rourkela Steel Plant,Chhattisgarh,JSW Steel Dolvi,West Bengal,1262,316,225,17707,6104,0.84,1,2,7049,3362,YARD_1,Iron Ore,BCN,Via Bilaspur,3
+PLAN_2024_0276,31/10/2025,Customer_32,Rourkela Steel Plant,Odisha,Jindal Steel Raigarh,West Bengal,1416,314,140,15764,7817,0.89,0,0,4799,2527,YARD_7,Coal,BCN,Via Nagpur,8
+PLAN_2024_0277,09/11/2025,Customer_30,Bokaro Steel Plant,Odisha,Tata Steel Jamshedpur,Andhra Pradesh,764,135,107,14562,4318,0.94,1,2,6333,2620,YARD_7,Limestone,BRN,Via Bilaspur,9
+PLAN_2024_0278,11/11/2025,Customer_7,Bokaro Steel Plant,Gujarat,SAIL Burnpur,Odisha,884,154,180,7919,3501,0.88,1,4,7881,4779,YARD_2,Iron Ore,BCN,Via Tatanagar,3
+PLAN_2024_0279,01/11/2025,Customer_50,Rourkela Steel Plant,Gujarat,JSW Steel Dolvi,West Bengal,1026,161,242,5940,3642,0.57,1,3,7044,3572,YARD_1,Finished Steel,BTPN,Via Bilaspur,3
+PLAN_2024_0280,07/11/2025,Customer_9,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,Jharkhand,1325,86,130,9368,3278,0.31,0,0,2205,1115,YARD_5,Finished Steel,BCN,Via Nagpur,2
+PLAN_2024_0281,01/11/2025,Customer_50,Bhilai Steel Plant,Maharashtra,Tata Steel Jamshedpur,Andhra Pradesh,387,52,109,17828,6295,0.86,0,0,9451,1803,YARD_5,Coal,BRN,Via Nagpur,2
+PLAN_2024_0282,29/10/2025,Customer_24,Durgapur Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Maharashtra,1015,254,216,7503,6589,0.35,0,0,8961,2652,YARD_1,Coal,BTPN,Via Tatanagar,2
+PLAN_2024_0283,14/11/2025,Customer_40,Rourkela Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Chhattisgarh,254,286,151,19075,4222,0.18,1,1,6010,586,YARD_10,Coal,BRN,Direct,5
+PLAN_2024_0284,23/10/2025,Customer_40,Bokaro Steel Plant,Jharkhand,Bhushan Steel Meramandali,Andhra Pradesh,785,487,172,13315,6260,0.46,1,3,9130,562,YARD_8,Coal,BRN,Via Nagpur,4
+PLAN_2024_0285,16/10/2025,Customer_40,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Andhra Pradesh,257,345,238,10655,7105,0.59,1,2,2117,1707,YARD_8,Limestone,BRN,Via Bilaspur,3
+PLAN_2024_0286,30/10/2025,Customer_41,Rourkela Steel Plant,Gujarat,RINL Visakhapatnam,West Bengal,1479,124,286,13336,6733,0.74,1,4,1942,1897,YARD_5,Finished Steel,BRN,Via Nagpur,5
+PLAN_2024_0287,03/11/2025,Customer_12,Durgapur Steel Plant,Gujarat,SAIL Burnpur,Andhra Pradesh,629,249,251,19676,7834,0.17,0,0,8793,3908,YARD_3,Coal,BTPN,Direct,8
+PLAN_2024_0288,05/11/2025,Customer_4,Bhilai Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,West Bengal,1375,103,155,8045,3112,0.6,0,0,3758,4166,YARD_8,Limestone,BOXN,Via Tatanagar,6
+PLAN_2024_0289,11/11/2025,Customer_18,Durgapur Steel Plant,Maharashtra,Jindal Steel Raigarh,Gujarat,450,59,229,15489,4674,0.41,0,0,9958,1428,YARD_1,Iron Ore,BCN,Via Tatanagar,4
+PLAN_2024_0290,06/11/2025,Customer_48,Rourkela Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Odisha,1239,376,105,13446,3408,0.83,0,0,7289,4496,YARD_10,Coal,BCN,Via Nagpur,8
+PLAN_2024_0291,11/11/2025,Customer_12,Rourkela Steel Plant,Jharkhand,Essar Steel Hazira,Maharashtra,673,129,109,15698,5929,0.86,0,0,8697,3839,YARD_3,Finished Steel,BCN,Via Bilaspur,5
+PLAN_2024_0292,07/11/2025,Customer_16,Rourkela Steel Plant,Jharkhand,Essar Steel Hazira,West Bengal,834,499,113,8706,2514,0.73,0,0,2843,4585,YARD_7,Limestone,BCN,Via Bilaspur,4
+PLAN_2024_0293,04/11/2025,Customer_23,Bhilai Steel Plant,Gujarat,SAIL Burnpur,Jharkhand,376,157,181,19624,5142,0.39,0,0,1470,2011,YARD_9,Limestone,BTPN,Direct,8
+PLAN_2024_0294,21/10/2025,Customer_32,Bokaro Steel Plant,Chhattisgarh,RINL Visakhapatnam,Jharkhand,544,215,272,14959,7290,0.6,1,2,7250,4607,YARD_6,Finished Steel,BRN,Via Tatanagar,8
+PLAN_2024_0295,11/11/2025,Customer_6,Durgapur Steel Plant,Maharashtra,SAIL Burnpur,Andhra Pradesh,1359,218,136,19528,6119,0.64,0,0,1495,1978,YARD_4,Iron Ore,BTPN,Via Tatanagar,9
+PLAN_2024_0296,07/11/2025,Customer_47,Bokaro Steel Plant,Gujarat,Tata Steel Jamshedpur,West Bengal,1477,469,193,6729,6714,0.82,0,0,4486,3969,YARD_7,Iron Ore,BOXN,Direct,10
+PLAN_2024_0297,21/10/2025,Customer_36,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Odisha,1394,148,225,19395,3122,0.8,1,2,3541,4322,YARD_2,Finished Steel,BRN,Via Tatanagar,5
+PLAN_2024_0298,03/11/2025,Customer_21,Bokaro Steel Plant,West Bengal,Jindal Steel Raigarh,Andhra Pradesh,202,341,213,13912,3146,0.26,0,0,2475,4974,YARD_4,Coal,BCN,Via Nagpur,10
+PLAN_2024_0299,14/11/2025,Customer_30,Bokaro Steel Plant,Odisha,SAIL Burnpur,Chhattisgarh,286,66,157,11084,4547,0.35,1,5,5454,3387,YARD_9,Finished Steel,BCN,Via Tatanagar,7
+PLAN_2024_0300,02/11/2025,Customer_34,Bokaro Steel Plant,West Bengal,Essar Steel Hazira,Odisha,1111,260,209,15180,2261,0.16,0,0,7863,1383,YARD_9,Coal,BCN,Direct,3
+PLAN_2024_0301,10/11/2025,Customer_33,Bokaro Steel Plant,Maharashtra,RINL Visakhapatnam,Odisha,895,365,124,11595,2075,0.21,1,3,1048,2422,YARD_8,Coal,BTPN,Via Bilaspur,3
+PLAN_2024_0302,26/10/2025,Customer_30,Bokaro Steel Plant,Jharkhand,RINL Visakhapatnam,Odisha,1275,64,223,9621,7400,0.75,1,2,6864,2339,YARD_7,Iron Ore,BTPN,Direct,4
+PLAN_2024_0303,17/10/2025,Customer_33,Rourkela Steel Plant,Maharashtra,RINL Visakhapatnam,Andhra Pradesh,1195,261,165,7536,4637,0.36,0,0,7451,1265,YARD_5,Finished Steel,BOXN,Via Bilaspur,8
+PLAN_2024_0304,30/10/2025,Customer_24,Durgapur Steel Plant,Jharkhand,JSW Steel Dolvi,Odisha,1042,262,216,9306,4752,0.57,0,0,4009,1956,YARD_3,Coal,BRN,Via Nagpur,3
+PLAN_2024_0305,26/10/2025,Customer_36,Bhilai Steel Plant,Chhattisgarh,Jindal Steel Raigarh,West Bengal,1217,340,262,14175,7315,0.55,1,1,7485,2635,YARD_3,Finished Steel,BOXN,Via Tatanagar,2
+PLAN_2024_0306,22/10/2025,Customer_2,Bokaro Steel Plant,West Bengal,SAIL Burnpur,Gujarat,633,179,246,12802,7307,0.6,0,0,5000,3604,YARD_7,Coal,BOXN,Direct,2
+PLAN_2024_0307,12/11/2025,Customer_8,Rourkela Steel Plant,Gujarat,JSW Steel Dolvi,Maharashtra,432,69,289,19115,6220,0.13,1,3,9304,1932,YARD_2,Coal,BCN,Direct,7
+PLAN_2024_0308,12/11/2025,Customer_44,Bhilai Steel Plant,Andhra Pradesh,RINL Visakhapatnam,West Bengal,1337,418,219,13924,7202,0.54,1,3,8060,1129,YARD_8,Limestone,BOXN,Via Bilaspur,10
+PLAN_2024_0309,22/10/2025,Customer_29,Durgapur Steel Plant,Odisha,Essar Steel Hazira,Andhra Pradesh,760,398,132,10554,4737,0.62,1,3,9709,4645,YARD_4,Coal,BRN,Via Bilaspur,6
+PLAN_2024_0310,27/10/2025,Customer_3,Bhilai Steel Plant,Gujarat,JSW Steel Dolvi,Andhra Pradesh,397,268,273,5917,4935,0.23,1,3,4792,3011,YARD_3,Finished Steel,BCN,Via Tatanagar,4
+PLAN_2024_0311,03/11/2025,Customer_6,Durgapur Steel Plant,Jharkhand,Tata Steel Jamshedpur,Chhattisgarh,916,277,226,6056,5794,0.56,1,4,9825,4286,YARD_7,Iron Ore,BTPN,Via Bilaspur,2
+PLAN_2024_0312,05/11/2025,Customer_42,Bhilai Steel Plant,West Bengal,JSW Steel Dolvi,Jharkhand,589,433,249,19645,7009,0.83,0,0,8317,3913,YARD_8,Coal,BOXN,Via Tatanagar,6
+PLAN_2024_0313,16/10/2025,Customer_27,Bhilai Steel Plant,Maharashtra,Bhushan Steel Meramandali,Gujarat,842,451,119,17850,6047,0.17,1,3,6030,4763,YARD_9,Limestone,BOXN,Via Tatanagar,9
+PLAN_2024_0314,18/10/2025,Customer_6,Bhilai Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Gujarat,1361,366,287,18717,3901,0.94,0,0,6269,2170,YARD_10,Finished Steel,BOXN,Via Bilaspur,2
+PLAN_2024_0315,16/10/2025,Customer_24,Rourkela Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,West Bengal,864,379,130,16922,3800,0.64,0,0,9853,1883,YARD_10,Iron Ore,BRN,Direct,9
+PLAN_2024_0316,04/11/2025,Customer_6,Durgapur Steel Plant,Maharashtra,RINL Visakhapatnam,Andhra Pradesh,1394,117,205,6459,1210,0.51,0,0,6765,2143,YARD_6,Coal,BOXN,Via Bilaspur,7
+PLAN_2024_0317,11/11/2025,Customer_46,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,West Bengal,1375,206,286,18039,4270,0.87,1,4,6967,2726,YARD_1,Finished Steel,BRN,Via Bilaspur,2
+PLAN_2024_0318,19/10/2025,Customer_4,Durgapur Steel Plant,Andhra Pradesh,SAIL Burnpur,Jharkhand,1093,456,231,13158,5286,0.34,1,4,2882,3126,YARD_10,Finished Steel,BOXN,Via Bilaspur,10
+PLAN_2024_0319,23/10/2025,Customer_16,Bokaro Steel Plant,Jharkhand,SAIL Burnpur,Gujarat,684,432,159,13048,6165,0.83,0,0,7032,1704,YARD_8,Limestone,BRN,Via Bilaspur,9
+PLAN_2024_0320,04/11/2025,Customer_37,Bhilai Steel Plant,West Bengal,SAIL Burnpur,Chhattisgarh,954,441,190,13049,5757,0.71,1,1,1646,4411,YARD_1,Iron Ore,BTPN,Via Tatanagar,5
+PLAN_2024_0321,25/10/2025,Customer_12,Bhilai Steel Plant,West Bengal,JSW Steel Dolvi,Andhra Pradesh,1333,341,141,14960,2022,0.23,1,4,5001,615,YARD_8,Iron Ore,BCN,Via Tatanagar,6
+PLAN_2024_0322,31/10/2025,Customer_3,Bhilai Steel Plant,Gujarat,JSW Steel Dolvi,Chhattisgarh,1012,256,178,10188,2470,0.14,1,5,3446,1188,YARD_1,Limestone,BRN,Via Nagpur,6
+PLAN_2024_0323,26/10/2025,Customer_46,Bhilai Steel Plant,Odisha,Tata Steel Jamshedpur,West Bengal,916,289,262,16186,7150,0.88,1,3,5143,4786,YARD_5,Iron Ore,BRN,Via Tatanagar,4
+PLAN_2024_0324,31/10/2025,Customer_15,Bhilai Steel Plant,Odisha,SAIL Burnpur,West Bengal,1334,333,252,5275,7351,0.14,0,0,4295,1980,YARD_8,Finished Steel,BCN,Via Tatanagar,2
+PLAN_2024_0325,14/11/2025,Customer_37,Durgapur Steel Plant,Andhra Pradesh,SAIL Burnpur,Maharashtra,1070,319,104,17887,3794,0.37,0,0,6735,4081,YARD_8,Coal,BOXN,Direct,3
+PLAN_2024_0326,12/11/2025,Customer_17,Rourkela Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Chhattisgarh,249,107,171,5559,4533,0.84,0,0,5674,2650,YARD_5,Iron Ore,BCN,Via Nagpur,10
+PLAN_2024_0327,13/11/2025,Customer_40,Bhilai Steel Plant,West Bengal,JSW Steel Dolvi,Odisha,943,265,230,16861,1850,0.35,0,0,5387,895,YARD_2,Limestone,BRN,Via Tatanagar,4
+PLAN_2024_0328,01/11/2025,Customer_5,Durgapur Steel Plant,Gujarat,RINL Visakhapatnam,Andhra Pradesh,845,382,177,10979,3282,0.33,1,1,9604,2559,YARD_10,Iron Ore,BOXN,Via Nagpur,6
+PLAN_2024_0329,10/11/2025,Customer_33,Durgapur Steel Plant,Jharkhand,Tata Steel Jamshedpur,West Bengal,1114,192,110,17507,2592,0.48,0,0,5100,2355,YARD_1,Iron Ore,BTPN,Direct,4
+PLAN_2024_0330,27/10/2025,Customer_36,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Gujarat,1041,220,252,5281,2183,0.52,0,0,1279,2667,YARD_9,Finished Steel,BOXN,Via Nagpur,5
+PLAN_2024_0331,07/11/2025,Customer_47,Rourkela Steel Plant,Odisha,SAIL Burnpur,West Bengal,1286,279,223,14046,6020,0.78,0,0,6558,2213,YARD_5,Finished Steel,BRN,Via Nagpur,2
+PLAN_2024_0332,18/10/2025,Customer_32,Durgapur Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,West Bengal,473,476,151,5724,2200,0.46,0,0,6529,2751,YARD_1,Finished Steel,BRN,Via Nagpur,3
+PLAN_2024_0333,23/10/2025,Customer_10,Durgapur Steel Plant,Gujarat,SAIL Burnpur,Andhra Pradesh,504,198,265,18663,6171,0.64,1,4,7597,3869,YARD_5,Iron Ore,BOXN,Via Nagpur,2
+PLAN_2024_0334,18/10/2025,Customer_6,Durgapur Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Maharashtra,851,481,243,14480,4966,0.53,1,1,3885,978,YARD_5,Iron Ore,BTPN,Via Tatanagar,4
+PLAN_2024_0335,10/11/2025,Customer_31,Bhilai Steel Plant,Jharkhand,Tata Steel Jamshedpur,Gujarat,1001,498,124,13600,7031,0.71,1,3,1197,3276,YARD_8,Coal,BRN,Direct,6
+PLAN_2024_0336,24/10/2025,Customer_30,Bokaro Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Maharashtra,1028,200,276,5516,3412,0.27,1,5,5963,2937,YARD_9,Finished Steel,BTPN,Via Bilaspur,8
+PLAN_2024_0337,03/11/2025,Customer_38,Durgapur Steel Plant,Maharashtra,JSW Steel Dolvi,West Bengal,1482,67,240,16486,7618,0.89,0,0,2560,4272,YARD_9,Finished Steel,BTPN,Via Bilaspur,4
+PLAN_2024_0338,14/11/2025,Customer_7,Bhilai Steel Plant,Gujarat,RINL Visakhapatnam,Maharashtra,893,52,252,14552,5498,0.96,0,0,1361,3841,YARD_1,Coal,BCN,Direct,4
+PLAN_2024_0339,18/10/2025,Customer_12,Durgapur Steel Plant,Gujarat,JSW Steel Dolvi,West Bengal,639,222,275,9942,1320,0.95,1,2,5264,2328,YARD_6,Finished Steel,BRN,Via Bilaspur,3
+PLAN_2024_0340,30/10/2025,Customer_29,Bokaro Steel Plant,Gujarat,Essar Steel Hazira,Jharkhand,1092,232,247,15512,6643,0.22,0,0,6005,3835,YARD_4,Limestone,BTPN,Via Tatanagar,7
+PLAN_2024_0341,07/11/2025,Customer_11,Bokaro Steel Plant,Chhattisgarh,RINL Visakhapatnam,Odisha,753,414,223,12259,3784,0.93,1,4,3638,3479,YARD_1,Finished Steel,BTPN,Direct,10
+PLAN_2024_0342,02/11/2025,Customer_18,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,Odisha,727,304,208,8777,1005,1.0,1,5,8258,4611,YARD_8,Coal,BOXN,Via Nagpur,6
+PLAN_2024_0343,28/10/2025,Customer_30,Durgapur Steel Plant,Chhattisgarh,RINL Visakhapatnam,Gujarat,1202,348,160,10616,7141,0.93,1,5,4028,798,YARD_3,Coal,BOXN,Via Bilaspur,10
+PLAN_2024_0344,25/10/2025,Customer_4,Durgapur Steel Plant,Jharkhand,Essar Steel Hazira,Chhattisgarh,973,80,119,18372,5108,0.9,0,0,8692,1430,YARD_6,Limestone,BTPN,Direct,2
+PLAN_2024_0345,22/10/2025,Customer_7,Bokaro Steel Plant,Odisha,Bhushan Steel Meramandali,Maharashtra,1278,114,259,12293,3887,0.83,1,2,3339,3199,YARD_8,Coal,BCN,Direct,10
+PLAN_2024_0346,23/10/2025,Customer_1,Durgapur Steel Plant,Maharashtra,Tata Steel Jamshedpur,Andhra Pradesh,705,496,190,6226,1907,0.38,1,3,3896,4367,YARD_4,Iron Ore,BTPN,Direct,2
+PLAN_2024_0347,09/11/2025,Customer_15,Rourkela Steel Plant,Odisha,SAIL Burnpur,Andhra Pradesh,720,155,127,18699,1558,0.84,1,4,6352,2847,YARD_8,Finished Steel,BOXN,Via Nagpur,8
+PLAN_2024_0348,09/11/2025,Customer_30,Bhilai Steel Plant,Maharashtra,Tata Steel Jamshedpur,Odisha,227,483,186,16812,1927,0.57,0,0,2340,2351,YARD_9,Iron Ore,BRN,Via Tatanagar,7
+PLAN_2024_0349,09/11/2025,Customer_8,Durgapur Steel Plant,Gujarat,Essar Steel Hazira,Odisha,1310,257,224,17499,1673,0.68,0,0,5106,591,YARD_6,Finished Steel,BTPN,Via Nagpur,7
+PLAN_2024_0350,09/11/2025,Customer_50,Bhilai Steel Plant,West Bengal,Bhushan Steel Meramandali,Chhattisgarh,447,234,207,19602,5577,0.67,0,0,5082,4415,YARD_7,Iron Ore,BRN,Via Bilaspur,6
+PLAN_2024_0351,20/10/2025,Customer_32,Durgapur Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Maharashtra,1414,404,201,12664,4809,0.55,0,0,2483,1347,YARD_10,Iron Ore,BRN,Via Tatanagar,5
+PLAN_2024_0352,02/11/2025,Customer_5,Bokaro Steel Plant,Gujarat,SAIL Burnpur,Maharashtra,930,316,208,19791,6372,0.8,0,0,1688,1413,YARD_1,Finished Steel,BRN,Via Nagpur,10
+PLAN_2024_0353,30/10/2025,Customer_40,Durgapur Steel Plant,Jharkhand,Tata Steel Jamshedpur,Odisha,698,389,147,14893,7484,0.72,0,0,2003,2145,YARD_3,Iron Ore,BCN,Via Nagpur,9
+PLAN_2024_0354,06/11/2025,Customer_35,Bokaro Steel Plant,West Bengal,SAIL Burnpur,Andhra Pradesh,851,393,117,8724,2988,0.81,1,1,8234,4998,YARD_3,Coal,BTPN,Direct,2
+PLAN_2024_0355,17/10/2025,Customer_41,Rourkela Steel Plant,Odisha,Tata Steel Jamshedpur,Andhra Pradesh,236,373,165,5541,3667,0.86,1,4,5381,2637,YARD_10,Coal,BTPN,Via Tatanagar,2
+PLAN_2024_0356,03/11/2025,Customer_36,Bhilai Steel Plant,Chhattisgarh,SAIL Burnpur,Gujarat,696,440,194,17629,4515,0.87,1,4,9423,4223,YARD_4,Limestone,BTPN,Via Tatanagar,2
+PLAN_2024_0357,31/10/2025,Customer_41,Bhilai Steel Plant,Jharkhand,Jindal Steel Raigarh,Odisha,942,85,223,14510,5199,0.26,1,4,3611,2016,YARD_6,Iron Ore,BOXN,Direct,8
+PLAN_2024_0358,07/11/2025,Customer_40,Durgapur Steel Plant,Odisha,Tata Steel Jamshedpur,Andhra Pradesh,813,322,115,19639,1405,0.54,1,4,6685,3226,YARD_9,Iron Ore,BCN,Via Bilaspur,3
+PLAN_2024_0359,14/11/2025,Customer_2,Rourkela Steel Plant,Odisha,Essar Steel Hazira,Maharashtra,1007,380,157,13693,7552,0.57,0,0,8266,3295,YARD_2,Limestone,BRN,Via Bilaspur,9
+PLAN_2024_0360,03/11/2025,Customer_12,Bhilai Steel Plant,Chhattisgarh,Jindal Steel Raigarh,West Bengal,1059,172,158,14947,3374,0.98,0,0,7093,2088,YARD_1,Limestone,BOXN,Direct,10
+PLAN_2024_0361,26/10/2025,Customer_17,Rourkela Steel Plant,Maharashtra,SAIL Burnpur,West Bengal,958,233,178,6978,2430,0.37,0,0,6933,1175,YARD_6,Limestone,BCN,Via Nagpur,10
+PLAN_2024_0362,21/10/2025,Customer_14,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Maharashtra,250,463,275,5029,3580,0.3,1,2,1717,607,YARD_9,Limestone,BCN,Via Bilaspur,10
+PLAN_2024_0363,18/10/2025,Customer_28,Rourkela Steel Plant,Odisha,Tata Steel Jamshedpur,Maharashtra,1098,63,155,16139,7187,0.13,1,1,4089,1893,YARD_5,Iron Ore,BCN,Direct,6
+PLAN_2024_0364,28/10/2025,Customer_40,Rourkela Steel Plant,Chhattisgarh,SAIL Burnpur,Gujarat,398,405,191,11755,7768,0.53,0,0,5196,4715,YARD_7,Iron Ore,BCN,Via Bilaspur,4
+PLAN_2024_0365,20/10/2025,Customer_33,Rourkela Steel Plant,Gujarat,Jindal Steel Raigarh,Chhattisgarh,551,212,273,11111,3834,0.18,0,0,1578,912,YARD_10,Finished Steel,BRN,Via Nagpur,6
+PLAN_2024_0366,20/10/2025,Customer_44,Rourkela Steel Plant,West Bengal,SAIL Burnpur,Chhattisgarh,1339,184,181,15884,5017,0.3,0,0,3897,1826,YARD_10,Coal,BTPN,Via Nagpur,7
+PLAN_2024_0367,01/11/2025,Customer_29,Bhilai Steel Plant,Chhattisgarh,RINL Visakhapatnam,Odisha,1363,232,116,19775,4065,0.66,0,0,6180,4990,YARD_1,Coal,BOXN,Direct,3
+PLAN_2024_0368,12/11/2025,Customer_20,Rourkela Steel Plant,West Bengal,RINL Visakhapatnam,Gujarat,752,499,209,11501,4253,0.68,1,3,1868,1522,YARD_3,Iron Ore,BCN,Direct,6
+PLAN_2024_0369,22/10/2025,Customer_34,Bokaro Steel Plant,Maharashtra,Bhushan Steel Meramandali,Gujarat,419,294,229,12915,5560,0.97,0,0,1053,766,YARD_10,Iron Ore,BTPN,Via Bilaspur,4
+PLAN_2024_0370,24/10/2025,Customer_50,Bokaro Steel Plant,Jharkhand,Jindal Steel Raigarh,West Bengal,945,376,157,5997,7433,0.9,1,2,4069,1990,YARD_3,Coal,BRN,Direct,3
+PLAN_2024_0371,21/10/2025,Customer_49,Bokaro Steel Plant,Chhattisgarh,RINL Visakhapatnam,Maharashtra,1038,235,201,15159,7635,0.6,1,3,5096,3821,YARD_6,Iron Ore,BCN,Via Tatanagar,7
+PLAN_2024_0372,05/11/2025,Customer_38,Rourkela Steel Plant,Andhra Pradesh,Essar Steel Hazira,Odisha,1456,305,194,16827,3209,0.85,1,2,3607,1072,YARD_4,Finished Steel,BCN,Direct,6
+PLAN_2024_0373,19/10/2025,Customer_20,Rourkela Steel Plant,Jharkhand,Tata Steel Jamshedpur,West Bengal,1135,258,196,6961,7003,0.44,1,2,7511,1190,YARD_10,Limestone,BTPN,Via Nagpur,2
+PLAN_2024_0374,08/11/2025,Customer_45,Rourkela Steel Plant,Andhra Pradesh,SAIL Burnpur,Maharashtra,1134,56,261,14608,7785,0.38,0,0,3716,3783,YARD_10,Limestone,BOXN,Via Nagpur,2
+PLAN_2024_0375,06/11/2025,Customer_4,Rourkela Steel Plant,Odisha,Essar Steel Hazira,Jharkhand,1453,85,170,16698,5293,0.31,0,0,8298,3820,YARD_7,Coal,BRN,Via Bilaspur,9
+PLAN_2024_0376,25/10/2025,Customer_24,Durgapur Steel Plant,West Bengal,Tata Steel Jamshedpur,Jharkhand,415,219,238,6412,5583,0.47,1,5,8372,3500,YARD_4,Finished Steel,BRN,Via Nagpur,6
+PLAN_2024_0377,14/11/2025,Customer_2,Bokaro Steel Plant,Maharashtra,Jindal Steel Raigarh,Gujarat,1319,334,121,8141,3899,0.92,0,0,8883,1680,YARD_1,Coal,BTPN,Via Bilaspur,9
+PLAN_2024_0378,18/10/2025,Customer_34,Bokaro Steel Plant,Odisha,SAIL Burnpur,Gujarat,515,138,106,14420,2484,0.21,0,0,1673,3443,YARD_1,Limestone,BTPN,Via Nagpur,3
+PLAN_2024_0379,11/11/2025,Customer_33,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Maharashtra,587,148,188,5345,5674,0.99,0,0,3772,2946,YARD_1,Finished Steel,BCN,Direct,5
+PLAN_2024_0380,16/10/2025,Customer_2,Bokaro Steel Plant,West Bengal,SAIL Burnpur,Andhra Pradesh,873,186,234,11128,2812,0.11,1,1,3115,1392,YARD_9,Finished Steel,BRN,Direct,9
+PLAN_2024_0381,16/10/2025,Customer_25,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Andhra Pradesh,209,376,101,12492,1148,0.68,0,0,5538,3174,YARD_6,Coal,BTPN,Direct,3
+PLAN_2024_0382,10/11/2025,Customer_22,Bokaro Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Odisha,326,256,170,11186,5730,0.93,0,0,8235,2625,YARD_10,Iron Ore,BCN,Direct,6
+PLAN_2024_0383,14/11/2025,Customer_7,Bokaro Steel Plant,Jharkhand,SAIL Burnpur,West Bengal,216,420,169,13384,1135,0.71,1,3,2452,3800,YARD_2,Iron Ore,BRN,Via Bilaspur,3
+PLAN_2024_0384,17/10/2025,Customer_37,Rourkela Steel Plant,Jharkhand,RINL Visakhapatnam,Andhra Pradesh,728,484,250,17862,6763,0.29,0,0,5675,1321,YARD_2,Limestone,BCN,Direct,4
+PLAN_2024_0385,29/10/2025,Customer_35,Rourkela Steel Plant,Odisha,SAIL Burnpur,Andhra Pradesh,792,440,132,9873,1772,0.38,1,2,7490,4126,YARD_5,Coal,BOXN,Via Tatanagar,9
+PLAN_2024_0386,24/10/2025,Customer_32,Rourkela Steel Plant,Gujarat,RINL Visakhapatnam,Odisha,1158,134,293,13213,2463,0.62,0,0,1248,1405,YARD_5,Coal,BOXN,Via Bilaspur,5
+PLAN_2024_0387,25/10/2025,Customer_5,Rourkela Steel Plant,Gujarat,SAIL Burnpur,Chhattisgarh,288,60,236,9459,1220,0.18,1,1,6091,4435,YARD_9,Limestone,BTPN,Direct,6
+PLAN_2024_0388,11/11/2025,Customer_1,Durgapur Steel Plant,Gujarat,Essar Steel Hazira,Odisha,813,315,234,8725,7529,0.79,1,2,5476,1402,YARD_6,Limestone,BRN,Direct,8
+PLAN_2024_0389,21/10/2025,Customer_18,Durgapur Steel Plant,Jharkhand,Tata Steel Jamshedpur,Maharashtra,1426,246,112,17780,6393,0.89,1,2,9902,4616,YARD_1,Finished Steel,BTPN,Via Bilaspur,7
+PLAN_2024_0390,21/10/2025,Customer_26,Durgapur Steel Plant,Jharkhand,SAIL Burnpur,Gujarat,1046,286,144,18615,1822,0.18,0,0,4315,2229,YARD_3,Coal,BCN,Via Nagpur,8
+PLAN_2024_0391,03/11/2025,Customer_20,Bhilai Steel Plant,Maharashtra,Bhushan Steel Meramandali,Odisha,643,341,224,7269,3153,0.53,0,0,8202,3132,YARD_5,Iron Ore,BTPN,Via Tatanagar,9
+PLAN_2024_0392,08/11/2025,Customer_7,Bhilai Steel Plant,Maharashtra,Essar Steel Hazira,Andhra Pradesh,1194,441,285,5427,6433,0.37,0,0,2652,1549,YARD_1,Iron Ore,BTPN,Via Bilaspur,4
+PLAN_2024_0393,30/10/2025,Customer_15,Durgapur Steel Plant,Maharashtra,JSW Steel Dolvi,West Bengal,655,420,243,19845,1877,0.42,1,4,9267,4997,YARD_6,Coal,BRN,Via Nagpur,7
+PLAN_2024_0394,25/10/2025,Customer_28,Rourkela Steel Plant,Maharashtra,SAIL Burnpur,Andhra Pradesh,643,479,259,19294,3063,0.66,1,2,5361,3780,YARD_4,Finished Steel,BOXN,Via Tatanagar,6
+PLAN_2024_0395,10/11/2025,Customer_38,Durgapur Steel Plant,Jharkhand,Essar Steel Hazira,Chhattisgarh,388,257,225,19737,1617,0.43,0,0,4318,1865,YARD_8,Finished Steel,BTPN,Direct,2
+PLAN_2024_0396,26/10/2025,Customer_7,Bhilai Steel Plant,Maharashtra,Bhushan Steel Meramandali,Andhra Pradesh,512,449,137,7482,3902,0.11,0,0,9016,2671,YARD_10,Limestone,BRN,Via Nagpur,10
+PLAN_2024_0397,20/10/2025,Customer_13,Bhilai Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Odisha,1178,273,216,19629,2141,0.97,0,0,6976,951,YARD_6,Limestone,BRN,Via Bilaspur,10
+PLAN_2024_0398,26/10/2025,Customer_42,Durgapur Steel Plant,Maharashtra,Bhushan Steel Meramandali,Gujarat,227,462,110,5487,3491,0.94,0,0,2899,1523,YARD_3,Finished Steel,BOXN,Direct,3
+PLAN_2024_0399,12/11/2025,Customer_9,Bokaro Steel Plant,Maharashtra,JSW Steel Dolvi,Chhattisgarh,660,326,171,8409,1101,0.83,0,0,4555,4251,YARD_8,Limestone,BRN,Via Tatanagar,7
+PLAN_2024_0400,22/10/2025,Customer_17,Durgapur Steel Plant,Maharashtra,Jindal Steel Raigarh,Andhra Pradesh,996,178,279,8474,7788,0.76,1,1,1873,3858,YARD_4,Coal,BRN,Via Bilaspur,6
+PLAN_2024_0401,08/11/2025,Customer_39,Rourkela Steel Plant,Gujarat,JSW Steel Dolvi,West Bengal,1251,92,190,16009,1108,0.75,0,0,6726,1505,YARD_10,Finished Steel,BCN,Direct,6
+PLAN_2024_0402,25/10/2025,Customer_44,Bokaro Steel Plant,Gujarat,SAIL Burnpur,Maharashtra,609,378,140,19312,6056,0.62,1,4,6997,2869,YARD_10,Iron Ore,BOXN,Via Tatanagar,8
+PLAN_2024_0403,10/11/2025,Customer_2,Durgapur Steel Plant,Odisha,Essar Steel Hazira,West Bengal,605,311,139,9972,7486,0.7,0,0,2564,525,YARD_9,Iron Ore,BOXN,Via Nagpur,6
+PLAN_2024_0404,01/11/2025,Customer_10,Rourkela Steel Plant,West Bengal,Essar Steel Hazira,Odisha,403,154,214,15238,2219,0.77,0,0,3991,3613,YARD_6,Limestone,BTPN,Direct,7
+PLAN_2024_0405,30/10/2025,Customer_15,Durgapur Steel Plant,Gujarat,RINL Visakhapatnam,Andhra Pradesh,328,211,235,18256,2287,0.63,1,4,3177,3238,YARD_3,Finished Steel,BOXN,Via Nagpur,6
+PLAN_2024_0406,10/11/2025,Customer_13,Bokaro Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Andhra Pradesh,1458,413,121,17944,2091,0.36,0,0,1643,3418,YARD_9,Finished Steel,BOXN,Direct,8
+PLAN_2024_0407,18/10/2025,Customer_12,Durgapur Steel Plant,Odisha,SAIL Burnpur,Andhra Pradesh,908,273,289,5654,5208,0.41,1,4,3849,3510,YARD_2,Limestone,BRN,Direct,3
+PLAN_2024_0408,29/10/2025,Customer_22,Bokaro Steel Plant,Maharashtra,Jindal Steel Raigarh,Odisha,1243,335,187,12838,7463,0.89,0,0,3124,897,YARD_8,Limestone,BCN,Via Bilaspur,5
+PLAN_2024_0409,26/10/2025,Customer_26,Bokaro Steel Plant,Jharkhand,Tata Steel Jamshedpur,Maharashtra,301,68,280,18816,7444,0.73,1,2,4462,2654,YARD_6,Iron Ore,BTPN,Via Tatanagar,6
+PLAN_2024_0410,02/11/2025,Customer_49,Bhilai Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,West Bengal,651,154,143,15016,6335,0.77,0,0,5484,1401,YARD_7,Limestone,BCN,Direct,6
+PLAN_2024_0411,24/10/2025,Customer_40,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Chhattisgarh,1488,50,245,6687,4559,0.29,1,3,2685,2627,YARD_9,Coal,BCN,Via Tatanagar,6
+PLAN_2024_0412,10/11/2025,Customer_24,Rourkela Steel Plant,Odisha,Essar Steel Hazira,Gujarat,489,294,229,10827,6194,0.6,1,3,4449,4368,YARD_2,Iron Ore,BTPN,Direct,9
+PLAN_2024_0413,02/11/2025,Customer_37,Durgapur Steel Plant,Gujarat,Essar Steel Hazira,Chhattisgarh,303,275,254,7686,3038,0.75,0,0,7209,3134,YARD_6,Iron Ore,BRN,Direct,8
+PLAN_2024_0414,09/11/2025,Customer_14,Rourkela Steel Plant,West Bengal,Jindal Steel Raigarh,Odisha,1485,430,299,7845,5497,0.59,1,2,7155,2844,YARD_6,Coal,BTPN,Direct,4
+PLAN_2024_0415,04/11/2025,Customer_4,Bokaro Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Odisha,688,164,187,11734,6339,0.48,0,0,4257,3982,YARD_1,Limestone,BTPN,Direct,3
+PLAN_2024_0416,13/11/2025,Customer_35,Bokaro Steel Plant,Chhattisgarh,SAIL Burnpur,Andhra Pradesh,401,425,208,5315,5413,0.55,1,1,2221,658,YARD_8,Iron Ore,BCN,Via Bilaspur,7
+PLAN_2024_0417,29/10/2025,Customer_42,Bokaro Steel Plant,Gujarat,Essar Steel Hazira,Jharkhand,1220,189,286,15490,6352,0.34,0,0,7050,4920,YARD_2,Iron Ore,BCN,Via Nagpur,10
+PLAN_2024_0418,28/10/2025,Customer_23,Bhilai Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Chhattisgarh,897,214,150,19092,6801,0.56,1,5,6226,4799,YARD_9,Finished Steel,BRN,Via Nagpur,8
+PLAN_2024_0419,30/10/2025,Customer_33,Bhilai Steel Plant,Andhra Pradesh,Essar Steel Hazira,Odisha,432,287,178,7461,6107,0.47,0,0,3701,4878,YARD_4,Iron Ore,BCN,Via Bilaspur,9
+PLAN_2024_0420,04/11/2025,Customer_22,Bokaro Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Maharashtra,1017,217,158,7459,2763,0.91,0,0,9126,3504,YARD_10,Finished Steel,BCN,Via Bilaspur,4
+PLAN_2024_0421,24/10/2025,Customer_12,Bokaro Steel Plant,Gujarat,JSW Steel Dolvi,Odisha,1109,123,244,5110,4131,0.26,1,5,1960,2960,YARD_10,Finished Steel,BOXN,Via Tatanagar,3
+PLAN_2024_0422,30/10/2025,Customer_24,Durgapur Steel Plant,Maharashtra,Tata Steel Jamshedpur,Chhattisgarh,351,487,213,6165,6683,0.41,0,0,6108,950,YARD_1,Iron Ore,BCN,Via Tatanagar,6
+PLAN_2024_0423,08/11/2025,Customer_30,Bhilai Steel Plant,Gujarat,RINL Visakhapatnam,Jharkhand,260,185,223,15000,7011,0.76,0,0,7456,2632,YARD_5,Coal,BTPN,Direct,9
+PLAN_2024_0424,31/10/2025,Customer_24,Bokaro Steel Plant,Gujarat,Jindal Steel Raigarh,Chhattisgarh,1433,170,251,19318,3817,0.4,0,0,8647,1144,YARD_8,Limestone,BTPN,Via Nagpur,2
+PLAN_2024_0425,31/10/2025,Customer_25,Rourkela Steel Plant,Odisha,RINL Visakhapatnam,Jharkhand,413,474,182,12064,2843,0.17,0,0,4013,2570,YARD_9,Limestone,BRN,Via Nagpur,4
+PLAN_2024_0426,31/10/2025,Customer_2,Bhilai Steel Plant,Odisha,RINL Visakhapatnam,Chhattisgarh,720,64,136,13645,2749,0.52,1,1,2033,4048,YARD_5,Finished Steel,BRN,Direct,10
+PLAN_2024_0427,23/10/2025,Customer_14,Durgapur Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Gujarat,553,307,159,16494,2102,0.48,0,0,3863,1875,YARD_6,Limestone,BCN,Via Tatanagar,7
+PLAN_2024_0428,25/10/2025,Customer_50,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Chhattisgarh,924,280,259,15778,7754,0.71,0,0,4936,2771,YARD_5,Coal,BRN,Direct,6
+PLAN_2024_0429,05/11/2025,Customer_18,Bokaro Steel Plant,Gujarat,Essar Steel Hazira,Maharashtra,1082,290,114,12280,1507,0.55,0,0,8645,3444,YARD_7,Iron Ore,BRN,Via Tatanagar,5
+PLAN_2024_0430,19/10/2025,Customer_17,Rourkela Steel Plant,Gujarat,RINL Visakhapatnam,Jharkhand,449,449,239,5199,5005,0.79,0,0,8934,1675,YARD_5,Finished Steel,BTPN,Via Nagpur,2
+PLAN_2024_0431,10/11/2025,Customer_20,Rourkela Steel Plant,Gujarat,JSW Steel Dolvi,Maharashtra,764,183,230,5473,4367,0.41,1,5,4878,4280,YARD_6,Limestone,BRN,Direct,6
+PLAN_2024_0432,24/10/2025,Customer_7,Bokaro Steel Plant,Maharashtra,Tata Steel Jamshedpur,Odisha,863,185,180,7084,1226,0.66,1,4,8526,1138,YARD_2,Finished Steel,BCN,Via Bilaspur,2
+PLAN_2024_0433,02/11/2025,Customer_31,Durgapur Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Odisha,1435,453,299,17286,6668,0.74,1,4,1648,3297,YARD_4,Limestone,BTPN,Via Nagpur,10
+PLAN_2024_0434,31/10/2025,Customer_12,Rourkela Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Maharashtra,1464,170,253,18826,6111,0.52,1,4,8316,3251,YARD_5,Iron Ore,BOXN,Via Nagpur,2
+PLAN_2024_0435,12/11/2025,Customer_35,Bhilai Steel Plant,Jharkhand,Essar Steel Hazira,Maharashtra,907,202,296,16866,2999,0.85,0,0,9274,2480,YARD_7,Limestone,BOXN,Via Tatanagar,8
+PLAN_2024_0436,07/11/2025,Customer_35,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Chhattisgarh,451,319,112,8633,1252,0.96,1,5,6966,2820,YARD_5,Finished Steel,BCN,Direct,5
+PLAN_2024_0437,23/10/2025,Customer_29,Durgapur Steel Plant,Gujarat,Jindal Steel Raigarh,West Bengal,212,488,149,11334,3581,0.56,1,1,5072,4302,YARD_7,Iron Ore,BTPN,Via Tatanagar,8
+PLAN_2024_0438,29/10/2025,Customer_49,Durgapur Steel Plant,Jharkhand,Jindal Steel Raigarh,Odisha,675,325,207,7182,4417,0.48,0,0,8183,2884,YARD_3,Finished Steel,BOXN,Via Nagpur,3
+PLAN_2024_0439,10/11/2025,Customer_23,Rourkela Steel Plant,Maharashtra,JSW Steel Dolvi,Chhattisgarh,1197,393,126,10811,2024,0.67,0,0,2236,1182,YARD_6,Limestone,BOXN,Via Tatanagar,9
+PLAN_2024_0440,05/11/2025,Customer_25,Bokaro Steel Plant,Gujarat,Tata Steel Jamshedpur,Maharashtra,825,330,217,7339,1112,0.27,0,0,8238,1395,YARD_8,Iron Ore,BTPN,Via Nagpur,9
+PLAN_2024_0441,06/11/2025,Customer_20,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Maharashtra,365,271,105,5910,7813,0.8,0,0,7875,2419,YARD_2,Coal,BCN,Via Bilaspur,4
+PLAN_2024_0442,25/10/2025,Customer_6,Rourkela Steel Plant,Maharashtra,Jindal Steel Raigarh,Andhra Pradesh,261,193,249,15790,6429,0.87,0,0,1002,949,YARD_2,Finished Steel,BRN,Via Nagpur,2
+PLAN_2024_0443,29/10/2025,Customer_46,Bokaro Steel Plant,Chhattisgarh,RINL Visakhapatnam,Maharashtra,1164,366,197,5835,3257,0.5,1,1,2237,3283,YARD_9,Limestone,BOXN,Via Bilaspur,10
+PLAN_2024_0444,29/10/2025,Customer_11,Durgapur Steel Plant,Odisha,RINL Visakhapatnam,Gujarat,216,219,172,19752,7123,0.41,1,1,1247,2730,YARD_9,Finished Steel,BTPN,Via Bilaspur,10
+PLAN_2024_0445,16/10/2025,Customer_1,Rourkela Steel Plant,Jharkhand,Bhushan Steel Meramandali,Gujarat,439,466,203,10435,4758,0.82,1,5,4385,2772,YARD_2,Iron Ore,BRN,Direct,3
+PLAN_2024_0446,31/10/2025,Customer_4,Durgapur Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Maharashtra,366,172,166,11925,1588,0.99,1,5,5336,3199,YARD_10,Coal,BRN,Via Nagpur,6
+PLAN_2024_0447,13/11/2025,Customer_26,Bokaro Steel Plant,West Bengal,SAIL Burnpur,Andhra Pradesh,1258,209,146,14785,5986,0.92,1,1,6265,2496,YARD_1,Finished Steel,BOXN,Direct,2
+PLAN_2024_0448,10/11/2025,Customer_44,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Gujarat,1151,78,204,13798,3268,0.56,1,2,7583,2538,YARD_5,Coal,BTPN,Via Tatanagar,9
+PLAN_2024_0449,25/10/2025,Customer_21,Durgapur Steel Plant,Maharashtra,Bhushan Steel Meramandali,West Bengal,468,308,224,17189,6818,0.94,0,0,2348,2137,YARD_4,Iron Ore,BCN,Via Tatanagar,5
+PLAN_2024_0450,25/10/2025,Customer_2,Bokaro Steel Plant,Gujarat,Jindal Steel Raigarh,Chhattisgarh,440,186,112,7518,1779,0.5,0,0,1387,1496,YARD_5,Limestone,BTPN,Via Bilaspur,10
+PLAN_2024_0451,13/11/2025,Customer_40,Durgapur Steel Plant,Jharkhand,RINL Visakhapatnam,Andhra Pradesh,747,99,267,7087,5118,0.93,1,2,7605,1559,YARD_4,Coal,BRN,Via Nagpur,4
+PLAN_2024_0452,17/10/2025,Customer_38,Bhilai Steel Plant,Odisha,RINL Visakhapatnam,Chhattisgarh,1244,460,269,19869,5560,0.58,0,0,9875,3697,YARD_8,Limestone,BRN,Via Tatanagar,5
+PLAN_2024_0453,11/11/2025,Customer_40,Bokaro Steel Plant,Jharkhand,Bhushan Steel Meramandali,Gujarat,630,313,205,18963,4397,0.44,1,1,1160,1060,YARD_8,Finished Steel,BTPN,Via Bilaspur,2
+PLAN_2024_0454,26/10/2025,Customer_38,Durgapur Steel Plant,Jharkhand,SAIL Burnpur,Andhra Pradesh,344,423,204,14689,2384,0.22,1,1,9886,2421,YARD_5,Limestone,BRN,Via Nagpur,4
+PLAN_2024_0455,04/11/2025,Customer_12,Bokaro Steel Plant,Gujarat,Tata Steel Jamshedpur,Odisha,323,297,134,6023,4131,0.31,0,0,2132,650,YARD_4,Limestone,BCN,Via Nagpur,3
+PLAN_2024_0456,03/11/2025,Customer_37,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Maharashtra,703,307,233,16786,7532,0.42,1,5,1549,4193,YARD_1,Limestone,BTPN,Direct,6
+PLAN_2024_0457,07/11/2025,Customer_31,Durgapur Steel Plant,Jharkhand,RINL Visakhapatnam,West Bengal,841,150,268,8677,7048,0.97,0,0,7192,2144,YARD_8,Finished Steel,BRN,Direct,7
+PLAN_2024_0458,20/10/2025,Customer_24,Rourkela Steel Plant,Jharkhand,Tata Steel Jamshedpur,Maharashtra,1306,151,267,12137,3629,0.52,1,3,8975,871,YARD_2,Finished Steel,BOXN,Via Bilaspur,4
+PLAN_2024_0459,16/10/2025,Customer_49,Durgapur Steel Plant,Maharashtra,Tata Steel Jamshedpur,West Bengal,607,456,213,9149,7317,0.8,1,1,4362,3393,YARD_1,Iron Ore,BTPN,Via Nagpur,4
+PLAN_2024_0460,31/10/2025,Customer_25,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Odisha,1256,259,231,18265,3220,0.2,0,0,9449,2252,YARD_8,Limestone,BCN,Direct,3
+PLAN_2024_0461,22/10/2025,Customer_10,Rourkela Steel Plant,West Bengal,Essar Steel Hazira,Maharashtra,1175,467,142,14742,1213,0.84,0,0,2449,1650,YARD_6,Finished Steel,BOXN,Via Nagpur,10
+PLAN_2024_0462,09/11/2025,Customer_36,Bhilai Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Odisha,203,174,249,13330,2606,0.27,0,0,8860,2752,YARD_10,Finished Steel,BOXN,Via Tatanagar,7
+PLAN_2024_0463,30/10/2025,Customer_11,Rourkela Steel Plant,Odisha,Jindal Steel Raigarh,West Bengal,491,189,129,10533,2042,0.24,1,1,9921,1962,YARD_5,Coal,BRN,Via Nagpur,9
+PLAN_2024_0464,17/10/2025,Customer_34,Bokaro Steel Plant,Odisha,Tata Steel Jamshedpur,Jharkhand,738,137,267,16949,5511,0.44,0,0,9753,776,YARD_9,Finished Steel,BCN,Via Tatanagar,3
+PLAN_2024_0465,25/10/2025,Customer_9,Bokaro Steel Plant,Maharashtra,SAIL Burnpur,Andhra Pradesh,1294,487,168,6332,6299,0.66,0,0,3744,542,YARD_4,Iron Ore,BCN,Via Nagpur,3
+PLAN_2024_0466,30/10/2025,Customer_6,Bokaro Steel Plant,Jharkhand,JSW Steel Dolvi,Chhattisgarh,724,287,175,11504,1295,0.35,0,0,1665,3460,YARD_4,Finished Steel,BCN,Via Bilaspur,3
+PLAN_2024_0467,19/10/2025,Customer_10,Durgapur Steel Plant,Gujarat,RINL Visakhapatnam,West Bengal,401,428,208,14640,5516,0.24,0,0,2049,3617,YARD_7,Coal,BTPN,Via Bilaspur,5
+PLAN_2024_0468,16/10/2025,Customer_15,Bokaro Steel Plant,West Bengal,Bhushan Steel Meramandali,Gujarat,642,112,170,19935,2035,0.98,1,1,9112,2406,YARD_9,Finished Steel,BOXN,Via Bilaspur,5
+PLAN_2024_0469,01/11/2025,Customer_21,Durgapur Steel Plant,Gujarat,RINL Visakhapatnam,Chhattisgarh,441,91,273,12830,3436,0.5,0,0,9960,2956,YARD_5,Iron Ore,BTPN,Via Tatanagar,8
+PLAN_2024_0470,16/10/2025,Customer_39,Bokaro Steel Plant,Chhattisgarh,JSW Steel Dolvi,Andhra Pradesh,575,231,151,6087,1231,0.57,0,0,4055,2699,YARD_8,Iron Ore,BCN,Via Nagpur,4
+PLAN_2024_0471,24/10/2025,Customer_18,Durgapur Steel Plant,Odisha,Jindal Steel Raigarh,Andhra Pradesh,792,465,155,11073,4780,0.89,0,0,9955,1847,YARD_4,Limestone,BOXN,Via Nagpur,10
+PLAN_2024_0472,26/10/2025,Customer_18,Bokaro Steel Plant,Gujarat,RINL Visakhapatnam,Andhra Pradesh,964,205,256,10299,3710,0.42,0,0,3228,2570,YARD_1,Coal,BTPN,Via Tatanagar,10
+PLAN_2024_0473,10/11/2025,Customer_37,Durgapur Steel Plant,Jharkhand,Bhushan Steel Meramandali,Chhattisgarh,856,350,273,10084,5704,0.72,0,0,7156,783,YARD_8,Coal,BTPN,Via Tatanagar,2
+PLAN_2024_0474,29/10/2025,Customer_34,Bhilai Steel Plant,Jharkhand,SAIL Burnpur,West Bengal,594,100,172,19300,3909,0.61,1,2,4246,1093,YARD_7,Iron Ore,BRN,Via Nagpur,10
+PLAN_2024_0475,28/10/2025,Customer_35,Bokaro Steel Plant,West Bengal,SAIL Burnpur,Gujarat,968,418,154,7065,4794,0.37,0,0,6912,1098,YARD_7,Coal,BOXN,Via Bilaspur,8
+PLAN_2024_0476,26/10/2025,Customer_5,Rourkela Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Jharkhand,373,100,155,11760,4828,0.12,1,3,8099,3466,YARD_8,Limestone,BOXN,Direct,7
+PLAN_2024_0477,11/11/2025,Customer_35,Durgapur Steel Plant,Chhattisgarh,JSW Steel Dolvi,Maharashtra,221,155,248,19326,4144,0.93,1,1,3428,947,YARD_9,Limestone,BOXN,Via Nagpur,4
+PLAN_2024_0478,31/10/2025,Customer_27,Bokaro Steel Plant,Andhra Pradesh,SAIL Burnpur,Gujarat,1049,74,105,11706,5958,0.96,1,5,7100,4135,YARD_5,Iron Ore,BRN,Direct,3
+PLAN_2024_0479,01/11/2025,Customer_24,Bokaro Steel Plant,Maharashtra,Bhushan Steel Meramandali,Gujarat,367,474,226,9006,3989,0.39,0,0,2288,1320,YARD_9,Coal,BOXN,Direct,9
+PLAN_2024_0480,26/10/2025,Customer_35,Bokaro Steel Plant,Gujarat,Jindal Steel Raigarh,Jharkhand,806,450,100,10027,5662,0.79,1,5,6157,1169,YARD_4,Coal,BTPN,Via Bilaspur,6
+PLAN_2024_0481,03/11/2025,Customer_32,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Odisha,791,368,127,5268,1839,0.24,0,0,8583,2442,YARD_4,Iron Ore,BRN,Via Bilaspur,2
+PLAN_2024_0482,12/11/2025,Customer_43,Bokaro Steel Plant,Odisha,Bhushan Steel Meramandali,Maharashtra,1334,157,279,5159,5879,0.99,1,1,6541,3315,YARD_1,Limestone,BCN,Via Bilaspur,4
+PLAN_2024_0483,19/10/2025,Customer_40,Durgapur Steel Plant,Chhattisgarh,RINL Visakhapatnam,Maharashtra,692,93,262,12312,3876,0.95,1,3,7797,3245,YARD_1,Iron Ore,BOXN,Via Tatanagar,7
+PLAN_2024_0484,19/10/2025,Customer_2,Rourkela Steel Plant,Maharashtra,Jindal Steel Raigarh,Chhattisgarh,499,468,115,18873,6507,0.41,0,0,3659,1491,YARD_7,Limestone,BCN,Via Bilaspur,4
+PLAN_2024_0485,13/11/2025,Customer_41,Durgapur Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Odisha,634,156,266,18193,1523,0.12,0,0,7945,2201,YARD_1,Limestone,BCN,Via Nagpur,5
+PLAN_2024_0486,17/10/2025,Customer_28,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Andhra Pradesh,1031,382,143,18679,1742,0.61,1,2,3802,4679,YARD_2,Coal,BCN,Via Tatanagar,7
+PLAN_2024_0487,01/11/2025,Customer_19,Rourkela Steel Plant,Odisha,Essar Steel Hazira,Andhra Pradesh,1238,89,152,14254,1404,0.26,1,2,8261,774,YARD_5,Finished Steel,BCN,Via Bilaspur,5
+PLAN_2024_0488,30/10/2025,Customer_36,Rourkela Steel Plant,Jharkhand,Essar Steel Hazira,Odisha,909,86,161,16817,2869,0.32,0,0,6571,641,YARD_2,Finished Steel,BRN,Via Bilaspur,4
+PLAN_2024_0489,03/11/2025,Customer_23,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Maharashtra,1347,196,135,15696,7111,0.11,1,5,1382,4057,YARD_4,Iron Ore,BOXN,Via Nagpur,4
+PLAN_2024_0490,31/10/2025,Customer_43,Rourkela Steel Plant,Maharashtra,JSW Steel Dolvi,West Bengal,1203,398,217,8448,7547,0.93,1,3,9382,4232,YARD_5,Finished Steel,BOXN,Via Nagpur,2
+PLAN_2024_0491,09/11/2025,Customer_42,Rourkela Steel Plant,Odisha,RINL Visakhapatnam,Andhra Pradesh,833,399,110,12486,7158,0.19,0,0,8575,3432,YARD_2,Coal,BCN,Via Tatanagar,10
+PLAN_2024_0492,07/11/2025,Customer_12,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,Gujarat,380,387,166,8642,3759,0.39,0,0,8127,3568,YARD_10,Iron Ore,BCN,Via Bilaspur,10
+PLAN_2024_0493,12/11/2025,Customer_16,Bhilai Steel Plant,Gujarat,Bhushan Steel Meramandali,Maharashtra,697,423,161,19243,1512,0.31,0,0,6926,3958,YARD_4,Finished Steel,BCN,Via Nagpur,4
+PLAN_2024_0494,12/11/2025,Customer_19,Rourkela Steel Plant,Odisha,Essar Steel Hazira,Maharashtra,787,107,243,11227,5837,0.92,0,0,2567,2205,YARD_3,Finished Steel,BCN,Via Nagpur,8
+PLAN_2024_0495,22/10/2025,Customer_13,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Andhra Pradesh,295,192,221,12539,1745,0.13,0,0,9632,4557,YARD_2,Coal,BTPN,Direct,10
+PLAN_2024_0496,27/10/2025,Customer_25,Bokaro Steel Plant,Gujarat,Essar Steel Hazira,Odisha,822,357,213,15230,5411,0.54,0,0,7414,2281,YARD_2,Finished Steel,BCN,Via Bilaspur,3
+PLAN_2024_0497,31/10/2025,Customer_3,Durgapur Steel Plant,Maharashtra,RINL Visakhapatnam,Chhattisgarh,716,481,147,19799,7781,0.94,1,5,9704,4645,YARD_2,Iron Ore,BCN,Via Tatanagar,9
+PLAN_2024_0498,13/11/2025,Customer_18,Bhilai Steel Plant,Maharashtra,RINL Visakhapatnam,Odisha,406,228,300,11228,7014,0.42,1,1,8330,4409,YARD_8,Iron Ore,BCN,Via Bilaspur,6
+PLAN_2024_0499,19/10/2025,Customer_41,Rourkela Steel Plant,Maharashtra,RINL Visakhapatnam,Odisha,1078,75,179,13637,3699,0.97,0,0,7306,716,YARD_1,Iron Ore,BRN,Via Nagpur,8
+PLAN_2024_0500,01/11/2025,Customer_9,Durgapur Steel Plant,Chhattisgarh,SAIL Burnpur,Maharashtra,1008,298,284,17986,4676,0.71,1,3,3486,2355,YARD_7,Coal,BTPN,Direct,6
+PLAN_2024_0501,29/10/2025,Customer_43,Rourkela Steel Plant,Odisha,Jindal Steel Raigarh,West Bengal,300,243,150,15111,6798,0.45,1,3,3201,803,YARD_9,Limestone,BRN,Via Tatanagar,6
+PLAN_2024_0502,08/11/2025,Customer_4,Rourkela Steel Plant,Maharashtra,JSW Steel Dolvi,West Bengal,1248,162,276,8346,3456,0.36,0,0,1448,1644,YARD_5,Coal,BOXN,Via Bilaspur,7
+PLAN_2024_0503,07/11/2025,Customer_5,Rourkela Steel Plant,Maharashtra,JSW Steel Dolvi,Andhra Pradesh,231,460,138,7077,3430,0.62,1,3,3309,2803,YARD_4,Coal,BTPN,Via Bilaspur,10
+PLAN_2024_0504,27/10/2025,Customer_36,Rourkela Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Chhattisgarh,712,170,173,18304,3293,0.11,0,0,7539,4954,YARD_6,Finished Steel,BRN,Via Nagpur,10
+PLAN_2024_0505,26/10/2025,Customer_48,Bhilai Steel Plant,Andhra Pradesh,Essar Steel Hazira,Gujarat,209,110,299,11042,2919,0.17,0,0,8988,1729,YARD_5,Finished Steel,BOXN,Direct,4
+PLAN_2024_0506,23/10/2025,Customer_2,Bokaro Steel Plant,Odisha,Tata Steel Jamshedpur,Gujarat,973,441,149,17803,1121,0.9,0,0,6204,2606,YARD_9,Finished Steel,BRN,Via Nagpur,6
+PLAN_2024_0507,01/11/2025,Customer_1,Bhilai Steel Plant,Gujarat,Jindal Steel Raigarh,Jharkhand,1390,460,122,15075,3762,0.64,1,1,3453,4158,YARD_4,Iron Ore,BOXN,Via Tatanagar,10
+PLAN_2024_0508,06/11/2025,Customer_31,Durgapur Steel Plant,Maharashtra,JSW Steel Dolvi,Odisha,1382,261,252,16469,2713,0.28,0,0,4486,808,YARD_8,Coal,BCN,Direct,4
+PLAN_2024_0509,27/10/2025,Customer_41,Bokaro Steel Plant,Andhra Pradesh,SAIL Burnpur,Maharashtra,1323,354,252,9947,5642,0.37,1,1,7251,1718,YARD_6,Finished Steel,BRN,Direct,2
+PLAN_2024_0510,19/10/2025,Customer_9,Durgapur Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Chhattisgarh,1097,431,174,9539,6649,0.4,1,4,9185,2274,YARD_4,Finished Steel,BOXN,Via Nagpur,5
+PLAN_2024_0511,06/11/2025,Customer_17,Rourkela Steel Plant,Jharkhand,Jindal Steel Raigarh,Maharashtra,201,85,121,9387,4700,0.33,1,5,9936,1931,YARD_6,Iron Ore,BTPN,Direct,2
+PLAN_2024_0512,04/11/2025,Customer_11,Bokaro Steel Plant,Odisha,JSW Steel Dolvi,Jharkhand,535,192,236,12869,2334,0.32,0,0,7001,3574,YARD_4,Coal,BCN,Via Nagpur,6
+PLAN_2024_0513,18/10/2025,Customer_20,Bhilai Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Maharashtra,554,123,246,16324,3995,0.58,0,0,2941,1857,YARD_6,Iron Ore,BCN,Via Tatanagar,8
+PLAN_2024_0514,21/10/2025,Customer_26,Rourkela Steel Plant,Gujarat,Tata Steel Jamshedpur,Andhra Pradesh,429,475,107,19834,6631,0.82,1,1,8336,2496,YARD_7,Finished Steel,BRN,Via Tatanagar,4
+PLAN_2024_0515,31/10/2025,Customer_34,Durgapur Steel Plant,Gujarat,JSW Steel Dolvi,Odisha,564,200,285,19287,4794,0.53,1,1,1503,3428,YARD_5,Iron Ore,BTPN,Via Bilaspur,10
+PLAN_2024_0516,20/10/2025,Customer_17,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,West Bengal,1475,55,217,7965,3249,0.97,1,4,3711,1391,YARD_3,Coal,BCN,Via Nagpur,8
+PLAN_2024_0517,12/11/2025,Customer_24,Bokaro Steel Plant,Jharkhand,RINL Visakhapatnam,Odisha,1435,140,238,6481,4212,0.83,1,2,4561,4493,YARD_1,Coal,BCN,Via Tatanagar,4
+PLAN_2024_0518,28/10/2025,Customer_17,Bhilai Steel Plant,Gujarat,Bhushan Steel Meramandali,Andhra Pradesh,503,459,181,18139,1176,0.54,1,5,8014,4566,YARD_7,Coal,BCN,Direct,2
+PLAN_2024_0519,01/11/2025,Customer_49,Bhilai Steel Plant,Gujarat,Essar Steel Hazira,West Bengal,415,469,106,16651,3799,0.68,0,0,3990,4174,YARD_7,Limestone,BCN,Via Nagpur,7
+PLAN_2024_0520,18/10/2025,Customer_34,Durgapur Steel Plant,Jharkhand,SAIL Burnpur,Gujarat,528,271,108,13518,6575,0.39,1,5,5345,4526,YARD_7,Iron Ore,BOXN,Via Nagpur,10
+PLAN_2024_0521,02/11/2025,Customer_24,Bhilai Steel Plant,Chhattisgarh,SAIL Burnpur,Maharashtra,354,56,115,9201,2760,0.18,0,0,8922,1756,YARD_8,Finished Steel,BTPN,Via Bilaspur,8
+PLAN_2024_0522,13/11/2025,Customer_40,Bhilai Steel Plant,West Bengal,Bhushan Steel Meramandali,Gujarat,1106,437,155,14547,5152,0.84,1,5,1776,4876,YARD_1,Coal,BOXN,Direct,7
+PLAN_2024_0523,09/11/2025,Customer_20,Durgapur Steel Plant,Odisha,Jindal Steel Raigarh,Maharashtra,594,114,224,5253,4632,0.39,1,5,8423,882,YARD_3,Finished Steel,BCN,Direct,9
+PLAN_2024_0524,25/10/2025,Customer_46,Durgapur Steel Plant,Maharashtra,JSW Steel Dolvi,Jharkhand,650,311,294,16021,2525,0.65,1,1,7575,1571,YARD_1,Coal,BTPN,Via Bilaspur,2
+PLAN_2024_0525,14/11/2025,Customer_27,Bhilai Steel Plant,Gujarat,Jindal Steel Raigarh,Maharashtra,266,325,106,18797,2799,0.5,0,0,7613,1614,YARD_10,Iron Ore,BRN,Via Nagpur,6
+PLAN_2024_0526,16/10/2025,Customer_11,Bokaro Steel Plant,Maharashtra,Essar Steel Hazira,Gujarat,221,392,135,13012,4978,0.78,1,5,2610,3145,YARD_10,Coal,BRN,Via Tatanagar,10
+PLAN_2024_0527,29/10/2025,Customer_5,Durgapur Steel Plant,Maharashtra,JSW Steel Dolvi,West Bengal,738,449,113,15441,6599,0.56,1,1,9506,3855,YARD_4,Limestone,BRN,Via Bilaspur,3
+PLAN_2024_0528,26/10/2025,Customer_40,Bhilai Steel Plant,Gujarat,Tata Steel Jamshedpur,West Bengal,1021,331,217,8140,7484,0.67,1,4,1043,1746,YARD_9,Limestone,BTPN,Via Tatanagar,9
+PLAN_2024_0529,14/11/2025,Customer_38,Durgapur Steel Plant,Jharkhand,Essar Steel Hazira,Andhra Pradesh,702,251,245,9711,4222,0.54,0,0,1495,3589,YARD_2,Finished Steel,BOXN,Via Bilaspur,9
+PLAN_2024_0530,11/11/2025,Customer_16,Durgapur Steel Plant,Jharkhand,Essar Steel Hazira,Andhra Pradesh,1096,464,266,8514,3858,0.37,1,1,9251,4702,YARD_5,Coal,BOXN,Via Bilaspur,7
+PLAN_2024_0531,13/11/2025,Customer_15,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,Andhra Pradesh,568,55,198,14757,2375,0.19,1,4,5559,2447,YARD_10,Limestone,BRN,Via Tatanagar,5
+PLAN_2024_0532,28/10/2025,Customer_18,Durgapur Steel Plant,Jharkhand,Bhushan Steel Meramandali,Gujarat,313,461,146,18786,4769,0.58,1,5,3414,1426,YARD_5,Limestone,BRN,Via Nagpur,7
+PLAN_2024_0533,28/10/2025,Customer_41,Bhilai Steel Plant,Gujarat,JSW Steel Dolvi,Maharashtra,472,209,159,7554,5266,0.73,0,0,3070,2940,YARD_5,Coal,BCN,Direct,10
+PLAN_2024_0534,30/10/2025,Customer_1,Bokaro Steel Plant,Odisha,Essar Steel Hazira,West Bengal,992,380,275,8102,5123,0.76,1,2,4613,608,YARD_1,Iron Ore,BTPN,Via Bilaspur,9
+PLAN_2024_0535,21/10/2025,Customer_21,Rourkela Steel Plant,Chhattisgarh,SAIL Burnpur,West Bengal,1461,217,105,5063,7515,0.44,0,0,5697,1518,YARD_9,Limestone,BCN,Via Bilaspur,9
+PLAN_2024_0536,06/11/2025,Customer_38,Durgapur Steel Plant,West Bengal,RINL Visakhapatnam,Chhattisgarh,1135,138,211,8074,6983,0.65,0,0,1905,2849,YARD_9,Coal,BOXN,Via Nagpur,7
+PLAN_2024_0537,11/11/2025,Customer_15,Bhilai Steel Plant,Maharashtra,Bhushan Steel Meramandali,Andhra Pradesh,707,287,143,18025,3432,0.59,0,0,2343,1511,YARD_3,Finished Steel,BCN,Direct,8
+PLAN_2024_0538,05/11/2025,Customer_28,Rourkela Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Gujarat,457,452,149,8945,5316,0.41,1,3,2795,4842,YARD_10,Iron Ore,BRN,Via Nagpur,9
+PLAN_2024_0539,13/11/2025,Customer_26,Rourkela Steel Plant,West Bengal,JSW Steel Dolvi,Andhra Pradesh,373,56,172,8256,5708,0.42,0,0,5965,896,YARD_9,Coal,BCN,Via Nagpur,4
+PLAN_2024_0540,23/10/2025,Customer_47,Durgapur Steel Plant,Odisha,Jindal Steel Raigarh,West Bengal,1433,449,176,17904,2992,0.96,1,2,3098,2237,YARD_8,Limestone,BOXN,Via Bilaspur,2
+PLAN_2024_0541,30/10/2025,Customer_45,Bhilai Steel Plant,West Bengal,SAIL Burnpur,Andhra Pradesh,398,299,195,19935,3298,0.57,1,3,3378,4867,YARD_6,Finished Steel,BRN,Via Bilaspur,5
+PLAN_2024_0542,09/11/2025,Customer_2,Rourkela Steel Plant,Maharashtra,Essar Steel Hazira,Chhattisgarh,1412,283,133,18674,7787,0.79,1,1,3438,4624,YARD_6,Finished Steel,BTPN,Direct,5
+PLAN_2024_0543,04/11/2025,Customer_19,Bokaro Steel Plant,Maharashtra,RINL Visakhapatnam,Odisha,1491,370,187,9141,7846,0.59,0,0,6685,3358,YARD_1,Iron Ore,BRN,Direct,4
+PLAN_2024_0544,17/10/2025,Customer_3,Durgapur Steel Plant,Odisha,RINL Visakhapatnam,Maharashtra,279,125,214,18486,7650,0.99,1,5,2136,4832,YARD_10,Coal,BOXN,Direct,5
+PLAN_2024_0545,08/11/2025,Customer_48,Bhilai Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Gujarat,268,112,273,8429,3087,0.26,1,2,1798,567,YARD_8,Finished Steel,BCN,Via Nagpur,9
+PLAN_2024_0546,22/10/2025,Customer_41,Bhilai Steel Plant,Gujarat,RINL Visakhapatnam,Odisha,671,401,167,11678,3397,0.75,1,3,9719,2929,YARD_6,Iron Ore,BCN,Via Nagpur,6
+PLAN_2024_0547,19/10/2025,Customer_9,Durgapur Steel Plant,Maharashtra,Jindal Steel Raigarh,West Bengal,678,73,263,12918,5831,0.21,1,1,2847,2580,YARD_3,Coal,BOXN,Via Nagpur,3
+PLAN_2024_0548,01/11/2025,Customer_23,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Chhattisgarh,1202,497,133,14212,4942,0.94,0,0,7265,3791,YARD_6,Iron Ore,BCN,Via Bilaspur,7
+PLAN_2024_0549,22/10/2025,Customer_5,Bokaro Steel Plant,Odisha,SAIL Burnpur,Andhra Pradesh,1168,299,152,7204,4478,0.95,0,0,3362,4838,YARD_2,Coal,BCN,Direct,6
+PLAN_2024_0550,25/10/2025,Customer_17,Bokaro Steel Plant,Maharashtra,JSW Steel Dolvi,Gujarat,1298,336,288,10776,4490,0.39,0,0,2694,4301,YARD_3,Limestone,BCN,Via Bilaspur,4
+PLAN_2024_0551,03/11/2025,Customer_32,Bhilai Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Chhattisgarh,1145,276,238,18535,1744,0.96,0,0,5730,3267,YARD_3,Coal,BCN,Via Tatanagar,8
+PLAN_2024_0552,16/10/2025,Customer_13,Bhilai Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Jharkhand,1152,338,227,14656,5406,0.86,0,0,6526,2794,YARD_4,Limestone,BOXN,Via Nagpur,5
+PLAN_2024_0553,12/11/2025,Customer_41,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,Jharkhand,762,206,233,7338,5405,0.5,0,0,2841,657,YARD_2,Limestone,BRN,Direct,10
+PLAN_2024_0554,22/10/2025,Customer_28,Bhilai Steel Plant,Gujarat,Jindal Steel Raigarh,Odisha,348,320,129,8676,6737,0.99,0,0,8888,3301,YARD_4,Limestone,BRN,Via Tatanagar,8
+PLAN_2024_0555,29/10/2025,Customer_16,Bhilai Steel Plant,Jharkhand,Essar Steel Hazira,Odisha,1141,374,140,5068,3401,0.85,1,1,6365,3293,YARD_5,Limestone,BRN,Via Tatanagar,6
+PLAN_2024_0556,19/10/2025,Customer_28,Bhilai Steel Plant,Odisha,Tata Steel Jamshedpur,Gujarat,1097,315,241,9118,3835,0.18,0,0,8265,3437,YARD_1,Iron Ore,BCN,Via Bilaspur,4
+PLAN_2024_0557,06/11/2025,Customer_24,Bhilai Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Maharashtra,693,52,231,18144,3646,0.79,1,2,7674,4563,YARD_10,Finished Steel,BOXN,Via Tatanagar,4
+PLAN_2024_0558,14/11/2025,Customer_40,Rourkela Steel Plant,Jharkhand,JSW Steel Dolvi,Odisha,1212,325,225,19687,7665,0.4,1,4,9645,1762,YARD_4,Limestone,BRN,Direct,8
+PLAN_2024_0559,20/10/2025,Customer_34,Bhilai Steel Plant,Gujarat,Tata Steel Jamshedpur,West Bengal,651,240,204,12588,7706,0.13,1,2,6158,4350,YARD_2,Iron Ore,BTPN,Via Tatanagar,10
+PLAN_2024_0560,09/11/2025,Customer_28,Durgapur Steel Plant,Maharashtra,Tata Steel Jamshedpur,Odisha,703,469,292,11142,5165,0.11,1,3,6606,899,YARD_6,Limestone,BOXN,Via Bilaspur,10
+PLAN_2024_0561,11/11/2025,Customer_25,Durgapur Steel Plant,Odisha,RINL Visakhapatnam,Chhattisgarh,219,417,190,13948,1486,0.96,0,0,9467,2458,YARD_3,Iron Ore,BCN,Direct,5
+PLAN_2024_0562,23/10/2025,Customer_7,Rourkela Steel Plant,Odisha,SAIL Burnpur,Chhattisgarh,841,191,253,9718,4064,0.33,1,2,1230,3788,YARD_1,Finished Steel,BTPN,Via Nagpur,9
+PLAN_2024_0563,31/10/2025,Customer_32,Durgapur Steel Plant,Andhra Pradesh,SAIL Burnpur,Chhattisgarh,884,88,200,8463,3021,0.55,0,0,3389,3051,YARD_9,Limestone,BCN,Via Nagpur,6
+PLAN_2024_0564,04/11/2025,Customer_9,Bokaro Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Chhattisgarh,1205,468,228,19468,2165,0.91,0,0,4637,1473,YARD_10,Coal,BOXN,Direct,10
+PLAN_2024_0565,07/11/2025,Customer_40,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Gujarat,387,151,196,14841,4962,0.27,0,0,5757,1409,YARD_5,Iron Ore,BOXN,Via Bilaspur,4
+PLAN_2024_0566,23/10/2025,Customer_32,Bhilai Steel Plant,Gujarat,JSW Steel Dolvi,West Bengal,955,294,222,15480,3655,0.33,1,4,2866,1664,YARD_7,Limestone,BCN,Via Bilaspur,2
+PLAN_2024_0567,18/10/2025,Customer_37,Rourkela Steel Plant,Maharashtra,Essar Steel Hazira,West Bengal,486,151,110,6417,4156,0.34,0,0,4822,653,YARD_4,Coal,BRN,Direct,10
+PLAN_2024_0568,24/10/2025,Customer_21,Rourkela Steel Plant,Andhra Pradesh,SAIL Burnpur,Odisha,882,51,132,16819,3105,0.23,0,0,3682,3633,YARD_10,Limestone,BRN,Via Tatanagar,2
+PLAN_2024_0569,06/11/2025,Customer_50,Durgapur Steel Plant,Odisha,Jindal Steel Raigarh,Chhattisgarh,1275,76,109,16493,3223,0.87,0,0,3372,4184,YARD_7,Limestone,BTPN,Via Tatanagar,8
+PLAN_2024_0570,29/10/2025,Customer_46,Bhilai Steel Plant,Jharkhand,Bhushan Steel Meramandali,Andhra Pradesh,487,271,169,10969,2357,0.35,1,3,2417,4949,YARD_5,Coal,BOXN,Via Tatanagar,8
+PLAN_2024_0571,14/11/2025,Customer_47,Bokaro Steel Plant,Maharashtra,Bhushan Steel Meramandali,Andhra Pradesh,614,484,256,19761,1288,0.11,0,0,9896,3958,YARD_1,Iron Ore,BRN,Via Tatanagar,3
+PLAN_2024_0572,24/10/2025,Customer_1,Bhilai Steel Plant,Chhattisgarh,JSW Steel Dolvi,Gujarat,444,250,257,7246,1183,0.27,1,2,4853,2083,YARD_3,Coal,BRN,Via Nagpur,6
+PLAN_2024_0573,23/10/2025,Customer_50,Bokaro Steel Plant,Jharkhand,SAIL Burnpur,Chhattisgarh,278,442,180,9749,3825,0.58,0,0,5067,3566,YARD_10,Finished Steel,BTPN,Via Nagpur,8
+PLAN_2024_0574,20/10/2025,Customer_23,Durgapur Steel Plant,Jharkhand,JSW Steel Dolvi,Gujarat,1319,166,288,15629,2273,0.54,1,1,7176,2412,YARD_2,Limestone,BTPN,Via Bilaspur,3
+PLAN_2024_0575,09/11/2025,Customer_27,Durgapur Steel Plant,Chhattisgarh,JSW Steel Dolvi,Gujarat,840,178,299,17104,7987,0.8,1,2,8076,1588,YARD_7,Finished Steel,BTPN,Via Nagpur,4
+PLAN_2024_0576,19/10/2025,Customer_16,Bhilai Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Gujarat,306,253,162,18727,7928,0.63,0,0,4307,3512,YARD_8,Finished Steel,BOXN,Via Bilaspur,8
+PLAN_2024_0577,19/10/2025,Customer_29,Bhilai Steel Plant,Gujarat,Bhushan Steel Meramandali,West Bengal,1197,150,255,18562,2360,0.19,1,5,1078,4648,YARD_7,Finished Steel,BRN,Via Tatanagar,3
+PLAN_2024_0578,10/11/2025,Customer_17,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Andhra Pradesh,641,66,147,8398,5646,0.58,1,5,8744,751,YARD_4,Limestone,BCN,Via Nagpur,4
+PLAN_2024_0579,29/10/2025,Customer_5,Durgapur Steel Plant,Chhattisgarh,JSW Steel Dolvi,Jharkhand,792,173,158,13672,3019,0.38,1,1,9660,957,YARD_7,Iron Ore,BOXN,Via Bilaspur,10
+PLAN_2024_0580,01/11/2025,Customer_29,Rourkela Steel Plant,West Bengal,SAIL Burnpur,Andhra Pradesh,495,343,157,13263,4304,0.49,0,0,8534,2173,YARD_6,Coal,BTPN,Via Tatanagar,2
+PLAN_2024_0581,08/11/2025,Customer_11,Bhilai Steel Plant,Andhra Pradesh,Essar Steel Hazira,Gujarat,675,121,198,19392,4254,0.87,1,5,6464,3129,YARD_2,Iron Ore,BTPN,Direct,9
+PLAN_2024_0582,22/10/2025,Customer_28,Bokaro Steel Plant,Gujarat,SAIL Burnpur,Chhattisgarh,955,342,140,18246,2300,0.11,0,0,5920,4915,YARD_2,Iron Ore,BTPN,Via Bilaspur,5
+PLAN_2024_0583,31/10/2025,Customer_49,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Maharashtra,1215,391,102,17685,5449,0.44,1,3,5554,2693,YARD_3,Iron Ore,BRN,Via Bilaspur,3
+PLAN_2024_0584,18/10/2025,Customer_18,Bokaro Steel Plant,Gujarat,Tata Steel Jamshedpur,Jharkhand,228,277,291,15433,6981,0.41,1,3,5349,1034,YARD_2,Iron Ore,BOXN,Direct,3
+PLAN_2024_0585,28/10/2025,Customer_18,Bokaro Steel Plant,Gujarat,SAIL Burnpur,Andhra Pradesh,260,288,118,13894,2975,0.89,1,2,1769,3708,YARD_9,Iron Ore,BRN,Via Bilaspur,8
+PLAN_2024_0586,01/11/2025,Customer_43,Rourkela Steel Plant,Gujarat,Jindal Steel Raigarh,Odisha,839,238,266,9835,4481,0.11,1,3,1226,3653,YARD_8,Iron Ore,BTPN,Via Bilaspur,8
+PLAN_2024_0587,24/10/2025,Customer_30,Durgapur Steel Plant,Odisha,JSW Steel Dolvi,Maharashtra,607,289,194,17356,4808,0.9,1,5,5588,2267,YARD_10,Limestone,BRN,Via Nagpur,2
+PLAN_2024_0588,31/10/2025,Customer_16,Durgapur Steel Plant,West Bengal,SAIL Burnpur,Andhra Pradesh,600,137,227,19079,7273,0.48,1,4,3453,3507,YARD_8,Iron Ore,BRN,Via Tatanagar,3
+PLAN_2024_0589,21/10/2025,Customer_17,Durgapur Steel Plant,Jharkhand,Jindal Steel Raigarh,Maharashtra,1053,100,153,15238,5444,0.67,1,3,4882,1252,YARD_7,Iron Ore,BTPN,Via Bilaspur,8
+PLAN_2024_0590,25/10/2025,Customer_37,Durgapur Steel Plant,Odisha,RINL Visakhapatnam,Andhra Pradesh,1218,359,172,16395,6273,0.88,0,0,5757,4936,YARD_10,Limestone,BOXN,Via Tatanagar,9
+PLAN_2024_0591,19/10/2025,Customer_26,Bokaro Steel Plant,Jharkhand,Essar Steel Hazira,Andhra Pradesh,207,302,123,19370,3776,0.47,1,4,1514,1046,YARD_1,Iron Ore,BRN,Via Bilaspur,4
+PLAN_2024_0592,18/10/2025,Customer_23,Durgapur Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Jharkhand,363,54,242,10186,1780,0.27,1,1,6814,4933,YARD_4,Finished Steel,BRN,Via Nagpur,7
+PLAN_2024_0593,28/10/2025,Customer_39,Durgapur Steel Plant,Odisha,SAIL Burnpur,Andhra Pradesh,374,433,142,19116,4448,0.21,0,0,5676,4704,YARD_7,Iron Ore,BCN,Direct,6
+PLAN_2024_0594,26/10/2025,Customer_3,Durgapur Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Odisha,996,322,278,17573,3730,0.85,1,5,7146,4026,YARD_6,Finished Steel,BOXN,Via Tatanagar,6
+PLAN_2024_0595,19/10/2025,Customer_34,Rourkela Steel Plant,Chhattisgarh,RINL Visakhapatnam,Odisha,415,111,115,19366,1257,0.67,1,5,6874,4726,YARD_8,Iron Ore,BOXN,Via Nagpur,5
+PLAN_2024_0596,29/10/2025,Customer_31,Bokaro Steel Plant,Maharashtra,Bhushan Steel Meramandali,Gujarat,404,219,160,5505,2584,0.86,1,4,9900,1835,YARD_8,Limestone,BCN,Via Nagpur,10
+PLAN_2024_0597,18/10/2025,Customer_24,Rourkela Steel Plant,Gujarat,Jindal Steel Raigarh,Jharkhand,495,170,175,5975,3787,0.86,1,3,8578,3464,YARD_2,Limestone,BRN,Via Nagpur,8
+PLAN_2024_0598,10/11/2025,Customer_32,Rourkela Steel Plant,Maharashtra,Tata Steel Jamshedpur,Jharkhand,696,392,238,12760,2302,0.84,0,0,1611,2740,YARD_4,Coal,BTPN,Direct,3
+PLAN_2024_0599,29/10/2025,Customer_18,Bhilai Steel Plant,Gujarat,RINL Visakhapatnam,West Bengal,1003,407,214,8753,5186,0.46,0,0,7419,4782,YARD_9,Coal,BOXN,Via Tatanagar,6
+PLAN_2024_0600,03/11/2025,Customer_19,Durgapur Steel Plant,Odisha,Essar Steel Hazira,Maharashtra,1107,387,235,6151,5130,0.11,1,1,6664,2636,YARD_3,Finished Steel,BTPN,Direct,2
+PLAN_2024_0601,04/11/2025,Customer_25,Bhilai Steel Plant,West Bengal,JSW Steel Dolvi,Odisha,1339,110,103,11624,6299,0.84,1,5,2653,637,YARD_3,Coal,BRN,Direct,4
+PLAN_2024_0602,05/11/2025,Customer_4,Durgapur Steel Plant,West Bengal,SAIL Burnpur,Chhattisgarh,1095,121,165,11578,1202,0.96,0,0,9924,3761,YARD_9,Limestone,BRN,Via Tatanagar,2
+PLAN_2024_0603,27/10/2025,Customer_15,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,Jharkhand,213,451,117,14611,1474,0.63,0,0,4369,1394,YARD_10,Coal,BRN,Direct,5
+PLAN_2024_0604,14/11/2025,Customer_3,Rourkela Steel Plant,Odisha,Jindal Steel Raigarh,Jharkhand,1245,118,285,8505,4124,0.49,1,3,9156,4279,YARD_7,Iron Ore,BCN,Via Bilaspur,4
+PLAN_2024_0605,06/11/2025,Customer_36,Durgapur Steel Plant,Andhra Pradesh,Essar Steel Hazira,Gujarat,401,431,177,9641,6741,0.41,1,2,1706,1311,YARD_1,Coal,BTPN,Via Nagpur,9
+PLAN_2024_0606,07/11/2025,Customer_33,Bhilai Steel Plant,Jharkhand,Bhushan Steel Meramandali,Andhra Pradesh,695,226,286,6794,5854,0.77,0,0,2560,3859,YARD_10,Coal,BTPN,Via Nagpur,10
+PLAN_2024_0607,08/11/2025,Customer_28,Bhilai Steel Plant,Andhra Pradesh,SAIL Burnpur,Maharashtra,1053,108,214,5958,2310,0.59,1,2,1184,1562,YARD_10,Iron Ore,BCN,Via Tatanagar,2
+PLAN_2024_0608,20/10/2025,Customer_39,Durgapur Steel Plant,Maharashtra,Jindal Steel Raigarh,Jharkhand,1333,480,233,7939,5161,0.14,1,4,2206,2106,YARD_1,Coal,BCN,Direct,9
+PLAN_2024_0609,24/10/2025,Customer_9,Durgapur Steel Plant,Maharashtra,SAIL Burnpur,Gujarat,526,489,168,15373,7517,0.99,0,0,6475,3748,YARD_6,Limestone,BOXN,Via Nagpur,10
+PLAN_2024_0610,20/10/2025,Customer_5,Rourkela Steel Plant,Odisha,JSW Steel Dolvi,Maharashtra,1017,500,179,5870,2182,0.95,0,0,5008,4215,YARD_9,Limestone,BTPN,Via Tatanagar,7
+PLAN_2024_0611,11/11/2025,Customer_24,Bhilai Steel Plant,Maharashtra,RINL Visakhapatnam,Andhra Pradesh,862,203,264,16594,1416,0.75,1,4,7955,2936,YARD_7,Coal,BCN,Via Nagpur,8
+PLAN_2024_0612,11/11/2025,Customer_16,Rourkela Steel Plant,Odisha,Bhushan Steel Meramandali,Andhra Pradesh,1121,423,129,7198,3420,0.84,0,0,6502,1600,YARD_8,Iron Ore,BTPN,Via Nagpur,4
+PLAN_2024_0613,05/11/2025,Customer_39,Bokaro Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Chhattisgarh,1106,175,224,5978,6229,0.27,1,4,2972,534,YARD_10,Coal,BRN,Via Nagpur,5
+PLAN_2024_0614,31/10/2025,Customer_22,Bokaro Steel Plant,Maharashtra,JSW Steel Dolvi,Odisha,1051,281,248,19880,3587,0.15,0,0,2851,527,YARD_6,Finished Steel,BOXN,Direct,9
+PLAN_2024_0615,03/11/2025,Customer_11,Bokaro Steel Plant,Odisha,Essar Steel Hazira,Maharashtra,1375,183,154,18984,2491,0.32,1,4,8550,1237,YARD_5,Limestone,BCN,Via Nagpur,6
+PLAN_2024_0616,30/10/2025,Customer_29,Bhilai Steel Plant,Chhattisgarh,RINL Visakhapatnam,Odisha,950,483,137,7121,3355,0.59,0,0,5909,3608,YARD_4,Coal,BOXN,Via Bilaspur,6
+PLAN_2024_0617,07/11/2025,Customer_35,Bokaro Steel Plant,Maharashtra,RINL Visakhapatnam,Odisha,1470,396,203,13035,3478,0.47,0,0,2495,3502,YARD_3,Coal,BRN,Via Bilaspur,10
+PLAN_2024_0618,19/10/2025,Customer_27,Bokaro Steel Plant,Gujarat,RINL Visakhapatnam,Chhattisgarh,249,362,203,14325,5245,0.37,1,4,1492,4107,YARD_5,Limestone,BOXN,Via Nagpur,7
+PLAN_2024_0619,02/11/2025,Customer_11,Durgapur Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Chhattisgarh,847,442,136,10943,3960,0.86,1,2,4290,1688,YARD_8,Coal,BCN,Via Nagpur,5
+PLAN_2024_0620,14/11/2025,Customer_15,Bokaro Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Maharashtra,1480,132,149,18362,7521,0.15,0,0,2563,1049,YARD_8,Finished Steel,BCN,Via Nagpur,9
+PLAN_2024_0621,16/10/2025,Customer_33,Bhilai Steel Plant,Odisha,JSW Steel Dolvi,Andhra Pradesh,1221,450,164,14843,2144,0.45,1,5,1185,3145,YARD_6,Iron Ore,BTPN,Via Tatanagar,4
+PLAN_2024_0622,19/10/2025,Customer_19,Durgapur Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Gujarat,1218,353,279,12126,1520,0.59,1,2,5081,2115,YARD_7,Finished Steel,BCN,Via Nagpur,5
+PLAN_2024_0623,10/11/2025,Customer_49,Durgapur Steel Plant,Gujarat,Essar Steel Hazira,West Bengal,1439,399,223,11798,5556,0.37,0,0,7991,942,YARD_6,Coal,BRN,Direct,10
+PLAN_2024_0624,18/10/2025,Customer_19,Bokaro Steel Plant,West Bengal,Essar Steel Hazira,Maharashtra,1097,351,269,6083,6986,0.36,0,0,8967,4210,YARD_4,Coal,BCN,Via Nagpur,9
+PLAN_2024_0625,01/11/2025,Customer_31,Bhilai Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Odisha,1157,184,263,14227,5157,0.1,1,3,7561,893,YARD_2,Iron Ore,BRN,Via Bilaspur,3
+PLAN_2024_0626,03/11/2025,Customer_18,Durgapur Steel Plant,Chhattisgarh,SAIL Burnpur,Jharkhand,1179,208,272,15394,3931,0.15,0,0,1356,3113,YARD_7,Coal,BTPN,Via Bilaspur,4
+PLAN_2024_0627,18/10/2025,Customer_24,Bokaro Steel Plant,Maharashtra,Tata Steel Jamshedpur,Odisha,1197,436,214,11157,2979,0.77,0,0,4311,1827,YARD_2,Limestone,BCN,Via Nagpur,8
+PLAN_2024_0628,11/11/2025,Customer_6,Bokaro Steel Plant,Maharashtra,RINL Visakhapatnam,Jharkhand,1306,338,214,11068,7792,0.8,1,4,4234,4610,YARD_6,Coal,BTPN,Via Bilaspur,7
+PLAN_2024_0629,10/11/2025,Customer_21,Bokaro Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Gujarat,643,156,278,7219,6336,0.16,0,0,8826,2290,YARD_2,Limestone,BCN,Via Tatanagar,3
+PLAN_2024_0630,16/10/2025,Customer_6,Bokaro Steel Plant,Maharashtra,SAIL Burnpur,Odisha,672,378,232,11498,3111,0.55,1,5,9801,2828,YARD_6,Finished Steel,BTPN,Via Bilaspur,6
+PLAN_2024_0631,26/10/2025,Customer_16,Rourkela Steel Plant,Odisha,Bhushan Steel Meramandali,Maharashtra,733,432,251,17505,3983,0.4,0,0,7727,4934,YARD_10,Limestone,BOXN,Direct,7
+PLAN_2024_0632,06/11/2025,Customer_21,Bhilai Steel Plant,Jharkhand,JSW Steel Dolvi,Andhra Pradesh,378,188,117,7261,6489,0.12,1,4,7289,2883,YARD_6,Iron Ore,BCN,Via Tatanagar,10
+PLAN_2024_0633,06/11/2025,Customer_6,Bhilai Steel Plant,Odisha,JSW Steel Dolvi,Gujarat,673,285,104,6992,2585,0.61,1,4,5589,1586,YARD_5,Finished Steel,BOXN,Via Nagpur,2
+PLAN_2024_0634,30/10/2025,Customer_43,Bhilai Steel Plant,Andhra Pradesh,Essar Steel Hazira,Maharashtra,1245,59,229,13396,6415,0.91,1,1,4854,2010,YARD_10,Finished Steel,BOXN,Via Nagpur,8
+PLAN_2024_0635,29/10/2025,Customer_11,Bhilai Steel Plant,Odisha,JSW Steel Dolvi,Andhra Pradesh,1161,312,299,17716,4443,0.74,0,0,2338,2735,YARD_8,Iron Ore,BTPN,Via Nagpur,5
+PLAN_2024_0636,29/10/2025,Customer_3,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,Odisha,1396,427,245,11284,7427,0.85,0,0,7634,2521,YARD_4,Limestone,BOXN,Direct,10
+PLAN_2024_0637,04/11/2025,Customer_14,Durgapur Steel Plant,Jharkhand,Jindal Steel Raigarh,Gujarat,1239,165,209,6498,7714,0.28,0,0,5211,4766,YARD_7,Limestone,BCN,Via Nagpur,6
+PLAN_2024_0638,20/10/2025,Customer_33,Bhilai Steel Plant,Chhattisgarh,JSW Steel Dolvi,Andhra Pradesh,264,314,135,6988,6191,0.26,0,0,5811,3094,YARD_8,Limestone,BOXN,Direct,2
+PLAN_2024_0639,28/10/2025,Customer_41,Bokaro Steel Plant,Jharkhand,Jindal Steel Raigarh,Chhattisgarh,341,457,165,10123,5028,0.16,0,0,8562,2006,YARD_3,Iron Ore,BRN,Via Tatanagar,6
+PLAN_2024_0640,20/10/2025,Customer_34,Durgapur Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Gujarat,782,298,269,16445,5152,0.51,0,0,2254,4921,YARD_1,Coal,BRN,Via Nagpur,8
+PLAN_2024_0641,14/11/2025,Customer_39,Bokaro Steel Plant,Chhattisgarh,JSW Steel Dolvi,Odisha,842,143,146,19582,6499,0.96,1,5,9784,2701,YARD_7,Finished Steel,BRN,Via Bilaspur,6
+PLAN_2024_0642,16/10/2025,Customer_29,Rourkela Steel Plant,Maharashtra,Essar Steel Hazira,Gujarat,473,405,191,10316,1277,0.43,1,4,6033,1560,YARD_4,Iron Ore,BTPN,Via Bilaspur,7
+PLAN_2024_0643,18/10/2025,Customer_49,Durgapur Steel Plant,West Bengal,SAIL Burnpur,Maharashtra,1246,304,246,15143,5807,0.71,0,0,6191,3074,YARD_2,Finished Steel,BCN,Via Bilaspur,4
+PLAN_2024_0644,04/11/2025,Customer_3,Durgapur Steel Plant,Odisha,SAIL Burnpur,Jharkhand,479,50,225,9547,4469,0.69,0,0,4401,635,YARD_6,Finished Steel,BOXN,Via Nagpur,5
+PLAN_2024_0645,26/10/2025,Customer_48,Durgapur Steel Plant,Maharashtra,SAIL Burnpur,Chhattisgarh,1065,361,190,13823,2865,0.23,0,0,3153,1893,YARD_8,Coal,BOXN,Via Nagpur,8
+PLAN_2024_0646,11/11/2025,Customer_10,Bhilai Steel Plant,Maharashtra,Essar Steel Hazira,Chhattisgarh,577,257,265,9996,6850,0.25,0,0,8367,2187,YARD_8,Limestone,BRN,Via Tatanagar,3
+PLAN_2024_0647,22/10/2025,Customer_26,Bhilai Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,West Bengal,1021,419,224,19974,6824,0.95,0,0,9060,4641,YARD_9,Iron Ore,BOXN,Via Nagpur,5
+PLAN_2024_0648,27/10/2025,Customer_30,Bhilai Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Chhattisgarh,1345,411,278,15800,2618,0.1,1,2,7961,2987,YARD_1,Iron Ore,BTPN,Via Tatanagar,9
+PLAN_2024_0649,03/11/2025,Customer_50,Bhilai Steel Plant,Jharkhand,JSW Steel Dolvi,Maharashtra,738,447,124,14464,7013,0.98,1,5,4678,3056,YARD_5,Finished Steel,BRN,Via Tatanagar,9
+PLAN_2024_0650,18/10/2025,Customer_23,Bhilai Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,West Bengal,716,186,216,9770,1958,0.75,0,0,1398,4067,YARD_6,Limestone,BOXN,Via Nagpur,6
+PLAN_2024_0651,05/11/2025,Customer_24,Bhilai Steel Plant,Maharashtra,Essar Steel Hazira,Gujarat,548,475,190,11495,3031,0.36,1,5,5585,4792,YARD_8,Coal,BCN,Via Nagpur,6
+PLAN_2024_0652,05/11/2025,Customer_4,Durgapur Steel Plant,Gujarat,Essar Steel Hazira,Andhra Pradesh,1271,494,288,8685,7864,0.12,1,3,2224,2705,YARD_2,Iron Ore,BTPN,Direct,7
+PLAN_2024_0653,03/11/2025,Customer_41,Bhilai Steel Plant,Odisha,JSW Steel Dolvi,Chhattisgarh,1051,451,220,10276,2530,0.4,0,0,4055,4248,YARD_10,Finished Steel,BRN,Via Tatanagar,7
+PLAN_2024_0654,20/10/2025,Customer_2,Bhilai Steel Plant,West Bengal,SAIL Burnpur,Maharashtra,1046,366,111,9873,7173,0.37,0,0,8747,2662,YARD_6,Limestone,BCN,Via Nagpur,8
+PLAN_2024_0655,30/10/2025,Customer_21,Rourkela Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,West Bengal,971,402,237,5333,6432,0.75,0,0,9943,4076,YARD_4,Iron Ore,BOXN,Direct,4
+PLAN_2024_0656,04/11/2025,Customer_19,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,Jharkhand,1062,113,242,7619,5108,0.92,0,0,5949,3260,YARD_2,Finished Steel,BOXN,Via Bilaspur,6
+PLAN_2024_0657,01/11/2025,Customer_38,Rourkela Steel Plant,Jharkhand,JSW Steel Dolvi,West Bengal,687,296,278,6800,5135,0.47,1,3,5211,4661,YARD_3,Limestone,BCN,Via Bilaspur,9
+PLAN_2024_0658,30/10/2025,Customer_10,Bhilai Steel Plant,Maharashtra,Bhushan Steel Meramandali,Odisha,573,459,168,12102,5410,0.84,0,0,5327,781,YARD_3,Iron Ore,BTPN,Via Tatanagar,3
+PLAN_2024_0659,27/10/2025,Customer_9,Rourkela Steel Plant,West Bengal,Jindal Steel Raigarh,Maharashtra,718,118,117,18351,4613,0.96,1,2,2882,2350,YARD_1,Limestone,BCN,Via Tatanagar,9
+PLAN_2024_0660,21/10/2025,Customer_9,Durgapur Steel Plant,Jharkhand,Bhushan Steel Meramandali,West Bengal,356,123,181,16682,1317,0.23,0,0,4648,4597,YARD_7,Finished Steel,BTPN,Via Bilaspur,4
+PLAN_2024_0661,10/11/2025,Customer_29,Durgapur Steel Plant,West Bengal,SAIL Burnpur,Jharkhand,633,138,279,11448,4868,0.6,0,0,8251,4999,YARD_10,Limestone,BTPN,Via Nagpur,4
+PLAN_2024_0662,29/10/2025,Customer_46,Bokaro Steel Plant,Chhattisgarh,JSW Steel Dolvi,Jharkhand,1462,373,276,16447,2691,0.87,1,3,7906,4335,YARD_9,Coal,BOXN,Via Nagpur,7
+PLAN_2024_0663,03/11/2025,Customer_40,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Jharkhand,863,62,143,12722,7328,0.26,0,0,5770,1057,YARD_7,Limestone,BOXN,Via Bilaspur,3
+PLAN_2024_0664,06/11/2025,Customer_23,Durgapur Steel Plant,Odisha,RINL Visakhapatnam,West Bengal,303,101,262,7892,6947,0.23,0,0,7954,4397,YARD_5,Coal,BCN,Via Tatanagar,7
+PLAN_2024_0665,20/10/2025,Customer_9,Rourkela Steel Plant,Jharkhand,JSW Steel Dolvi,Odisha,1252,433,110,10510,6562,0.34,0,0,3729,1186,YARD_7,Iron Ore,BOXN,Via Bilaspur,2
+PLAN_2024_0666,26/10/2025,Customer_16,Durgapur Steel Plant,Gujarat,JSW Steel Dolvi,Jharkhand,666,349,293,9939,7878,0.89,1,3,3008,3279,YARD_4,Limestone,BCN,Via Nagpur,3
+PLAN_2024_0667,25/10/2025,Customer_6,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Maharashtra,811,397,180,10557,3779,0.49,1,4,8440,787,YARD_1,Coal,BTPN,Via Tatanagar,9
+PLAN_2024_0668,02/11/2025,Customer_32,Bhilai Steel Plant,Gujarat,Bhushan Steel Meramandali,Chhattisgarh,432,441,160,17538,6104,0.48,1,3,8973,3728,YARD_2,Finished Steel,BCN,Via Tatanagar,3
+PLAN_2024_0669,20/10/2025,Customer_8,Durgapur Steel Plant,Jharkhand,Essar Steel Hazira,West Bengal,412,422,239,17986,1462,0.82,1,4,5937,2517,YARD_5,Limestone,BOXN,Direct,5
+PLAN_2024_0670,18/10/2025,Customer_21,Bhilai Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Maharashtra,1476,258,175,6229,6122,0.61,0,0,2199,3931,YARD_3,Coal,BRN,Via Nagpur,5
+PLAN_2024_0671,26/10/2025,Customer_34,Durgapur Steel Plant,West Bengal,RINL Visakhapatnam,Maharashtra,543,94,206,16506,4927,0.59,1,4,6407,3139,YARD_7,Finished Steel,BCN,Via Nagpur,2
+PLAN_2024_0672,31/10/2025,Customer_36,Durgapur Steel Plant,Chhattisgarh,RINL Visakhapatnam,Odisha,439,284,118,8387,1086,0.42,1,5,3716,1623,YARD_3,Limestone,BOXN,Direct,5
+PLAN_2024_0673,04/11/2025,Customer_16,Rourkela Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Andhra Pradesh,1063,417,181,6871,7209,0.91,0,0,9203,4338,YARD_7,Finished Steel,BRN,Via Tatanagar,7
+PLAN_2024_0674,12/11/2025,Customer_10,Durgapur Steel Plant,Jharkhand,RINL Visakhapatnam,Maharashtra,745,165,280,9597,4912,0.68,0,0,3986,4840,YARD_7,Finished Steel,BTPN,Via Bilaspur,4
+PLAN_2024_0675,25/10/2025,Customer_46,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Odisha,1377,270,148,7796,1920,0.72,1,1,5530,3786,YARD_5,Coal,BOXN,Via Bilaspur,10
+PLAN_2024_0676,02/11/2025,Customer_21,Durgapur Steel Plant,West Bengal,SAIL Burnpur,Andhra Pradesh,307,484,105,17867,2429,0.52,0,0,4241,4159,YARD_1,Finished Steel,BTPN,Via Tatanagar,7
+PLAN_2024_0677,21/10/2025,Customer_30,Bhilai Steel Plant,Andhra Pradesh,Essar Steel Hazira,Chhattisgarh,1037,302,192,14871,3487,0.32,0,0,3381,2146,YARD_8,Limestone,BCN,Via Nagpur,8
+PLAN_2024_0678,27/10/2025,Customer_1,Rourkela Steel Plant,Odisha,Jindal Steel Raigarh,West Bengal,906,91,288,17397,5980,0.31,0,0,7234,3996,YARD_10,Iron Ore,BRN,Via Nagpur,4
+PLAN_2024_0679,01/11/2025,Customer_48,Rourkela Steel Plant,Maharashtra,Bhushan Steel Meramandali,Andhra Pradesh,280,211,208,18429,4704,0.71,0,0,5403,4097,YARD_10,Limestone,BTPN,Direct,7
+PLAN_2024_0680,10/11/2025,Customer_50,Bokaro Steel Plant,Jharkhand,JSW Steel Dolvi,Maharashtra,1340,269,253,11108,7380,0.72,0,0,8634,1503,YARD_5,Coal,BCN,Via Tatanagar,3
+PLAN_2024_0681,02/11/2025,Customer_18,Bokaro Steel Plant,Gujarat,Jindal Steel Raigarh,West Bengal,700,454,190,14316,1029,0.53,0,0,6997,764,YARD_8,Iron Ore,BOXN,Via Tatanagar,5
+PLAN_2024_0682,11/11/2025,Customer_49,Durgapur Steel Plant,Chhattisgarh,Essar Steel Hazira,Andhra Pradesh,990,354,228,16364,1263,0.39,0,0,9741,1607,YARD_10,Iron Ore,BCN,Direct,10
+PLAN_2024_0683,30/10/2025,Customer_37,Bokaro Steel Plant,West Bengal,Tata Steel Jamshedpur,Gujarat,1246,267,207,14457,1585,0.87,1,5,6194,3521,YARD_3,Iron Ore,BTPN,Direct,10
+PLAN_2024_0684,13/11/2025,Customer_39,Durgapur Steel Plant,Jharkhand,SAIL Burnpur,Odisha,914,285,245,15997,5009,0.98,0,0,1950,2540,YARD_1,Iron Ore,BRN,Direct,3
+PLAN_2024_0685,01/11/2025,Customer_46,Bhilai Steel Plant,West Bengal,JSW Steel Dolvi,Odisha,399,116,221,16224,4551,0.32,1,1,6591,3108,YARD_1,Limestone,BOXN,Via Bilaspur,9
+PLAN_2024_0686,28/10/2025,Customer_50,Bhilai Steel Plant,Gujarat,SAIL Burnpur,Jharkhand,327,448,164,13345,6539,0.64,1,5,4583,1262,YARD_3,Coal,BRN,Via Bilaspur,8
+PLAN_2024_0687,12/11/2025,Customer_33,Bokaro Steel Plant,Andhra Pradesh,SAIL Burnpur,Gujarat,1207,485,130,9831,3275,0.72,1,1,6845,2612,YARD_2,Finished Steel,BRN,Via Bilaspur,10
+PLAN_2024_0688,29/10/2025,Customer_5,Rourkela Steel Plant,Gujarat,SAIL Burnpur,Chhattisgarh,1387,53,110,7284,6376,0.7,0,0,6909,1267,YARD_1,Coal,BRN,Via Tatanagar,3
+PLAN_2024_0689,09/11/2025,Customer_33,Bokaro Steel Plant,West Bengal,Essar Steel Hazira,Andhra Pradesh,807,432,222,18015,7530,0.95,1,3,3030,3856,YARD_3,Iron Ore,BTPN,Via Tatanagar,8
+PLAN_2024_0690,28/10/2025,Customer_22,Rourkela Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Gujarat,1357,316,280,13168,1906,0.99,0,0,6740,832,YARD_4,Iron Ore,BRN,Via Nagpur,2
+PLAN_2024_0691,27/10/2025,Customer_34,Durgapur Steel Plant,Jharkhand,JSW Steel Dolvi,West Bengal,1492,80,248,9196,2749,0.88,1,5,4048,3512,YARD_5,Iron Ore,BOXN,Direct,2
+PLAN_2024_0692,28/10/2025,Customer_21,Rourkela Steel Plant,West Bengal,Jindal Steel Raigarh,Andhra Pradesh,1462,102,149,10288,1666,0.37,0,0,4896,1898,YARD_5,Iron Ore,BRN,Via Bilaspur,4
+PLAN_2024_0693,08/11/2025,Customer_48,Rourkela Steel Plant,Odisha,Essar Steel Hazira,West Bengal,298,426,146,19283,7276,0.44,1,4,1494,2109,YARD_8,Iron Ore,BOXN,Via Bilaspur,6
+PLAN_2024_0694,25/10/2025,Customer_41,Durgapur Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Odisha,471,219,290,12610,6314,0.64,1,3,9680,4286,YARD_4,Finished Steel,BRN,Via Tatanagar,4
+PLAN_2024_0695,30/10/2025,Customer_20,Rourkela Steel Plant,Odisha,Bhushan Steel Meramandali,Jharkhand,778,306,243,18239,3789,0.77,0,0,7939,4243,YARD_10,Iron Ore,BTPN,Via Bilaspur,4
+PLAN_2024_0696,19/10/2025,Customer_50,Rourkela Steel Plant,West Bengal,SAIL Burnpur,Jharkhand,943,375,228,5218,6648,0.36,1,4,1442,3290,YARD_7,Limestone,BRN,Via Nagpur,8
+PLAN_2024_0697,24/10/2025,Customer_17,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,Chhattisgarh,1339,74,241,12083,5297,0.48,0,0,9643,2903,YARD_9,Iron Ore,BRN,Via Tatanagar,5
+PLAN_2024_0698,26/10/2025,Customer_21,Durgapur Steel Plant,West Bengal,Tata Steel Jamshedpur,Odisha,1179,118,289,18288,6434,0.61,1,5,2463,4147,YARD_4,Finished Steel,BRN,Via Tatanagar,7
+PLAN_2024_0699,28/10/2025,Customer_12,Durgapur Steel Plant,West Bengal,SAIL Burnpur,Gujarat,486,281,144,17346,3628,0.91,1,5,1976,1721,YARD_3,Finished Steel,BTPN,Via Bilaspur,4
+PLAN_2024_0700,12/11/2025,Customer_13,Rourkela Steel Plant,West Bengal,RINL Visakhapatnam,Odisha,320,68,267,9670,7142,0.71,0,0,3641,4805,YARD_7,Iron Ore,BOXN,Via Nagpur,7
+PLAN_2024_0701,31/10/2025,Customer_42,Durgapur Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Maharashtra,1406,402,202,9865,2571,0.57,1,1,4045,3053,YARD_8,Iron Ore,BOXN,Direct,6
+PLAN_2024_0702,21/10/2025,Customer_49,Bokaro Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Maharashtra,1006,170,225,16496,3498,0.46,1,1,6875,1124,YARD_9,Coal,BTPN,Via Bilaspur,10
+PLAN_2024_0703,27/10/2025,Customer_27,Durgapur Steel Plant,Maharashtra,SAIL Burnpur,Andhra Pradesh,594,371,130,13791,4122,0.4,1,3,2113,4189,YARD_5,Finished Steel,BOXN,Via Bilaspur,9
+PLAN_2024_0704,11/11/2025,Customer_14,Bhilai Steel Plant,West Bengal,Bhushan Steel Meramandali,Chhattisgarh,298,68,206,8640,4633,0.98,0,0,4982,2700,YARD_2,Limestone,BTPN,Via Bilaspur,9
+PLAN_2024_0705,03/11/2025,Customer_21,Bhilai Steel Plant,Jharkhand,Jindal Steel Raigarh,Chhattisgarh,684,177,110,18437,2027,0.29,0,0,5943,1531,YARD_7,Finished Steel,BRN,Via Bilaspur,5
+PLAN_2024_0706,26/10/2025,Customer_4,Durgapur Steel Plant,Odisha,Jindal Steel Raigarh,Jharkhand,300,391,291,12547,3253,0.38,1,4,2143,3630,YARD_9,Iron Ore,BOXN,Via Bilaspur,3
+PLAN_2024_0707,26/10/2025,Customer_46,Durgapur Steel Plant,West Bengal,Tata Steel Jamshedpur,Maharashtra,762,295,119,15666,6929,0.36,1,5,7885,4957,YARD_1,Finished Steel,BTPN,Direct,4
+PLAN_2024_0708,08/11/2025,Customer_18,Bokaro Steel Plant,Jharkhand,Bhushan Steel Meramandali,Odisha,372,138,206,13211,4360,0.87,1,2,9922,2864,YARD_9,Finished Steel,BOXN,Via Tatanagar,10
+PLAN_2024_0709,24/10/2025,Customer_6,Rourkela Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Chhattisgarh,466,259,234,9635,3222,0.97,1,4,3406,4891,YARD_9,Limestone,BRN,Via Nagpur,10
+PLAN_2024_0710,27/10/2025,Customer_35,Bokaro Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Jharkhand,225,148,192,10513,6664,0.77,0,0,3188,3267,YARD_3,Iron Ore,BOXN,Via Tatanagar,8
+PLAN_2024_0711,13/11/2025,Customer_45,Rourkela Steel Plant,Chhattisgarh,Essar Steel Hazira,Odisha,720,175,150,12634,2986,0.79,0,0,4131,612,YARD_7,Finished Steel,BTPN,Via Tatanagar,5
+PLAN_2024_0712,12/11/2025,Customer_9,Bokaro Steel Plant,Andhra Pradesh,SAIL Burnpur,Gujarat,1415,178,150,9364,1534,0.12,0,0,7021,1804,YARD_10,Coal,BCN,Via Nagpur,7
+PLAN_2024_0713,25/10/2025,Customer_34,Bhilai Steel Plant,Jharkhand,Tata Steel Jamshedpur,Odisha,851,273,150,9298,4748,0.85,1,2,3319,3118,YARD_1,Finished Steel,BCN,Via Nagpur,2
+PLAN_2024_0714,24/10/2025,Customer_35,Bhilai Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Odisha,398,65,148,18769,1440,0.56,0,0,8149,3167,YARD_2,Limestone,BRN,Via Bilaspur,8
+PLAN_2024_0715,22/10/2025,Customer_48,Bokaro Steel Plant,Chhattisgarh,Essar Steel Hazira,Andhra Pradesh,406,327,158,5665,2497,0.67,0,0,6206,2202,YARD_3,Coal,BOXN,Via Bilaspur,2
+PLAN_2024_0716,14/11/2025,Customer_25,Rourkela Steel Plant,Jharkhand,Jindal Steel Raigarh,Maharashtra,941,91,218,17568,7609,0.63,1,4,3452,1557,YARD_2,Limestone,BCN,Via Nagpur,9
+PLAN_2024_0717,11/11/2025,Customer_32,Durgapur Steel Plant,West Bengal,RINL Visakhapatnam,Jharkhand,717,66,196,9878,7719,0.8,1,4,2820,1225,YARD_5,Finished Steel,BCN,Via Nagpur,7
+PLAN_2024_0718,27/10/2025,Customer_50,Bokaro Steel Plant,West Bengal,RINL Visakhapatnam,Maharashtra,865,81,275,15080,5078,0.62,1,1,6725,1162,YARD_6,Iron Ore,BTPN,Via Tatanagar,2
+PLAN_2024_0719,18/10/2025,Customer_46,Rourkela Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Gujarat,1221,146,278,18299,1612,0.21,0,0,2733,1217,YARD_9,Iron Ore,BOXN,Via Bilaspur,9
+PLAN_2024_0720,06/11/2025,Customer_21,Rourkela Steel Plant,Gujarat,Bhushan Steel Meramandali,Maharashtra,381,271,235,14436,3304,0.38,1,1,7266,4436,YARD_4,Coal,BTPN,Direct,9
+PLAN_2024_0721,01/11/2025,Customer_25,Bokaro Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Maharashtra,659,324,241,17957,1536,0.36,1,2,4242,3702,YARD_4,Limestone,BRN,Via Bilaspur,7
+PLAN_2024_0722,25/10/2025,Customer_42,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,West Bengal,256,148,232,10106,2926,0.76,0,0,5015,3275,YARD_10,Finished Steel,BCN,Via Tatanagar,10
+PLAN_2024_0723,22/10/2025,Customer_10,Bhilai Steel Plant,Gujarat,Jindal Steel Raigarh,Andhra Pradesh,268,84,157,11251,3502,0.19,1,2,6350,3562,YARD_7,Iron Ore,BRN,Via Bilaspur,10
+PLAN_2024_0724,07/11/2025,Customer_48,Rourkela Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Odisha,1048,319,104,11114,5941,0.98,1,1,5262,537,YARD_9,Limestone,BTPN,Via Tatanagar,2
+PLAN_2024_0725,25/10/2025,Customer_37,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Jharkhand,473,106,128,5773,4919,0.41,1,1,9274,2720,YARD_7,Finished Steel,BCN,Via Nagpur,3
+PLAN_2024_0726,08/11/2025,Customer_4,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,Chhattisgarh,700,480,282,16045,1596,0.43,1,4,5405,3451,YARD_7,Coal,BOXN,Via Nagpur,7
+PLAN_2024_0727,26/10/2025,Customer_26,Durgapur Steel Plant,Odisha,RINL Visakhapatnam,West Bengal,971,451,113,19972,7190,0.76,0,0,7586,2782,YARD_4,Iron Ore,BRN,Via Bilaspur,9
+PLAN_2024_0728,30/10/2025,Customer_14,Rourkela Steel Plant,West Bengal,Essar Steel Hazira,Gujarat,1254,149,283,6166,4844,0.12,0,0,7248,3227,YARD_10,Coal,BOXN,Via Tatanagar,7
+PLAN_2024_0729,29/10/2025,Customer_15,Durgapur Steel Plant,Jharkhand,RINL Visakhapatnam,Chhattisgarh,715,149,287,13388,3328,0.92,1,2,6770,591,YARD_4,Iron Ore,BOXN,Via Bilaspur,8
+PLAN_2024_0730,06/11/2025,Customer_40,Bhilai Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Maharashtra,1429,339,193,7600,2804,0.4,0,0,5978,2154,YARD_2,Finished Steel,BOXN,Via Tatanagar,5
+PLAN_2024_0731,14/11/2025,Customer_15,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Maharashtra,500,493,143,17217,2586,0.96,1,2,7732,4671,YARD_9,Finished Steel,BOXN,Via Bilaspur,7
+PLAN_2024_0732,30/10/2025,Customer_38,Durgapur Steel Plant,Maharashtra,RINL Visakhapatnam,Jharkhand,979,116,145,13730,5220,0.75,0,0,4281,931,YARD_1,Finished Steel,BCN,Via Nagpur,7
+PLAN_2024_0733,04/11/2025,Customer_30,Bokaro Steel Plant,Maharashtra,RINL Visakhapatnam,Andhra Pradesh,297,493,256,18043,6897,0.99,1,1,5560,4781,YARD_3,Iron Ore,BTPN,Via Tatanagar,3
+PLAN_2024_0734,02/11/2025,Customer_45,Rourkela Steel Plant,Maharashtra,Jindal Steel Raigarh,Chhattisgarh,966,160,128,19965,5723,0.73,0,0,6449,2593,YARD_3,Finished Steel,BOXN,Via Tatanagar,6
+PLAN_2024_0735,07/11/2025,Customer_2,Rourkela Steel Plant,West Bengal,JSW Steel Dolvi,Andhra Pradesh,275,455,204,14384,1378,0.77,0,0,7879,1871,YARD_1,Finished Steel,BOXN,Via Bilaspur,2
+PLAN_2024_0736,26/10/2025,Customer_39,Durgapur Steel Plant,Odisha,Tata Steel Jamshedpur,Maharashtra,434,293,152,9979,5477,0.44,0,0,6177,1302,YARD_9,Limestone,BTPN,Via Tatanagar,9
+PLAN_2024_0737,16/10/2025,Customer_11,Bhilai Steel Plant,West Bengal,SAIL Burnpur,Chhattisgarh,944,300,102,11619,4983,0.63,1,3,9221,3893,YARD_10,Coal,BOXN,Direct,9
+PLAN_2024_0738,11/11/2025,Customer_23,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Maharashtra,1198,240,272,15420,7229,0.2,1,4,4982,619,YARD_3,Iron Ore,BTPN,Via Nagpur,4
+PLAN_2024_0739,19/10/2025,Customer_44,Bokaro Steel Plant,West Bengal,SAIL Burnpur,Chhattisgarh,372,52,166,15702,1675,0.71,0,0,7668,2150,YARD_1,Limestone,BOXN,Via Bilaspur,5
+PLAN_2024_0740,20/10/2025,Customer_34,Bhilai Steel Plant,West Bengal,JSW Steel Dolvi,Odisha,1065,171,116,19046,5049,0.75,1,4,7225,2538,YARD_3,Limestone,BOXN,Direct,6
+PLAN_2024_0741,13/11/2025,Customer_3,Durgapur Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Chhattisgarh,1242,405,244,14304,5321,0.93,1,1,3344,2952,YARD_10,Finished Steel,BRN,Via Nagpur,6
+PLAN_2024_0742,25/10/2025,Customer_4,Durgapur Steel Plant,Gujarat,SAIL Burnpur,Odisha,592,487,102,6560,3920,0.73,0,0,8087,4031,YARD_8,Limestone,BOXN,Via Tatanagar,5
+PLAN_2024_0743,26/10/2025,Customer_24,Rourkela Steel Plant,Odisha,Tata Steel Jamshedpur,Andhra Pradesh,850,307,171,18620,2351,0.53,0,0,6818,3843,YARD_2,Coal,BCN,Direct,10
+PLAN_2024_0744,21/10/2025,Customer_27,Durgapur Steel Plant,Andhra Pradesh,SAIL Burnpur,Gujarat,1445,173,114,19418,1015,0.28,0,0,7965,2660,YARD_9,Iron Ore,BOXN,Via Nagpur,10
+PLAN_2024_0745,03/11/2025,Customer_46,Bhilai Steel Plant,Chhattisgarh,JSW Steel Dolvi,Jharkhand,1294,366,225,12670,5907,0.4,0,0,2356,1561,YARD_1,Finished Steel,BRN,Via Nagpur,8
+PLAN_2024_0746,12/11/2025,Customer_14,Durgapur Steel Plant,Gujarat,Bhushan Steel Meramandali,Odisha,846,74,169,15674,3705,0.21,0,0,5413,1399,YARD_1,Limestone,BTPN,Via Bilaspur,9
+PLAN_2024_0747,06/11/2025,Customer_44,Rourkela Steel Plant,West Bengal,JSW Steel Dolvi,Odisha,289,261,170,11376,6929,0.26,0,0,1706,1186,YARD_6,Limestone,BTPN,Via Tatanagar,10
+PLAN_2024_0748,30/10/2025,Customer_38,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Chhattisgarh,1481,377,158,9337,7774,0.85,1,4,6658,1172,YARD_2,Iron Ore,BOXN,Via Nagpur,9
+PLAN_2024_0749,09/11/2025,Customer_45,Durgapur Steel Plant,Gujarat,Essar Steel Hazira,Andhra Pradesh,1248,466,263,11350,7055,0.56,1,4,1428,3524,YARD_9,Coal,BOXN,Via Bilaspur,6
+PLAN_2024_0750,14/11/2025,Customer_28,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Odisha,220,448,205,18731,4643,0.43,1,4,9822,1058,YARD_5,Limestone,BCN,Via Tatanagar,6
+PLAN_2024_0751,01/11/2025,Customer_14,Rourkela Steel Plant,Odisha,SAIL Burnpur,Chhattisgarh,840,486,275,19768,2417,0.59,0,0,5400,3025,YARD_6,Coal,BTPN,Via Tatanagar,7
+PLAN_2024_0752,03/11/2025,Customer_1,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Gujarat,512,158,103,9915,6369,0.73,1,2,8589,4040,YARD_1,Finished Steel,BTPN,Via Nagpur,6
+PLAN_2024_0753,29/10/2025,Customer_42,Bokaro Steel Plant,Chhattisgarh,Essar Steel Hazira,Jharkhand,1332,259,179,14369,5336,0.99,0,0,6645,4632,YARD_4,Coal,BCN,Via Nagpur,2
+PLAN_2024_0754,09/11/2025,Customer_50,Bhilai Steel Plant,Maharashtra,Bhushan Steel Meramandali,Odisha,233,374,161,8812,5155,0.23,0,0,5576,964,YARD_2,Limestone,BTPN,Direct,5
+PLAN_2024_0755,31/10/2025,Customer_28,Bhilai Steel Plant,Gujarat,RINL Visakhapatnam,Chhattisgarh,1446,393,242,15372,2886,0.81,1,4,8171,1182,YARD_10,Coal,BTPN,Via Tatanagar,7
+PLAN_2024_0756,12/11/2025,Customer_8,Bhilai Steel Plant,Odisha,RINL Visakhapatnam,Gujarat,684,275,265,11489,6271,0.26,0,0,5860,2869,YARD_8,Coal,BCN,Via Bilaspur,3
+PLAN_2024_0757,23/10/2025,Customer_50,Bhilai Steel Plant,Gujarat,Bhushan Steel Meramandali,Chhattisgarh,1038,462,151,10061,4893,0.58,1,3,6744,1417,YARD_10,Finished Steel,BTPN,Via Bilaspur,9
+PLAN_2024_0758,23/10/2025,Customer_33,Bokaro Steel Plant,Chhattisgarh,SAIL Burnpur,Jharkhand,344,413,126,15289,7381,0.11,1,2,8350,4494,YARD_3,Coal,BTPN,Via Tatanagar,7
+PLAN_2024_0759,07/11/2025,Customer_38,Bokaro Steel Plant,Maharashtra,Jindal Steel Raigarh,West Bengal,1107,66,122,7099,3480,0.91,0,0,3561,598,YARD_8,Coal,BTPN,Via Nagpur,8
+PLAN_2024_0760,05/11/2025,Customer_29,Rourkela Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Odisha,415,250,249,19248,7073,0.51,1,3,4438,1744,YARD_2,Iron Ore,BTPN,Via Nagpur,8
+PLAN_2024_0761,29/10/2025,Customer_46,Bhilai Steel Plant,Odisha,SAIL Burnpur,West Bengal,328,287,203,6187,4186,0.72,1,2,9248,4328,YARD_10,Finished Steel,BOXN,Via Nagpur,10
+PLAN_2024_0762,25/10/2025,Customer_49,Bhilai Steel Plant,Andhra Pradesh,SAIL Burnpur,Maharashtra,497,157,222,8919,6528,0.36,0,0,5040,1784,YARD_3,Finished Steel,BTPN,Via Bilaspur,8
+PLAN_2024_0763,14/11/2025,Customer_6,Rourkela Steel Plant,Odisha,Tata Steel Jamshedpur,Gujarat,364,433,177,14990,6911,0.26,0,0,2788,1621,YARD_8,Coal,BRN,Via Bilaspur,7
+PLAN_2024_0764,24/10/2025,Customer_3,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Andhra Pradesh,370,67,124,10301,4735,0.12,1,3,4544,1409,YARD_2,Finished Steel,BCN,Via Tatanagar,5
+PLAN_2024_0765,14/11/2025,Customer_44,Bokaro Steel Plant,Gujarat,Essar Steel Hazira,West Bengal,595,287,115,5143,1445,0.43,1,5,8606,662,YARD_8,Finished Steel,BRN,Via Tatanagar,9
+PLAN_2024_0766,06/11/2025,Customer_25,Bokaro Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Maharashtra,998,154,247,6587,4911,0.27,0,0,4824,3484,YARD_2,Coal,BRN,Direct,10
+PLAN_2024_0767,22/10/2025,Customer_37,Durgapur Steel Plant,Gujarat,JSW Steel Dolvi,Odisha,1091,158,266,11887,6402,0.2,0,0,6397,807,YARD_9,Coal,BTPN,Direct,3
+PLAN_2024_0768,25/10/2025,Customer_32,Bhilai Steel Plant,Jharkhand,Bhushan Steel Meramandali,Gujarat,1028,225,214,8902,7910,0.33,0,0,3372,3172,YARD_10,Iron Ore,BOXN,Via Bilaspur,5
+PLAN_2024_0769,14/11/2025,Customer_10,Rourkela Steel Plant,Odisha,Jindal Steel Raigarh,Chhattisgarh,726,182,291,10741,5146,0.4,1,4,8565,1570,YARD_8,Coal,BRN,Via Tatanagar,2
+PLAN_2024_0770,27/10/2025,Customer_7,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Jharkhand,501,445,293,8882,6353,0.21,0,0,2209,4789,YARD_7,Limestone,BRN,Via Nagpur,3
+PLAN_2024_0771,24/10/2025,Customer_30,Bokaro Steel Plant,Jharkhand,Tata Steel Jamshedpur,Odisha,1379,206,170,6005,6997,0.82,0,0,3401,1473,YARD_8,Finished Steel,BOXN,Via Nagpur,6
+PLAN_2024_0772,13/11/2025,Customer_16,Rourkela Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Maharashtra,1252,110,107,10689,1491,0.8,1,3,5749,3974,YARD_6,Finished Steel,BCN,Direct,5
+PLAN_2024_0773,13/11/2025,Customer_46,Rourkela Steel Plant,West Bengal,Essar Steel Hazira,Gujarat,1465,334,260,7324,6472,0.68,1,5,6027,3089,YARD_9,Iron Ore,BRN,Via Nagpur,8
+PLAN_2024_0774,01/11/2025,Customer_48,Rourkela Steel Plant,Jharkhand,Tata Steel Jamshedpur,West Bengal,884,234,212,8899,4048,0.44,0,0,7063,2665,YARD_1,Coal,BRN,Direct,2
+PLAN_2024_0775,05/11/2025,Customer_49,Bokaro Steel Plant,Jharkhand,Bhushan Steel Meramandali,Gujarat,536,285,193,10696,4636,0.51,1,3,3839,1672,YARD_4,Limestone,BTPN,Via Bilaspur,9
+PLAN_2024_0776,17/10/2025,Customer_12,Bokaro Steel Plant,Odisha,Bhushan Steel Meramandali,West Bengal,912,125,140,13151,5530,0.12,0,0,9460,1349,YARD_3,Finished Steel,BTPN,Via Bilaspur,9
+PLAN_2024_0777,14/11/2025,Customer_24,Rourkela Steel Plant,Andhra Pradesh,Essar Steel Hazira,Jharkhand,309,366,136,10546,1023,0.33,0,0,7718,4529,YARD_10,Limestone,BTPN,Via Nagpur,6
+PLAN_2024_0778,12/11/2025,Customer_37,Bokaro Steel Plant,Jharkhand,Jindal Steel Raigarh,West Bengal,624,397,125,6378,1670,0.66,0,0,2891,2335,YARD_10,Iron Ore,BCN,Via Nagpur,6
+PLAN_2024_0779,16/10/2025,Customer_1,Rourkela Steel Plant,Jharkhand,Bhushan Steel Meramandali,Chhattisgarh,1258,173,144,8174,3230,0.97,1,1,4946,2664,YARD_6,Iron Ore,BRN,Via Tatanagar,6
+PLAN_2024_0780,23/10/2025,Customer_47,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Jharkhand,749,378,126,18124,1766,0.33,1,5,7679,4423,YARD_7,Finished Steel,BTPN,Via Bilaspur,5
+PLAN_2024_0781,18/10/2025,Customer_41,Bhilai Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Odisha,1036,360,139,17458,1083,0.61,0,0,6511,2823,YARD_6,Finished Steel,BCN,Via Tatanagar,7
+PLAN_2024_0782,02/11/2025,Customer_50,Rourkela Steel Plant,Chhattisgarh,JSW Steel Dolvi,Gujarat,680,257,199,17807,4180,0.12,0,0,5209,3303,YARD_3,Coal,BCN,Via Tatanagar,2
+PLAN_2024_0783,04/11/2025,Customer_31,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Chhattisgarh,1016,444,132,18893,6541,0.13,1,5,3015,4088,YARD_9,Finished Steel,BRN,Via Bilaspur,4
+PLAN_2024_0784,07/11/2025,Customer_28,Durgapur Steel Plant,Odisha,Bhushan Steel Meramandali,Andhra Pradesh,1182,83,290,6016,5337,0.94,0,0,4321,2619,YARD_1,Iron Ore,BCN,Via Bilaspur,6
+PLAN_2024_0785,30/10/2025,Customer_15,Bokaro Steel Plant,Gujarat,SAIL Burnpur,Andhra Pradesh,572,289,200,11481,6495,0.95,0,0,4296,4729,YARD_9,Limestone,BRN,Via Nagpur,10
+PLAN_2024_0786,19/10/2025,Customer_16,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Maharashtra,1422,341,231,13872,1601,0.44,1,3,8821,1860,YARD_9,Coal,BOXN,Direct,10
+PLAN_2024_0787,27/10/2025,Customer_3,Bokaro Steel Plant,Andhra Pradesh,Essar Steel Hazira,Jharkhand,1199,384,158,6746,1444,0.14,1,5,6592,951,YARD_1,Coal,BOXN,Via Bilaspur,9
+PLAN_2024_0788,21/10/2025,Customer_45,Bhilai Steel Plant,Odisha,Jindal Steel Raigarh,West Bengal,735,234,210,10626,4073,0.74,1,2,9287,2529,YARD_5,Iron Ore,BOXN,Via Tatanagar,2
+PLAN_2024_0789,21/10/2025,Customer_18,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Odisha,684,125,148,14158,1513,0.61,0,0,5280,745,YARD_5,Coal,BOXN,Via Bilaspur,2
+PLAN_2024_0790,11/11/2025,Customer_37,Bhilai Steel Plant,West Bengal,RINL Visakhapatnam,Gujarat,758,179,206,15551,2062,0.63,1,1,4291,4139,YARD_9,Coal,BTPN,Direct,5
+PLAN_2024_0791,13/11/2025,Customer_49,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Maharashtra,851,170,100,8613,4068,0.7,0,0,1235,3840,YARD_2,Iron Ore,BOXN,Via Bilaspur,6
+PLAN_2024_0792,18/10/2025,Customer_29,Durgapur Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Jharkhand,928,361,198,16641,6073,0.27,1,1,3818,1120,YARD_2,Iron Ore,BOXN,Via Tatanagar,10
+PLAN_2024_0793,11/11/2025,Customer_14,Bhilai Steel Plant,Jharkhand,Bhushan Steel Meramandali,Gujarat,635,287,295,14256,1065,0.86,1,4,1807,1472,YARD_6,Iron Ore,BTPN,Via Bilaspur,9
+PLAN_2024_0794,27/10/2025,Customer_12,Bokaro Steel Plant,Odisha,JSW Steel Dolvi,Andhra Pradesh,832,61,102,9965,6556,0.55,1,3,8264,2291,YARD_2,Finished Steel,BRN,Via Nagpur,7
+PLAN_2024_0795,21/10/2025,Customer_14,Durgapur Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Chhattisgarh,547,206,171,14921,4640,0.26,1,2,1581,2051,YARD_9,Coal,BCN,Via Bilaspur,8
+PLAN_2024_0796,21/10/2025,Customer_37,Rourkela Steel Plant,Gujarat,SAIL Burnpur,Jharkhand,285,197,198,16292,4331,0.79,0,0,8287,4383,YARD_3,Finished Steel,BRN,Via Nagpur,3
+PLAN_2024_0797,19/10/2025,Customer_10,Bhilai Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,West Bengal,376,388,288,9004,1007,0.63,0,0,4805,1084,YARD_3,Iron Ore,BRN,Direct,9
+PLAN_2024_0798,06/11/2025,Customer_19,Durgapur Steel Plant,Andhra Pradesh,SAIL Burnpur,Chhattisgarh,966,173,275,7847,6963,0.45,0,0,8829,1445,YARD_4,Limestone,BTPN,Direct,7
+PLAN_2024_0799,24/10/2025,Customer_25,Durgapur Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Andhra Pradesh,776,346,284,19083,3987,0.22,1,1,2384,4303,YARD_1,Coal,BOXN,Via Tatanagar,6
+PLAN_2024_0800,06/11/2025,Customer_20,Rourkela Steel Plant,West Bengal,RINL Visakhapatnam,Maharashtra,685,89,197,8389,1971,0.7,0,0,7058,3614,YARD_6,Finished Steel,BOXN,Via Tatanagar,10
+PLAN_2024_0801,17/10/2025,Customer_41,Bhilai Steel Plant,Maharashtra,Tata Steel Jamshedpur,Odisha,934,89,103,8307,1625,0.83,1,5,7034,2745,YARD_9,Coal,BOXN,Via Tatanagar,2
+PLAN_2024_0802,19/10/2025,Customer_11,Bhilai Steel Plant,Odisha,RINL Visakhapatnam,Gujarat,1138,199,180,14597,7598,0.75,0,0,5199,2611,YARD_10,Limestone,BOXN,Via Bilaspur,5
+PLAN_2024_0803,09/11/2025,Customer_3,Durgapur Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Maharashtra,1467,317,182,19380,1901,0.8,1,2,7796,1765,YARD_7,Iron Ore,BTPN,Direct,10
+PLAN_2024_0804,08/11/2025,Customer_32,Bhilai Steel Plant,Odisha,RINL Visakhapatnam,Andhra Pradesh,461,473,233,7706,1156,0.45,1,5,9904,4131,YARD_5,Limestone,BCN,Direct,7
+PLAN_2024_0805,28/10/2025,Customer_23,Durgapur Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Maharashtra,617,292,126,14055,3228,0.63,1,3,5098,1491,YARD_6,Coal,BRN,Via Nagpur,5
+PLAN_2024_0806,21/10/2025,Customer_36,Bhilai Steel Plant,West Bengal,JSW Steel Dolvi,Maharashtra,346,413,171,17763,2263,0.21,0,0,5987,1891,YARD_6,Limestone,BTPN,Via Nagpur,5
+PLAN_2024_0807,13/11/2025,Customer_7,Rourkela Steel Plant,Odisha,SAIL Burnpur,Jharkhand,1194,449,257,8311,5391,0.79,1,3,5619,2306,YARD_8,Coal,BCN,Direct,3
+PLAN_2024_0808,30/10/2025,Customer_30,Rourkela Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Chhattisgarh,1375,282,273,17350,1980,0.92,1,5,7269,3505,YARD_6,Finished Steel,BOXN,Direct,5
+PLAN_2024_0809,28/10/2025,Customer_21,Bhilai Steel Plant,Jharkhand,RINL Visakhapatnam,West Bengal,615,338,100,8898,7288,0.25,0,0,1965,1653,YARD_6,Iron Ore,BOXN,Via Tatanagar,8
+PLAN_2024_0810,05/11/2025,Customer_15,Rourkela Steel Plant,Odisha,Bhushan Steel Meramandali,Andhra Pradesh,202,301,260,6680,3552,0.3,0,0,4000,2490,YARD_9,Finished Steel,BTPN,Direct,7
+PLAN_2024_0811,26/10/2025,Customer_13,Durgapur Steel Plant,Gujarat,JSW Steel Dolvi,West Bengal,274,135,291,6298,6354,0.82,1,5,7890,1041,YARD_2,Iron Ore,BRN,Direct,4
+PLAN_2024_0812,17/10/2025,Customer_47,Durgapur Steel Plant,Jharkhand,RINL Visakhapatnam,Andhra Pradesh,556,227,180,12689,7196,0.25,1,2,4439,1808,YARD_3,Iron Ore,BCN,Via Bilaspur,5
+PLAN_2024_0813,23/10/2025,Customer_31,Bokaro Steel Plant,Gujarat,Bhushan Steel Meramandali,West Bengal,560,293,224,11934,3890,0.81,1,2,1052,4666,YARD_7,Finished Steel,BRN,Via Bilaspur,5
+PLAN_2024_0814,13/11/2025,Customer_9,Bokaro Steel Plant,Chhattisgarh,Essar Steel Hazira,West Bengal,1225,196,285,18854,4950,0.98,0,0,6616,2641,YARD_5,Iron Ore,BCN,Via Tatanagar,4
+PLAN_2024_0815,21/10/2025,Customer_15,Bhilai Steel Plant,West Bengal,Bhushan Steel Meramandali,Maharashtra,712,397,172,19081,4406,0.19,1,5,3613,2127,YARD_4,Iron Ore,BCN,Via Tatanagar,7
+PLAN_2024_0816,11/11/2025,Customer_3,Bokaro Steel Plant,West Bengal,Bhushan Steel Meramandali,Odisha,1233,319,225,19550,7765,0.21,1,1,5621,1450,YARD_8,Finished Steel,BTPN,Direct,3
+PLAN_2024_0817,09/11/2025,Customer_6,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Jharkhand,1441,369,254,12726,1233,0.45,0,0,5962,3776,YARD_3,Coal,BRN,Direct,4
+PLAN_2024_0818,24/10/2025,Customer_15,Rourkela Steel Plant,Odisha,Bhushan Steel Meramandali,Andhra Pradesh,796,359,102,19187,7550,0.76,0,0,7695,781,YARD_1,Iron Ore,BCN,Direct,10
+PLAN_2024_0819,23/10/2025,Customer_16,Rourkela Steel Plant,Chhattisgarh,Essar Steel Hazira,West Bengal,1481,59,121,10464,2625,0.46,0,0,3556,3136,YARD_4,Coal,BRN,Direct,9
+PLAN_2024_0820,29/10/2025,Customer_29,Durgapur Steel Plant,Maharashtra,Essar Steel Hazira,Andhra Pradesh,688,347,224,13932,4287,0.19,1,2,7234,1178,YARD_5,Iron Ore,BRN,Via Tatanagar,6
+PLAN_2024_0821,19/10/2025,Customer_6,Rourkela Steel Plant,West Bengal,Tata Steel Jamshedpur,Maharashtra,488,104,217,15114,7758,0.63,1,3,8798,1984,YARD_3,Limestone,BOXN,Via Bilaspur,3
+PLAN_2024_0822,25/10/2025,Customer_35,Bokaro Steel Plant,Maharashtra,Essar Steel Hazira,Gujarat,1090,470,246,14416,5479,0.51,1,2,6089,1077,YARD_4,Iron Ore,BOXN,Via Tatanagar,5
+PLAN_2024_0823,09/11/2025,Customer_39,Bokaro Steel Plant,Gujarat,Tata Steel Jamshedpur,Chhattisgarh,1014,51,183,17142,3677,0.55,1,4,1852,1822,YARD_9,Iron Ore,BTPN,Direct,6
+PLAN_2024_0824,09/11/2025,Customer_30,Bokaro Steel Plant,West Bengal,JSW Steel Dolvi,Jharkhand,1055,341,137,19097,3642,0.19,1,2,1898,4497,YARD_9,Finished Steel,BRN,Via Nagpur,9
+PLAN_2024_0825,28/10/2025,Customer_47,Durgapur Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Gujarat,1408,413,169,9975,6869,0.17,1,2,6961,3323,YARD_7,Finished Steel,BRN,Direct,6
+PLAN_2024_0826,08/11/2025,Customer_30,Bhilai Steel Plant,Andhra Pradesh,Essar Steel Hazira,West Bengal,830,352,289,5147,4656,0.96,1,4,8366,4642,YARD_6,Iron Ore,BOXN,Via Tatanagar,10
+PLAN_2024_0827,25/10/2025,Customer_15,Bhilai Steel Plant,Jharkhand,Jindal Steel Raigarh,West Bengal,1496,138,228,18761,2256,0.49,0,0,2420,2624,YARD_2,Limestone,BTPN,Via Nagpur,2
+PLAN_2024_0828,07/11/2025,Customer_13,Bhilai Steel Plant,Chhattisgarh,JSW Steel Dolvi,Maharashtra,949,95,152,12464,3232,0.96,1,2,3151,2740,YARD_4,Finished Steel,BRN,Via Nagpur,6
+PLAN_2024_0829,28/10/2025,Customer_39,Bhilai Steel Plant,Gujarat,SAIL Burnpur,Chhattisgarh,1415,251,295,12583,5496,0.28,0,0,1287,4765,YARD_3,Finished Steel,BOXN,Direct,7
+PLAN_2024_0830,11/11/2025,Customer_46,Bokaro Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Maharashtra,873,158,295,10440,3764,0.11,0,0,3377,3538,YARD_3,Finished Steel,BTPN,Via Nagpur,10
+PLAN_2024_0831,10/11/2025,Customer_5,Bhilai Steel Plant,West Bengal,Bhushan Steel Meramandali,Maharashtra,676,51,112,13900,1095,0.62,0,0,2371,4585,YARD_10,Iron Ore,BCN,Via Nagpur,2
+PLAN_2024_0832,14/11/2025,Customer_28,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Odisha,563,315,238,14634,7191,0.16,1,4,9997,4963,YARD_6,Iron Ore,BRN,Via Nagpur,2
+PLAN_2024_0833,23/10/2025,Customer_28,Durgapur Steel Plant,West Bengal,Essar Steel Hazira,Chhattisgarh,1311,119,191,15376,2554,0.18,1,3,1569,4827,YARD_6,Iron Ore,BOXN,Direct,4
+PLAN_2024_0834,14/11/2025,Customer_5,Rourkela Steel Plant,Odisha,JSW Steel Dolvi,Maharashtra,1470,342,136,6982,4250,0.34,0,0,7521,621,YARD_10,Finished Steel,BCN,Via Tatanagar,8
+PLAN_2024_0835,13/11/2025,Customer_6,Rourkela Steel Plant,Jharkhand,RINL Visakhapatnam,Odisha,1117,159,297,15754,4439,0.44,0,0,5402,2668,YARD_1,Iron Ore,BTPN,Via Tatanagar,6
+PLAN_2024_0836,20/10/2025,Customer_2,Bokaro Steel Plant,Odisha,Tata Steel Jamshedpur,Chhattisgarh,281,54,136,7209,7373,0.31,0,0,3567,2597,YARD_5,Finished Steel,BCN,Via Tatanagar,6
+PLAN_2024_0837,20/10/2025,Customer_11,Bokaro Steel Plant,Odisha,Bhushan Steel Meramandali,Gujarat,416,344,255,16545,6283,0.11,1,3,5441,2222,YARD_10,Finished Steel,BOXN,Direct,4
+PLAN_2024_0838,02/11/2025,Customer_34,Bokaro Steel Plant,Odisha,Bhushan Steel Meramandali,Gujarat,376,466,184,17214,3391,0.74,0,0,5413,2114,YARD_10,Limestone,BOXN,Via Tatanagar,3
+PLAN_2024_0839,27/10/2025,Customer_33,Bokaro Steel Plant,West Bengal,Jindal Steel Raigarh,Jharkhand,976,66,288,14814,2204,0.91,1,4,5555,3633,YARD_10,Iron Ore,BTPN,Via Nagpur,10
+PLAN_2024_0840,07/11/2025,Customer_24,Rourkela Steel Plant,Maharashtra,Bhushan Steel Meramandali,Jharkhand,297,116,212,5769,6649,0.83,0,0,8002,4207,YARD_2,Coal,BRN,Via Nagpur,4
+PLAN_2024_0841,11/11/2025,Customer_25,Bokaro Steel Plant,West Bengal,Jindal Steel Raigarh,Gujarat,912,281,175,19490,7763,0.58,1,4,2730,1485,YARD_10,Limestone,BOXN,Via Bilaspur,3
+PLAN_2024_0842,29/10/2025,Customer_6,Bokaro Steel Plant,Gujarat,Essar Steel Hazira,Maharashtra,292,380,211,10364,7711,0.7,1,4,8882,1258,YARD_9,Iron Ore,BCN,Via Bilaspur,4
+PLAN_2024_0843,26/10/2025,Customer_46,Durgapur Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Maharashtra,1035,149,211,18452,5288,0.66,0,0,6668,760,YARD_6,Iron Ore,BOXN,Via Bilaspur,2
+PLAN_2024_0844,25/10/2025,Customer_28,Bokaro Steel Plant,West Bengal,Bhushan Steel Meramandali,Chhattisgarh,1454,295,286,9070,3802,0.72,1,5,9984,4066,YARD_2,Coal,BRN,Via Tatanagar,4
+PLAN_2024_0845,09/11/2025,Customer_6,Rourkela Steel Plant,Jharkhand,Essar Steel Hazira,West Bengal,958,133,297,6047,3117,0.55,0,0,9428,4199,YARD_1,Finished Steel,BOXN,Via Bilaspur,3
+PLAN_2024_0846,28/10/2025,Customer_48,Rourkela Steel Plant,West Bengal,Jindal Steel Raigarh,Maharashtra,315,223,157,18572,5174,0.4,1,2,6810,4189,YARD_8,Finished Steel,BTPN,Via Tatanagar,3
+PLAN_2024_0847,20/10/2025,Customer_38,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Jharkhand,472,390,202,8054,1669,0.51,0,0,6916,2598,YARD_9,Coal,BRN,Via Tatanagar,10
+PLAN_2024_0848,06/11/2025,Customer_32,Bokaro Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Maharashtra,1277,112,149,14170,1250,0.66,0,0,1945,2618,YARD_3,Iron Ore,BTPN,Via Nagpur,2
+PLAN_2024_0849,13/11/2025,Customer_25,Durgapur Steel Plant,Odisha,Bhushan Steel Meramandali,Maharashtra,1013,260,253,9411,4588,0.12,1,4,9956,3044,YARD_9,Iron Ore,BCN,Via Bilaspur,4
+PLAN_2024_0850,13/11/2025,Customer_39,Bhilai Steel Plant,Gujarat,SAIL Burnpur,Andhra Pradesh,640,308,199,14096,6558,0.34,0,0,5450,3053,YARD_3,Limestone,BRN,Via Nagpur,5
+PLAN_2024_0851,18/10/2025,Customer_12,Durgapur Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Gujarat,893,375,163,6068,7612,0.45,0,0,7214,2198,YARD_5,Coal,BTPN,Via Nagpur,10
+PLAN_2024_0852,08/11/2025,Customer_22,Durgapur Steel Plant,Odisha,SAIL Burnpur,Andhra Pradesh,403,369,290,17648,7077,0.92,1,3,2192,769,YARD_4,Limestone,BTPN,Via Tatanagar,6
+PLAN_2024_0853,17/10/2025,Customer_4,Bhilai Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Odisha,807,301,110,9531,1018,0.49,0,0,9442,4657,YARD_9,Iron Ore,BRN,Via Nagpur,8
+PLAN_2024_0854,31/10/2025,Customer_16,Rourkela Steel Plant,West Bengal,JSW Steel Dolvi,Chhattisgarh,444,390,212,19573,5558,0.46,0,0,5810,4482,YARD_8,Limestone,BOXN,Via Bilaspur,6
+PLAN_2024_0855,12/11/2025,Customer_50,Durgapur Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Chhattisgarh,308,95,114,9079,6952,0.18,0,0,7175,1702,YARD_7,Iron Ore,BTPN,Via Nagpur,4
+PLAN_2024_0856,14/11/2025,Customer_26,Durgapur Steel Plant,West Bengal,Tata Steel Jamshedpur,Andhra Pradesh,956,150,192,6313,3293,0.9,1,1,9633,1643,YARD_7,Iron Ore,BCN,Via Tatanagar,8
+PLAN_2024_0857,22/10/2025,Customer_37,Durgapur Steel Plant,Gujarat,RINL Visakhapatnam,Jharkhand,744,403,245,6967,4918,0.33,1,1,7970,3679,YARD_3,Iron Ore,BCN,Via Tatanagar,6
+PLAN_2024_0858,13/11/2025,Customer_43,Bhilai Steel Plant,Andhra Pradesh,SAIL Burnpur,Gujarat,500,396,157,13544,5414,0.68,1,4,8043,3619,YARD_5,Limestone,BRN,Via Bilaspur,2
+PLAN_2024_0859,07/11/2025,Customer_19,Rourkela Steel Plant,Jharkhand,Jindal Steel Raigarh,Gujarat,1034,164,155,18179,6635,0.8,0,0,1454,2575,YARD_6,Iron Ore,BCN,Via Bilaspur,7
+PLAN_2024_0860,01/11/2025,Customer_16,Durgapur Steel Plant,Jharkhand,Tata Steel Jamshedpur,Gujarat,1317,318,112,5427,3173,0.14,1,1,1435,1721,YARD_4,Iron Ore,BCN,Via Nagpur,10
+PLAN_2024_0861,11/11/2025,Customer_10,Bhilai Steel Plant,Gujarat,Essar Steel Hazira,West Bengal,1068,232,126,13539,1892,0.78,0,0,5089,3130,YARD_8,Finished Steel,BCN,Via Nagpur,2
+PLAN_2024_0862,18/10/2025,Customer_48,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Gujarat,586,307,227,7923,3163,0.23,1,5,6067,3546,YARD_5,Finished Steel,BRN,Direct,2
+PLAN_2024_0863,17/10/2025,Customer_35,Bokaro Steel Plant,Maharashtra,Tata Steel Jamshedpur,Jharkhand,1431,281,253,8217,3152,0.27,0,0,7369,2630,YARD_4,Limestone,BRN,Via Bilaspur,8
+PLAN_2024_0864,27/10/2025,Customer_15,Bhilai Steel Plant,Maharashtra,Bhushan Steel Meramandali,Chhattisgarh,1101,435,223,7186,7907,0.87,0,0,1036,3618,YARD_8,Coal,BCN,Via Tatanagar,3
+PLAN_2024_0865,29/10/2025,Customer_33,Rourkela Steel Plant,Odisha,Tata Steel Jamshedpur,Gujarat,1308,207,215,9090,6691,0.64,0,0,5799,4950,YARD_9,Iron Ore,BCN,Direct,9
+PLAN_2024_0866,03/11/2025,Customer_8,Durgapur Steel Plant,Gujarat,SAIL Burnpur,Odisha,1118,127,148,18086,5754,0.6,1,3,4185,1160,YARD_10,Finished Steel,BRN,Via Bilaspur,7
+PLAN_2024_0867,12/11/2025,Customer_40,Durgapur Steel Plant,Gujarat,Bhushan Steel Meramandali,Chhattisgarh,835,432,289,16065,4162,0.75,1,2,6705,2480,YARD_10,Limestone,BTPN,Via Tatanagar,2
+PLAN_2024_0868,24/10/2025,Customer_42,Rourkela Steel Plant,Odisha,JSW Steel Dolvi,Chhattisgarh,846,299,288,5730,6828,0.65,1,2,7367,4067,YARD_7,Finished Steel,BOXN,Direct,4
+PLAN_2024_0869,07/11/2025,Customer_29,Bokaro Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Odisha,397,496,148,17199,3958,0.85,1,4,5619,1421,YARD_8,Coal,BCN,Via Tatanagar,7
+PLAN_2024_0870,06/11/2025,Customer_45,Bokaro Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Chhattisgarh,1020,93,144,19313,7162,0.71,0,0,9736,4119,YARD_9,Limestone,BTPN,Via Tatanagar,10
+PLAN_2024_0871,11/11/2025,Customer_50,Rourkela Steel Plant,Jharkhand,JSW Steel Dolvi,Maharashtra,1439,430,125,9240,7832,0.51,0,0,8531,2945,YARD_7,Coal,BOXN,Via Nagpur,4
+PLAN_2024_0872,29/10/2025,Customer_14,Bokaro Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Chhattisgarh,418,451,180,5828,5082,0.57,0,0,3129,1034,YARD_4,Finished Steel,BRN,Direct,5
+PLAN_2024_0873,21/10/2025,Customer_11,Durgapur Steel Plant,Gujarat,JSW Steel Dolvi,Maharashtra,508,344,142,6832,3873,0.83,1,5,2184,4237,YARD_4,Coal,BRN,Via Tatanagar,3
+PLAN_2024_0874,08/11/2025,Customer_32,Durgapur Steel Plant,Odisha,Essar Steel Hazira,West Bengal,1088,241,294,8568,6371,0.25,0,0,8697,3409,YARD_6,Coal,BOXN,Via Tatanagar,6
+PLAN_2024_0875,27/10/2025,Customer_34,Bokaro Steel Plant,West Bengal,Tata Steel Jamshedpur,Chhattisgarh,1080,191,273,18225,2086,0.59,0,0,6407,4029,YARD_1,Coal,BRN,Via Bilaspur,8
+PLAN_2024_0876,16/10/2025,Customer_16,Bokaro Steel Plant,Gujarat,Tata Steel Jamshedpur,West Bengal,1302,218,119,7188,1540,0.19,0,0,8824,2027,YARD_8,Coal,BOXN,Direct,8
+PLAN_2024_0877,05/11/2025,Customer_27,Durgapur Steel Plant,Odisha,Tata Steel Jamshedpur,Andhra Pradesh,1256,137,148,13700,1357,0.49,0,0,2507,2248,YARD_9,Finished Steel,BOXN,Via Tatanagar,6
+PLAN_2024_0878,31/10/2025,Customer_50,Rourkela Steel Plant,West Bengal,Jindal Steel Raigarh,Andhra Pradesh,1361,316,278,16385,3715,0.82,0,0,7307,3596,YARD_1,Iron Ore,BRN,Via Bilaspur,10
+PLAN_2024_0879,21/10/2025,Customer_49,Bokaro Steel Plant,Jharkhand,Bhushan Steel Meramandali,Andhra Pradesh,855,309,146,6150,1068,0.75,1,3,6215,886,YARD_2,Finished Steel,BOXN,Via Tatanagar,8
+PLAN_2024_0880,07/11/2025,Customer_13,Durgapur Steel Plant,Gujarat,Jindal Steel Raigarh,Chhattisgarh,625,202,141,14282,7246,0.8,0,0,5495,4534,YARD_8,Finished Steel,BTPN,Via Bilaspur,9
+PLAN_2024_0881,19/10/2025,Customer_26,Bokaro Steel Plant,Odisha,RINL Visakhapatnam,Chhattisgarh,1344,400,249,19312,4289,0.93,0,0,7118,1160,YARD_2,Limestone,BCN,Via Tatanagar,8
+PLAN_2024_0882,02/11/2025,Customer_41,Rourkela Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Maharashtra,381,339,190,6087,6255,0.31,0,0,8496,3736,YARD_7,Coal,BTPN,Via Bilaspur,2
+PLAN_2024_0883,08/11/2025,Customer_22,Durgapur Steel Plant,Chhattisgarh,Jindal Steel Raigarh,West Bengal,488,185,106,17315,1924,0.78,1,3,5900,2030,YARD_9,Limestone,BTPN,Via Tatanagar,2
+PLAN_2024_0884,16/10/2025,Customer_19,Durgapur Steel Plant,Gujarat,SAIL Burnpur,Andhra Pradesh,811,165,160,5207,2031,0.85,0,0,7598,3926,YARD_4,Limestone,BTPN,Via Bilaspur,6
+PLAN_2024_0885,25/10/2025,Customer_18,Bokaro Steel Plant,Andhra Pradesh,Essar Steel Hazira,West Bengal,1136,137,285,17909,4393,0.59,1,4,5742,3684,YARD_6,Coal,BRN,Via Nagpur,9
+PLAN_2024_0886,19/10/2025,Customer_24,Rourkela Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,Odisha,1444,305,116,17419,4108,0.97,1,1,5569,2192,YARD_7,Coal,BTPN,Via Bilaspur,4
+PLAN_2024_0887,21/10/2025,Customer_20,Bhilai Steel Plant,Jharkhand,SAIL Burnpur,Odisha,756,162,108,13893,2441,0.31,0,0,9244,584,YARD_5,Limestone,BCN,Via Bilaspur,3
+PLAN_2024_0888,20/10/2025,Customer_6,Bokaro Steel Plant,Chhattisgarh,JSW Steel Dolvi,Maharashtra,1031,170,133,19457,3107,0.7,0,0,2268,4868,YARD_4,Iron Ore,BTPN,Via Tatanagar,5
+PLAN_2024_0889,30/10/2025,Customer_46,Rourkela Steel Plant,Gujarat,RINL Visakhapatnam,West Bengal,1184,264,277,13681,1147,0.46,1,3,5972,3026,YARD_9,Finished Steel,BTPN,Via Bilaspur,9
+PLAN_2024_0890,31/10/2025,Customer_45,Durgapur Steel Plant,Jharkhand,JSW Steel Dolvi,Gujarat,1496,496,126,16834,5787,0.29,1,5,2378,4776,YARD_3,Limestone,BTPN,Direct,6
+PLAN_2024_0891,30/10/2025,Customer_13,Bhilai Steel Plant,West Bengal,Jindal Steel Raigarh,Jharkhand,783,254,150,11508,6279,0.83,1,4,8020,2832,YARD_4,Limestone,BTPN,Via Tatanagar,3
+PLAN_2024_0892,14/11/2025,Customer_30,Durgapur Steel Plant,Gujarat,Bhushan Steel Meramandali,Maharashtra,1341,439,178,15135,1977,0.1,0,0,1704,4534,YARD_4,Iron Ore,BRN,Direct,10
+PLAN_2024_0893,18/10/2025,Customer_33,Bhilai Steel Plant,Chhattisgarh,Essar Steel Hazira,Jharkhand,990,299,262,14631,3611,0.3,0,0,3490,3650,YARD_2,Iron Ore,BRN,Direct,3
+PLAN_2024_0894,04/11/2025,Customer_27,Bokaro Steel Plant,Chhattisgarh,RINL Visakhapatnam,Jharkhand,745,60,140,14529,2621,0.17,1,4,1227,2648,YARD_3,Limestone,BOXN,Via Bilaspur,4
+PLAN_2024_0895,27/10/2025,Customer_42,Rourkela Steel Plant,Gujarat,Essar Steel Hazira,Odisha,1500,451,227,10373,5816,0.26,0,0,3635,877,YARD_4,Iron Ore,BOXN,Via Tatanagar,6
+PLAN_2024_0896,07/11/2025,Customer_49,Bhilai Steel Plant,Odisha,Jindal Steel Raigarh,Chhattisgarh,1437,116,227,15550,1654,0.8,0,0,7317,3082,YARD_7,Limestone,BRN,Direct,5
+PLAN_2024_0897,29/10/2025,Customer_33,Bhilai Steel Plant,Odisha,SAIL Burnpur,Chhattisgarh,610,448,218,7481,1910,0.24,1,1,3408,1545,YARD_3,Finished Steel,BTPN,Direct,9
+PLAN_2024_0898,10/11/2025,Customer_6,Rourkela Steel Plant,Jharkhand,RINL Visakhapatnam,West Bengal,1366,473,247,12921,3650,0.58,0,0,1936,1795,YARD_10,Finished Steel,BCN,Via Bilaspur,5
+PLAN_2024_0899,24/10/2025,Customer_44,Durgapur Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Maharashtra,618,170,126,5150,5435,0.42,0,0,9065,3905,YARD_2,Coal,BTPN,Via Bilaspur,8
+PLAN_2024_0900,21/10/2025,Customer_6,Rourkela Steel Plant,Odisha,SAIL Burnpur,Jharkhand,683,463,152,9438,3372,0.73,1,3,2466,4417,YARD_7,Iron Ore,BOXN,Via Tatanagar,5
+PLAN_2024_0901,01/11/2025,Customer_45,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Maharashtra,936,404,286,7642,4363,0.15,0,0,3221,2561,YARD_7,Finished Steel,BRN,Direct,9
+PLAN_2024_0902,04/11/2025,Customer_44,Rourkela Steel Plant,Maharashtra,RINL Visakhapatnam,Andhra Pradesh,1434,415,152,14948,6483,0.89,0,0,2194,3391,YARD_8,Limestone,BOXN,Direct,4
+PLAN_2024_0903,20/10/2025,Customer_30,Rourkela Steel Plant,Maharashtra,Essar Steel Hazira,West Bengal,673,98,217,5213,7697,0.97,0,0,3656,3385,YARD_1,Limestone,BRN,Via Nagpur,8
+PLAN_2024_0904,16/10/2025,Customer_25,Durgapur Steel Plant,Gujarat,SAIL Burnpur,Chhattisgarh,1080,440,277,7577,3871,0.23,1,3,6346,3903,YARD_2,Finished Steel,BRN,Direct,2
+PLAN_2024_0905,21/10/2025,Customer_19,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Andhra Pradesh,425,241,279,15586,4506,0.46,1,5,1125,3636,YARD_6,Coal,BTPN,Via Bilaspur,4
+PLAN_2024_0906,05/11/2025,Customer_43,Bokaro Steel Plant,Gujarat,JSW Steel Dolvi,West Bengal,1125,235,172,13890,7482,0.83,1,2,4161,3334,YARD_6,Coal,BTPN,Via Bilaspur,4
+PLAN_2024_0907,10/11/2025,Customer_20,Rourkela Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Jharkhand,1430,438,170,14842,6186,0.24,0,0,7597,3121,YARD_9,Finished Steel,BRN,Direct,8
+PLAN_2024_0908,01/11/2025,Customer_15,Bhilai Steel Plant,Odisha,Bhushan Steel Meramandali,Gujarat,1149,259,270,19840,5938,0.79,1,3,5186,736,YARD_2,Finished Steel,BRN,Direct,9
+PLAN_2024_0909,25/10/2025,Customer_43,Bokaro Steel Plant,Maharashtra,Tata Steel Jamshedpur,Chhattisgarh,502,419,254,9192,2932,0.12,1,3,7657,4490,YARD_5,Limestone,BCN,Via Bilaspur,3
+PLAN_2024_0910,21/10/2025,Customer_22,Rourkela Steel Plant,Odisha,SAIL Burnpur,Andhra Pradesh,416,485,179,6664,3643,0.41,0,0,7547,2284,YARD_5,Finished Steel,BCN,Direct,10
+PLAN_2024_0911,09/11/2025,Customer_15,Rourkela Steel Plant,Maharashtra,Essar Steel Hazira,Odisha,615,403,231,10333,3353,0.49,1,3,7157,4687,YARD_4,Finished Steel,BRN,Direct,3
+PLAN_2024_0912,17/10/2025,Customer_46,Bhilai Steel Plant,Andhra Pradesh,Essar Steel Hazira,Maharashtra,653,481,185,10258,7346,0.29,1,4,8327,1822,YARD_3,Coal,BTPN,Via Bilaspur,6
+PLAN_2024_0913,04/11/2025,Customer_13,Bokaro Steel Plant,Gujarat,Tata Steel Jamshedpur,West Bengal,1322,127,185,12349,1595,0.4,0,0,4305,946,YARD_2,Finished Steel,BOXN,Via Nagpur,7
+PLAN_2024_0914,20/10/2025,Customer_31,Durgapur Steel Plant,Gujarat,SAIL Burnpur,Maharashtra,669,262,290,6610,3234,0.79,1,4,6528,4221,YARD_1,Coal,BOXN,Via Nagpur,2
+PLAN_2024_0915,21/10/2025,Customer_27,Durgapur Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,West Bengal,951,130,176,19298,4854,0.53,1,5,8731,4548,YARD_1,Coal,BTPN,Via Nagpur,10
+PLAN_2024_0916,08/11/2025,Customer_2,Bhilai Steel Plant,West Bengal,Tata Steel Jamshedpur,Chhattisgarh,214,327,295,12350,2389,0.75,0,0,7854,4294,YARD_7,Iron Ore,BCN,Via Bilaspur,2
+PLAN_2024_0917,02/11/2025,Customer_42,Bhilai Steel Plant,Jharkhand,SAIL Burnpur,West Bengal,920,59,115,12420,3393,0.82,0,0,5531,3728,YARD_10,Coal,BTPN,Via Tatanagar,3
+PLAN_2024_0918,23/10/2025,Customer_35,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Maharashtra,523,73,105,9192,7654,0.37,1,3,5775,4415,YARD_9,Iron Ore,BOXN,Via Nagpur,6
+PLAN_2024_0919,16/10/2025,Customer_43,Rourkela Steel Plant,Gujarat,Bhushan Steel Meramandali,West Bengal,598,485,220,17796,1128,0.91,0,0,6141,1896,YARD_3,Finished Steel,BOXN,Via Bilaspur,6
+PLAN_2024_0920,18/10/2025,Customer_24,Bokaro Steel Plant,West Bengal,Bhushan Steel Meramandali,Maharashtra,1208,250,246,11963,4535,0.17,0,0,4199,3373,YARD_7,Finished Steel,BRN,Via Tatanagar,5
+PLAN_2024_0921,22/10/2025,Customer_25,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Jharkhand,397,366,267,19974,5571,0.4,0,0,5153,974,YARD_3,Iron Ore,BTPN,Via Bilaspur,4
+PLAN_2024_0922,26/10/2025,Customer_27,Rourkela Steel Plant,West Bengal,RINL Visakhapatnam,Jharkhand,817,176,295,18925,3094,0.92,1,5,5218,4109,YARD_7,Iron Ore,BRN,Via Nagpur,6
+PLAN_2024_0923,07/11/2025,Customer_24,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,Andhra Pradesh,237,415,204,15567,1209,0.54,1,3,5067,4224,YARD_6,Coal,BTPN,Via Tatanagar,5
+PLAN_2024_0924,27/10/2025,Customer_18,Bokaro Steel Plant,Gujarat,Bhushan Steel Meramandali,West Bengal,462,266,100,16651,7440,0.76,0,0,8821,4020,YARD_7,Finished Steel,BTPN,Via Bilaspur,9
+PLAN_2024_0925,01/11/2025,Customer_41,Rourkela Steel Plant,Maharashtra,Bhushan Steel Meramandali,Andhra Pradesh,327,427,253,10887,7205,0.48,0,0,1359,765,YARD_1,Limestone,BTPN,Direct,10
+PLAN_2024_0926,04/11/2025,Customer_8,Rourkela Steel Plant,Jharkhand,Essar Steel Hazira,Andhra Pradesh,315,430,124,12417,2183,0.54,1,2,3701,2502,YARD_5,Limestone,BTPN,Via Bilaspur,10
+PLAN_2024_0927,05/11/2025,Customer_32,Bokaro Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Gujarat,1425,123,138,9081,1779,0.68,1,3,7325,1542,YARD_6,Limestone,BRN,Via Tatanagar,10
+PLAN_2024_0928,29/10/2025,Customer_18,Bhilai Steel Plant,Maharashtra,Bhushan Steel Meramandali,West Bengal,1376,408,180,11892,6715,0.58,1,4,2155,2253,YARD_8,Limestone,BRN,Direct,8
+PLAN_2024_0929,16/10/2025,Customer_3,Bokaro Steel Plant,Andhra Pradesh,Tata Steel Jamshedpur,Chhattisgarh,938,227,129,15583,3287,0.11,0,0,4453,1043,YARD_9,Coal,BOXN,Direct,8
+PLAN_2024_0930,19/10/2025,Customer_9,Rourkela Steel Plant,Gujarat,Bhushan Steel Meramandali,Odisha,1390,176,280,5569,6413,0.67,0,0,5470,3551,YARD_1,Iron Ore,BRN,Direct,10
+PLAN_2024_0931,20/10/2025,Customer_10,Bhilai Steel Plant,Gujarat,RINL Visakhapatnam,Odisha,327,54,246,10838,7470,0.85,1,5,8587,2660,YARD_4,Finished Steel,BOXN,Via Nagpur,2
+PLAN_2024_0932,20/10/2025,Customer_11,Bokaro Steel Plant,Maharashtra,Jindal Steel Raigarh,Jharkhand,451,249,179,14515,1084,0.68,0,0,3287,596,YARD_7,Coal,BCN,Via Tatanagar,3
+PLAN_2024_0933,12/11/2025,Customer_20,Bhilai Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,Jharkhand,337,398,132,9648,4637,0.99,0,0,3371,3590,YARD_5,Iron Ore,BOXN,Via Nagpur,4
+PLAN_2024_0934,06/11/2025,Customer_23,Rourkela Steel Plant,Maharashtra,Bhushan Steel Meramandali,Jharkhand,1444,180,166,16081,3250,0.84,1,5,7374,3214,YARD_1,Finished Steel,BCN,Via Nagpur,4
+PLAN_2024_0935,02/11/2025,Customer_47,Bhilai Steel Plant,Gujarat,Essar Steel Hazira,Chhattisgarh,673,53,283,14708,1411,0.67,0,0,9286,2535,YARD_10,Iron Ore,BCN,Via Nagpur,7
+PLAN_2024_0936,11/11/2025,Customer_23,Rourkela Steel Plant,Jharkhand,SAIL Burnpur,West Bengal,618,493,151,14446,5060,0.34,1,2,2478,3462,YARD_4,Limestone,BCN,Via Bilaspur,10
+PLAN_2024_0937,02/11/2025,Customer_32,Bhilai Steel Plant,Chhattisgarh,Bhushan Steel Meramandali,West Bengal,785,269,166,18720,7987,0.94,0,0,6597,662,YARD_9,Finished Steel,BTPN,Via Bilaspur,10
+PLAN_2024_0938,27/10/2025,Customer_43,Bokaro Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Gujarat,511,294,218,10441,2109,0.34,0,0,6608,1921,YARD_10,Finished Steel,BRN,Via Nagpur,6
+PLAN_2024_0939,28/10/2025,Customer_12,Bokaro Steel Plant,Gujarat,RINL Visakhapatnam,Jharkhand,712,421,147,9625,2806,0.44,0,0,4707,969,YARD_9,Iron Ore,BTPN,Via Nagpur,9
+PLAN_2024_0940,12/11/2025,Customer_9,Bokaro Steel Plant,Andhra Pradesh,Bhushan Steel Meramandali,West Bengal,228,422,254,19875,7464,0.17,1,2,9905,4069,YARD_9,Coal,BTPN,Via Bilaspur,9
+PLAN_2024_0941,23/10/2025,Customer_25,Bokaro Steel Plant,Jharkhand,SAIL Burnpur,West Bengal,443,232,156,6490,3610,0.86,1,2,3488,3261,YARD_10,Finished Steel,BOXN,Via Bilaspur,8
+PLAN_2024_0942,29/10/2025,Customer_44,Bokaro Steel Plant,Gujarat,Essar Steel Hazira,Andhra Pradesh,1329,283,226,6550,5055,0.79,0,0,7815,1455,YARD_6,Iron Ore,BCN,Via Nagpur,8
+PLAN_2024_0943,08/11/2025,Customer_2,Rourkela Steel Plant,Chhattisgarh,JSW Steel Dolvi,Andhra Pradesh,1217,357,196,19156,1580,0.81,0,0,4344,3139,YARD_2,Finished Steel,BRN,Direct,10
+PLAN_2024_0944,29/10/2025,Customer_37,Rourkela Steel Plant,Maharashtra,Bhushan Steel Meramandali,Chhattisgarh,1120,290,236,13439,5762,0.29,1,5,7608,2660,YARD_2,Limestone,BTPN,Via Bilaspur,5
+PLAN_2024_0945,08/11/2025,Customer_50,Bhilai Steel Plant,Jharkhand,SAIL Burnpur,Maharashtra,555,215,294,13816,3672,0.55,1,3,2342,2293,YARD_9,Finished Steel,BOXN,Via Tatanagar,3
+PLAN_2024_0946,08/11/2025,Customer_4,Bhilai Steel Plant,Andhra Pradesh,RINL Visakhapatnam,Odisha,1407,264,261,7451,4067,0.59,1,1,9318,3114,YARD_7,Limestone,BCN,Via Nagpur,2
+PLAN_2024_0947,27/10/2025,Customer_38,Durgapur Steel Plant,Jharkhand,SAIL Burnpur,Odisha,385,151,204,13276,5247,0.36,0,0,6457,3108,YARD_10,Finished Steel,BTPN,Via Tatanagar,6
+PLAN_2024_0948,14/11/2025,Customer_36,Durgapur Steel Plant,Maharashtra,RINL Visakhapatnam,Gujarat,705,462,128,13767,5081,0.28,0,0,4201,647,YARD_3,Finished Steel,BCN,Via Tatanagar,4
+PLAN_2024_0949,02/11/2025,Customer_3,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,West Bengal,611,285,156,19610,5695,0.96,0,0,1101,3472,YARD_8,Limestone,BOXN,Direct,9
+PLAN_2024_0950,16/10/2025,Customer_26,Bokaro Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Gujarat,400,112,209,18876,6669,0.94,1,3,3457,2895,YARD_7,Iron Ore,BOXN,Via Bilaspur,2
+PLAN_2024_0951,31/10/2025,Customer_12,Bokaro Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Odisha,1226,216,269,10804,7794,0.84,1,4,8771,2766,YARD_6,Iron Ore,BRN,Via Bilaspur,7
+PLAN_2024_0952,16/10/2025,Customer_13,Bhilai Steel Plant,West Bengal,Essar Steel Hazira,Jharkhand,1151,177,221,10708,1380,0.59,1,2,5294,2747,YARD_8,Limestone,BTPN,Via Bilaspur,6
+PLAN_2024_0953,23/10/2025,Customer_9,Bhilai Steel Plant,West Bengal,RINL Visakhapatnam,Chhattisgarh,1328,249,134,18708,2664,0.4,0,0,2521,1542,YARD_4,Coal,BRN,Via Nagpur,10
+PLAN_2024_0954,23/10/2025,Customer_30,Rourkela Steel Plant,Chhattisgarh,RINL Visakhapatnam,Maharashtra,1406,396,277,19494,4698,0.57,0,0,5825,3208,YARD_6,Coal,BRN,Via Nagpur,7
+PLAN_2024_0955,05/11/2025,Customer_6,Bokaro Steel Plant,Gujarat,Tata Steel Jamshedpur,Andhra Pradesh,317,267,133,19171,6076,0.43,0,0,1541,3625,YARD_4,Finished Steel,BOXN,Via Bilaspur,8
+PLAN_2024_0956,26/10/2025,Customer_8,Bokaro Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Gujarat,626,282,248,10824,6705,0.33,1,4,5734,3183,YARD_2,Limestone,BOXN,Direct,10
+PLAN_2024_0957,27/10/2025,Customer_32,Bokaro Steel Plant,Jharkhand,JSW Steel Dolvi,Maharashtra,1460,232,127,11358,1939,0.32,0,0,4587,1531,YARD_5,Limestone,BTPN,Via Bilaspur,8
+PLAN_2024_0958,17/10/2025,Customer_24,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Jharkhand,309,182,165,9820,3749,0.28,1,1,2884,4687,YARD_5,Iron Ore,BOXN,Via Nagpur,10
+PLAN_2024_0959,17/10/2025,Customer_27,Bokaro Steel Plant,Maharashtra,Tata Steel Jamshedpur,West Bengal,629,76,262,10160,6243,0.86,0,0,7780,1847,YARD_6,Coal,BTPN,Via Tatanagar,3
+PLAN_2024_0960,08/11/2025,Customer_44,Durgapur Steel Plant,West Bengal,Jindal Steel Raigarh,Andhra Pradesh,629,95,102,10992,1621,0.56,0,0,3196,4238,YARD_10,Coal,BRN,Direct,9
+PLAN_2024_0961,25/10/2025,Customer_47,Bokaro Steel Plant,Maharashtra,Essar Steel Hazira,Gujarat,1039,174,192,15490,4122,0.19,0,0,4492,1592,YARD_4,Iron Ore,BCN,Via Bilaspur,2
+PLAN_2024_0962,06/11/2025,Customer_46,Bhilai Steel Plant,West Bengal,Jindal Steel Raigarh,Andhra Pradesh,1277,217,103,16002,7883,1.0,0,0,3052,817,YARD_7,Coal,BCN,Direct,10
+PLAN_2024_0963,26/10/2025,Customer_1,Bhilai Steel Plant,Maharashtra,Jindal Steel Raigarh,Chhattisgarh,556,342,195,17713,5706,0.74,0,0,9195,4062,YARD_7,Coal,BTPN,Via Tatanagar,9
+PLAN_2024_0964,24/10/2025,Customer_43,Rourkela Steel Plant,Gujarat,Tata Steel Jamshedpur,West Bengal,417,352,193,5325,2959,0.45,1,4,3252,3357,YARD_3,Coal,BCN,Via Bilaspur,4
+PLAN_2024_0965,01/11/2025,Customer_42,Bokaro Steel Plant,Jharkhand,SAIL Burnpur,Maharashtra,711,317,139,11721,5687,0.9,1,3,9602,2602,YARD_6,Limestone,BOXN,Via Tatanagar,7
+PLAN_2024_0966,11/11/2025,Customer_17,Durgapur Steel Plant,West Bengal,Bhushan Steel Meramandali,Maharashtra,631,399,233,12093,4994,0.71,1,5,2121,4234,YARD_6,Finished Steel,BCN,Via Tatanagar,9
+PLAN_2024_0967,26/10/2025,Customer_18,Bokaro Steel Plant,Andhra Pradesh,Essar Steel Hazira,Gujarat,264,412,242,9979,3973,0.84,1,3,9431,4245,YARD_4,Limestone,BRN,Direct,7
+PLAN_2024_0968,07/11/2025,Customer_13,Durgapur Steel Plant,Andhra Pradesh,Essar Steel Hazira,Chhattisgarh,736,146,217,5607,5908,0.9,0,0,1507,2922,YARD_1,Iron Ore,BTPN,Direct,5
+PLAN_2024_0969,26/10/2025,Customer_32,Rourkela Steel Plant,Andhra Pradesh,JSW Steel Dolvi,West Bengal,767,254,232,15262,2325,0.63,0,0,3507,2738,YARD_10,Iron Ore,BRN,Via Tatanagar,2
+PLAN_2024_0970,10/11/2025,Customer_33,Rourkela Steel Plant,Odisha,Jindal Steel Raigarh,Chhattisgarh,1317,176,134,10426,4046,0.53,0,0,9259,4192,YARD_7,Iron Ore,BOXN,Direct,5
+PLAN_2024_0971,16/10/2025,Customer_2,Bokaro Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Gujarat,696,407,183,10562,1801,0.48,1,4,2338,4972,YARD_2,Finished Steel,BCN,Direct,7
+PLAN_2024_0972,23/10/2025,Customer_37,Rourkela Steel Plant,West Bengal,Tata Steel Jamshedpur,Odisha,476,141,220,10791,3196,0.14,1,4,8639,3015,YARD_3,Iron Ore,BRN,Via Nagpur,9
+PLAN_2024_0973,17/10/2025,Customer_8,Rourkela Steel Plant,West Bengal,JSW Steel Dolvi,Andhra Pradesh,1132,232,294,6032,3455,0.14,0,0,9804,2773,YARD_6,Iron Ore,BRN,Direct,8
+PLAN_2024_0974,28/10/2025,Customer_49,Bhilai Steel Plant,Odisha,Jindal Steel Raigarh,Gujarat,1210,102,123,11227,3428,0.65,0,0,5246,593,YARD_10,Iron Ore,BOXN,Direct,10
+PLAN_2024_0975,07/11/2025,Customer_29,Durgapur Steel Plant,Chhattisgarh,SAIL Burnpur,Jharkhand,1070,428,187,13252,4478,0.56,0,0,3149,1308,YARD_8,Limestone,BTPN,Direct,10
+PLAN_2024_0976,27/10/2025,Customer_44,Durgapur Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Odisha,1432,226,128,9858,1036,0.43,0,0,4778,1580,YARD_2,Finished Steel,BRN,Via Tatanagar,5
+PLAN_2024_0977,22/10/2025,Customer_6,Bhilai Steel Plant,Odisha,Essar Steel Hazira,Andhra Pradesh,1111,355,173,18492,1439,0.15,1,3,3069,4752,YARD_9,Coal,BCN,Via Nagpur,6
+PLAN_2024_0978,26/10/2025,Customer_27,Bhilai Steel Plant,Maharashtra,Bhushan Steel Meramandali,Odisha,1408,57,218,17608,5699,0.19,1,3,9870,3883,YARD_3,Finished Steel,BTPN,Direct,10
+PLAN_2024_0979,11/11/2025,Customer_11,Rourkela Steel Plant,Odisha,Jindal Steel Raigarh,Chhattisgarh,1150,442,177,15339,5194,0.42,0,0,7281,1208,YARD_6,Iron Ore,BTPN,Via Tatanagar,8
+PLAN_2024_0980,08/11/2025,Customer_49,Bhilai Steel Plant,Andhra Pradesh,Essar Steel Hazira,Chhattisgarh,834,247,249,5376,3312,0.13,0,0,9928,1758,YARD_9,Coal,BTPN,Direct,3
+PLAN_2024_0981,29/10/2025,Customer_26,Bokaro Steel Plant,West Bengal,Jindal Steel Raigarh,Jharkhand,1070,451,195,5885,7217,0.26,0,0,3696,840,YARD_10,Coal,BOXN,Via Tatanagar,2
+PLAN_2024_0982,26/10/2025,Customer_9,Durgapur Steel Plant,Andhra Pradesh,JSW Steel Dolvi,Jharkhand,324,98,105,7153,3794,0.52,0,0,9254,1781,YARD_1,Finished Steel,BTPN,Direct,8
+PLAN_2024_0983,30/10/2025,Customer_45,Bokaro Steel Plant,Gujarat,Tata Steel Jamshedpur,Andhra Pradesh,520,490,131,13334,4272,0.24,1,5,7488,4866,YARD_10,Finished Steel,BTPN,Via Tatanagar,3
+PLAN_2024_0984,10/11/2025,Customer_29,Bokaro Steel Plant,Andhra Pradesh,SAIL Burnpur,West Bengal,1268,233,252,12781,4629,0.7,1,5,8018,539,YARD_5,Limestone,BOXN,Via Bilaspur,3
+PLAN_2024_0985,18/10/2025,Customer_22,Rourkela Steel Plant,Maharashtra,Essar Steel Hazira,Gujarat,331,180,241,16122,7256,0.67,0,0,5171,4146,YARD_2,Iron Ore,BOXN,Via Nagpur,5
+PLAN_2024_0986,03/11/2025,Customer_44,Rourkela Steel Plant,Andhra Pradesh,JSW Steel Dolvi,West Bengal,1188,132,146,17608,5715,0.43,0,0,9324,2156,YARD_1,Coal,BRN,Direct,9
+PLAN_2024_0987,11/11/2025,Customer_9,Rourkela Steel Plant,Odisha,SAIL Burnpur,West Bengal,981,453,264,8747,4259,0.36,1,2,8197,2094,YARD_8,Iron Ore,BOXN,Direct,2
+PLAN_2024_0988,19/10/2025,Customer_8,Bhilai Steel Plant,West Bengal,RINL Visakhapatnam,Chhattisgarh,862,56,218,15051,1105,0.67,1,1,3862,1634,YARD_3,Coal,BRN,Direct,8
+PLAN_2024_0989,21/10/2025,Customer_26,Bokaro Steel Plant,Andhra Pradesh,Jindal Steel Raigarh,Odisha,887,140,110,9865,3847,0.62,1,5,6113,4717,YARD_5,Limestone,BTPN,Via Tatanagar,9
+PLAN_2024_0990,14/11/2025,Customer_39,Bokaro Steel Plant,Odisha,Jindal Steel Raigarh,Maharashtra,1005,57,160,7199,3461,0.23,0,0,3656,2948,YARD_10,Iron Ore,BTPN,Via Tatanagar,5
+PLAN_2024_0991,20/10/2025,Customer_26,Rourkela Steel Plant,Jharkhand,Essar Steel Hazira,Chhattisgarh,426,412,297,13989,4886,0.18,0,0,1688,2414,YARD_6,Iron Ore,BTPN,Direct,10
+PLAN_2024_0992,08/11/2025,Customer_48,Bhilai Steel Plant,Maharashtra,Essar Steel Hazira,Gujarat,533,413,130,10569,2817,0.58,1,5,3931,907,YARD_1,Limestone,BRN,Via Nagpur,8
+PLAN_2024_0993,31/10/2025,Customer_33,Bokaro Steel Plant,Chhattisgarh,Jindal Steel Raigarh,Andhra Pradesh,661,336,177,17996,7986,0.2,0,0,9199,1896,YARD_10,Iron Ore,BRN,Direct,7
+PLAN_2024_0994,21/10/2025,Customer_49,Rourkela Steel Plant,Odisha,Bhushan Steel Meramandali,West Bengal,983,221,219,8062,3842,0.31,1,4,7309,4811,YARD_2,Finished Steel,BOXN,Direct,6
+PLAN_2024_0995,12/11/2025,Customer_20,Bhilai Steel Plant,Andhra Pradesh,Essar Steel Hazira,Maharashtra,1310,150,101,18959,1015,0.91,0,0,5881,4288,YARD_9,Finished Steel,BCN,Via Bilaspur,6
+PLAN_2024_0996,31/10/2025,Customer_44,Bokaro Steel Plant,Andhra Pradesh,Essar Steel Hazira,Maharashtra,233,259,205,7668,6368,0.66,1,5,6858,2976,YARD_2,Finished Steel,BRN,Via Nagpur,8
+PLAN_2024_0997,08/11/2025,Customer_42,Durgapur Steel Plant,Gujarat,Bhushan Steel Meramandali,West Bengal,1303,476,168,16564,3300,0.73,0,0,1776,4479,YARD_4,Limestone,BRN,Via Tatanagar,7
+PLAN_2024_0998,18/10/2025,Customer_46,Durgapur Steel Plant,Jharkhand,Essar Steel Hazira,Chhattisgarh,565,347,106,9464,2975,0.85,1,1,7421,2491,YARD_7,Limestone,BOXN,Via Bilaspur,7
+PLAN_2024_0999,01/11/2025,Customer_17,Rourkela Steel Plant,West Bengal,Bhushan Steel Meramandali,Jharkhand,760,239,130,7876,7515,0.19,0,0,1549,891,YARD_10,Iron Ore,BRN,Direct,8
+PLAN_2024_1000,14/11/2025,Customer_1,Rourkela Steel Plant,Chhattisgarh,Tata Steel Jamshedpur,Odisha,559,225,233,7455,7662,0.43,0,0,6030,3437,YARD_8,Finished Steel,BCN,Via Bilaspur,10
