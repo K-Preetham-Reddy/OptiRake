@@ -185,22 +185,22 @@ const Plans = () => {
               </div>
 
               <div className="flex items-center space-x-6 text-sm">
-                <div className="text-center">
+                <div className="text-center min-w-[100px]">
                   <p className="text-gray-500">Quantity</p>
                   <p className="font-semibold">{plan.planned_qty_t} tons</p>
                 </div>
 
-                <div className="text-center">
+                <div className="text-center min-w-[100px]">
                   <p className="text-gray-500">Priority</p>
                   <p className="font-semibold">{plan.priority_score}</p>
                 </div>
 
-                <div className="flex items-center space-x-2 text-gray-500">
+                <div className="flex items-center space-x-2 text-gray-500 min-w-[300px]">
                   <MapPin className="h-4 w-4" />
                   <span>{plan.origin_plant} → {plan.destination}</span>
                 </div>
 
-                <div className="flex items-center space-x-2 text-gray-500">
+                <div className="flex items-center space-x-2 text-gray-500 min-w-[150px]">
                   <Calendar className="h-4 w-4" />
                   <span>{plan.plan_date}</span>
                 </div>
