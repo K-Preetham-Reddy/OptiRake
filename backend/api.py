@@ -575,7 +575,7 @@ app = FastAPI(
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://opti-rake-5e29.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
